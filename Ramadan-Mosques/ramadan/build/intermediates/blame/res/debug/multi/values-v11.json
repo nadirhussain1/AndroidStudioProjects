@@ -1,0 +1,516 @@
+[
+    {
+        "outputFile": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/values-v11/values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 70,
+                    "endOffset": 121
+                },
+                "from": {
+                    "file": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/values-v11/styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 71,
+                        "endOffset": 124
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 126,
+                    "endLine": 9,
+                    "endColumn": 12,
+                    "endOffset": 487
+                },
+                "from": {
+                    "file": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/values-v11/styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 130,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 497
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 492,
+                    "endLine": 15,
+                    "endColumn": 12,
+                    "endOffset": 906
+                },
+                "from": {
+                    "file": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 7,
+                        "endColumn": 12,
+                        "endOffset": 469
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 911,
+                    "endLine": 21,
+                    "endColumn": 12,
+                    "endOffset": 1331
+                },
+                "from": {
+                    "file": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 474,
+                        "endLine": 13,
+                        "endColumn": 12,
+                        "endOffset": 894
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1336,
+                    "endLine": 27,
+                    "endColumn": 12,
+                    "endOffset": 1759
+                },
+                "from": {
+                    "file": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 899,
+                        "endLine": 19,
+                        "endColumn": 12,
+                        "endOffset": 1322
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1764,
+                    "endLine": 33,
+                    "endColumn": 12,
+                    "endOffset": 2185
+                },
+                "from": {
+                    "file": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1327,
+                        "endLine": 25,
+                        "endColumn": 12,
+                        "endOffset": 1748
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2190,
+                    "endLine": 39,
+                    "endColumn": 12,
+                    "endOffset": 2612
+                },
+                "from": {
+                    "file": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1753,
+                        "endLine": 31,
+                        "endColumn": 12,
+                        "endOffset": 2175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2617,
+                    "endLine": 45,
+                    "endColumn": 12,
+                    "endOffset": 3037
+                },
+                "from": {
+                    "file": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 2180,
+                        "endLine": 37,
+                        "endColumn": 12,
+                        "endOffset": 2600
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 3042,
+                    "endColumn": 88,
+                    "endOffset": 3126
+                },
+                "from": {
+                    "file": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 2605,
+                        "endColumn": 88,
+                        "endOffset": 2689
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 3131,
+                    "endColumn": 100,
+                    "endOffset": 3227
+                },
+                "from": {
+                    "file": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 2694,
+                        "endColumn": 100,
+                        "endOffset": 2790
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 3232,
+                    "endColumn": 102,
+                    "endOffset": 3330
+                },
+                "from": {
+                    "file": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 2795,
+                        "endColumn": 102,
+                        "endOffset": 2893
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3335,
+                    "endLine": 53,
+                    "endColumn": 12,
+                    "endOffset": 3738
+                },
+                "from": {
+                    "file": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 2898,
+                        "endLine": 45,
+                        "endColumn": 12,
+                        "endOffset": 3301
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 3743,
+                    "endLine": 58,
+                    "endColumn": 12,
+                    "endOffset": 4158
+                },
+                "from": {
+                    "file": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 3306,
+                        "endLine": 50,
+                        "endColumn": 12,
+                        "endOffset": 3721
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 4163,
+                    "endLine": 63,
+                    "endColumn": 12,
+                    "endOffset": 4580
+                },
+                "from": {
+                    "file": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 3726,
+                        "endLine": 55,
+                        "endColumn": 12,
+                        "endOffset": 4143
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 4585,
+                    "endLine": 65,
+                    "endColumn": 12,
+                    "endOffset": 4687
+                },
+                "from": {
+                    "file": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 4148,
+                        "endLine": 57,
+                        "endColumn": 12,
+                        "endOffset": 4250
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 4692,
+                    "endLine": 67,
+                    "endColumn": 12,
+                    "endOffset": 4816
+                },
+                "from": {
+                    "file": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 4255,
+                        "endLine": 59,
+                        "endColumn": 12,
+                        "endOffset": 4379
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 4821,
+                    "endLine": 77,
+                    "endColumn": 12,
+                    "endOffset": 5434
+                },
+                "from": {
+                    "file": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/Ramadan/materialDialogs/unspecified/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 11,
+                        "endColumn": 12,
+                        "endOffset": 668
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 5439,
+                    "endLine": 87,
+                    "endColumn": 12,
+                    "endOffset": 6034
+                },
+                "from": {
+                    "file": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/Ramadan/materialDialogs/unspecified/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 673,
+                        "endLine": 21,
+                        "endColumn": 12,
+                        "endOffset": 1268
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 6039,
+                    "endLine": 93,
+                    "endColumn": 12,
+                    "endOffset": 6401
+                },
+                "from": {
+                    "file": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/values-v11/styles.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 503,
+                        "endLine": 15,
+                        "endColumn": 12,
+                        "endOffset": 870
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 6406,
+                    "endColumn": 70,
+                    "endOffset": 6472
+                },
+                "from": {
+                    "file": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 4384,
+                        "endColumn": 70,
+                        "endOffset": 4450
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 6477,
+                    "endColumn": 82,
+                    "endOffset": 6555
+                },
+                "from": {
+                    "file": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 4455,
+                        "endColumn": 82,
+                        "endOffset": 4533
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 6560,
+                    "endLine": 148,
+                    "endColumn": 12,
+                    "endOffset": 10489
+                },
+                "from": {
+                    "file": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 4538,
+                        "endLine": 114,
+                        "endColumn": 12,
+                        "endOffset": 8467
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 149,
+                    "startColumn": 4,
+                    "startOffset": 10494,
+                    "endLine": 202,
+                    "endColumn": 12,
+                    "endOffset": 14563
+                },
+                "from": {
+                    "file": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 115,
+                        "startColumn": 4,
+                        "startOffset": 8472,
+                        "endLine": 168,
+                        "endColumn": 12,
+                        "endOffset": 12541
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 203,
+                    "startColumn": 4,
+                    "startOffset": 14568,
+                    "endColumn": 90,
+                    "endOffset": 14654
+                },
+                "from": {
+                    "file": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 169,
+                        "startColumn": 4,
+                        "startOffset": 12546,
+                        "endColumn": 90,
+                        "endOffset": 12632
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 204,
+                    "startColumn": 4,
+                    "startOffset": 14659,
+                    "endColumn": 117,
+                    "endOffset": 14772
+                },
+                "from": {
+                    "file": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.4.0/res/values-v11/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 219,
+                        "endColumn": 117,
+                        "endOffset": 332
+                    }
+                }
+            }
+        ]
+    }
+]

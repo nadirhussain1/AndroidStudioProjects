@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#44000000"
+    >
+
+    <RelativeLayout
+        android:id="@+id/scheduleRideLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1200px"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:paddingBottom="100px"
+        android:paddingLeft="50px"
+        android:paddingRight="50px"
+        android:paddingTop="100px"
+        android:visibility="visible">
+
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/black"
+            android:text="Update"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="22dp"
+            android:textStyle="bold"
+
+            />
+
+        <View
+            android:id="@+id/div1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@+id/updateButton"
+            android:layout_marginBottom="100px"
+            android:background="#44000000"
+            android:tag="constantHeight"
+            />
+
+        <TextView
+            android:id="@+id/scheduleTimeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/div1"
+            android:gravity="center"
+            android:paddingBottom="100px"
+            android:paddingTop="100px"
+            android:text="13:00 - 13:15"
+            android:textColor="@android:color/black"
+            android:textSize="22dp"
+            />
+
+        <View
+            android:id="@+id/div2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@+id/scheduleTimeTextView"
+            android:background="#22000000"
+            android:tag="constantHeight"
+            />
+
+        <TextView
+            android:id="@+id/scheduleDateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/div2"
+            android:gravity="center"
+            android:paddingBottom="100px"
+            android:paddingTop="100px"
+            android:text="13:00 - 13:15"
+            android:textColor="@android:color/black"
+            android:textSize="22dp"
+            />
+
+        <View
+            android:id="@+id/div3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@+id/scheduleDateTextView"
+            android:background="#22000000"
+            android:tag="constantHeight"
+            />
+
+        <TextView
+            android:id="@+id/scheduleRideTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/div3"
+            android:gravity="center"
+            android:paddingBottom="100px"
+            android:text="Edit Pickup Window"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

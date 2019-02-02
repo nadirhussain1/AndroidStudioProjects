@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/raw/beep.mp3",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/raw/beep.mp3"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/raw/azaan.mp3",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/raw/azaan.mp3"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/raw/gtm_analytics",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/raw/gtm_analytics"
+    }
+]

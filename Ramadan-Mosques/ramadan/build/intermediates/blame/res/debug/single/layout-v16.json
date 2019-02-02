@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/layout-v16/preference_custom.xml",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/layout-v16/preference_custom.xml"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/layout-v16/activity_latlng.xml",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/layout-v16/activity_latlng.xml"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/layout-v16/prefer_custom.xml",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/layout-v16/prefer_custom.xml"
+    }
+]

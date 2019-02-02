@@ -1,0 +1,429 @@
+-injars /Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar
+-outjars /Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/multi-dex/debug/componentClasses.jar
+
+-libraryjars /Users/nadirhussain/Library/Android/sdk/build-tools/24.0.1/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **,com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
+-dontwarn **
+-printconfiguration /Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/multi-dex/debug/components.flags
+
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.MyApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.facebook.ads.InterstitialAdActivity {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.ActivityNamesList {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.ActivityAbout {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.ActivityLatLng {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.ActivityInstruction {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.ActivityNames {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.ActivitySearch {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.ActivitySettings {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.ActivityMain {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.FragmentHome {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.FragmentPrayer {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.FragmentCalender {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.ActivityLocation {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.ActivityMessages {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.MessageBackgroungActivity {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.MessageSendActivity {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.HalalPlaceActivity {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.OpenHalalPlaceActivity {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.mobvista.HandlerActivity {
+    <init>();
+}
+
+-keep class com.mobvista.msdk.shell.MVActivity {
+    <init>();
+}
+
+-keep class com.mobvista.msdk.shell.MVService {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.ActivitySplash {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.QuranActivity {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.IndividualChapter {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.IndividualChpater {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.ActivityThemes {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.fivepillars.FivePillarsActivity {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.ActivityAlarm {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.MapActivity {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.PrayerTimesActivity {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.PlacesMapActivity {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.TasbeeActivity {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.FullscreenActivity {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.ListActivity {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.DateConverter {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.ActivityDuas {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.ActivityQibla {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.ActivityHadith {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.ActivityCalender {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.ShahadahActivity {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.ActivityMessageList {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.PlaceActivity {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.PopularActivity {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.PopularDetailActivity {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.PopularSendActivity {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.PopularSurasBackgroungActivity {
+    <init>();
+}
+
+-keep class com.google.ads.AdActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.AdActivity {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.receiver.AlarmReceiver {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.receiver.NotificationReceiver {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.support.AppLocationService {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.RateService {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.fivepillars.Shahadah {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.fivepillars.Shahadahfrag {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.fivepillars.ShahadahFragment {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.fivepillars.SalahFragment {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.fivepillars.ZakatFragment {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.fivepillars.PagerActivity {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.fivepillars.Salah {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.fivepillars.Zakat {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.fivepillars.Zakatfrag {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.fivepillars.PillarsListActivity {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.fivepillars.Fastingfrag {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.fivepillars.FastingFragment {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.fivepillars.HajiFragment {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.fivepillars.Hajj {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.fivepillars.Hajjfrag {
+    <init>();
+}
+
+-keep class com.prayertimes.qibla.appsourcehub.activity.ActivityPlaceLocation {
+    <init>();
+}
+
+-keep class com.mopub.mobileads.MoPubActivity {
+    <init>();
+}
+
+-keep class com.mopub.mobileads.MraidActivity {
+    <init>();
+}
+
+-keep class com.mopub.common.MoPubBrowser {
+    <init>();
+}
+
+-keep class com.mopub.mobileads.MraidVideoPlayerActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementService {
+    <init>();
+}
+
+-keep class com.google.firebase.provider.FirebaseInitProvider {
+    <init>();
+}
+
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver {
+    <init>();
+}
+
+-keep class com.google.firebase.iid.FirebaseInstanceIdInternalReceiver {
+    <init>();
+}
+
+-keep class com.google.firebase.iid.FirebaseInstanceIdService {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.common.api.GoogleApiActivity {
+    <init>();
+}
+
+-keep class com.google.firebase.crash.internal.service.FirebaseCrashReceiverService {
+    <init>();
+}
+
+-keep class com.google.firebase.crash.internal.service.FirebaseCrashSenderService {
+    <init>();
+}
+
+-keep class com.onesignal.GcmBroadcastReceiver {
+    <init>();
+}
+
+-keep class com.onesignal.NotificationOpenedReceiver {
+    <init>();
+}
+
+-keep class com.onesignal.GcmIntentService {
+    <init>();
+}
+
+-keep class com.onesignal.SyncService {
+    <init>();
+}
+
+-keep class com.onesignal.PermissionsActivity {
+    <init>();
+}
+
+-keep class com.onesignal.NotificationRestoreService {
+    <init>();
+}
+
+-keep class com.onesignal.BootUpReceiver {
+    <init>();
+}
+
+-keep class com.onesignal.UpgradeReceiver {
+    <init>();
+}
+
+-keep class com.google.android.gms.appinvite.PreviewActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService {
+    <init>();
+}
+
+-keep class com.google.android.gms.cast.framework.media.MediaIntentReceiver {
+    <init>();
+}
+
+-keep class com.google.android.gms.cast.framework.media.MediaNotificationService {
+    <init>();
+}
+
+-keep class com.google.android.gms.cast.framework.ReconnectionService {
+    <init>();
+}
+
+-keep class com.google.firebase.messaging.FirebaseMessagingService {
+    <init>();
+}
+
+-keep class com.google.android.gms.tagmanager.TagManagerService {
+    <init>();
+}
+
+-keep class com.google.android.gms.tagmanager.TagManagerPreviewActivity {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

@@ -1,0 +1,225 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From HijriCalendarLibrary:
+* pom.xml
+* proguard-project.txt
+From Ramadan:
+* .DS_Store
+* .metadata/
+* .metadata/.lock
+* .metadata/.log
+* .metadata/.mylyn/
+* .metadata/.mylyn/.taskListIndex/
+* .metadata/.mylyn/.taskListIndex/segments.gen
+* .metadata/.mylyn/.taskListIndex/segments_1
+* .metadata/.mylyn/.tasks.xml.zip
+* .metadata/.mylyn/repositories.xml.zip
+* .metadata/.mylyn/tasks.xml.zip
+* .metadata/.plugins/
+* .metadata/.plugins/com.crashlytics.tools.eclipse.workbench/
+* .metadata/.plugins/com.crashlytics.tools.eclipse.workbench/.crashlytics_data/
+* .metadata/.plugins/com.crashlytics.tools.eclipse.workbench/.crashlytics_data/.bundles/
+* .metadata/.plugins/com.crashlytics.tools.eclipse.workbench/.crashlytics_data/.bundles/com.crashlytics.java_3.6.12.201507022240.jar
+* .metadata/.plugins/com.crashlytics.tools.eclipse.workbench/.crashlytics_data/.bundles/com.crashlytics.tools.android_4.3.4.jar
+* .metadata/.plugins/com.crashlytics.tools.eclipse.workbench/.crashlytics_data/.bundles/com.crashlytics.tools.eclipse.app_3.6.12.201507022240.jar
+* .metadata/.plugins/com.crashlytics.tools.eclipse.workbench/.crashlytics_data/.bundles/com.crashlytics.tools.eclipse.core_3.6.12.201507022240.jar
+* .metadata/.plugins/org.eclipse.cdt.core/
+* .metadata/.plugins/org.eclipse.cdt.core/.log
+* .metadata/.plugins/org.eclipse.cdt.make.core/
+* .metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+* .metadata/.plugins/org.eclipse.cdt.make.core/specs.cpp
+* .metadata/.plugins/org.eclipse.core.resources/
+* .metadata/.plugins/org.eclipse.core.resources/.root/
+* .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/
+* .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version
+* .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version
+* .metadata/.plugins/org.eclipse.core.resources/.root/3.tree
+* .metadata/.plugins/org.eclipse.core.resources/.safetable/
+* .metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+* .metadata/.plugins/org.eclipse.core.runtime/
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/com.android.ide.eclipse.adt.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.debug.core.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.core.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.cvs.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+* .metadata/.plugins/org.eclipse.e4.workbench/
+* .metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+* .metadata/.plugins/org.eclipse.jdt.core/
+* .metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache
+* .metadata/.plugins/org.eclipse.jdt.core/externalFilesCache
+* .metadata/.plugins/org.eclipse.jdt.core/invalidArchivesCache
+* .metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+* .metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+* .metadata/.plugins/org.eclipse.jdt.ui/
+* .metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+* .metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+* .metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml
+* .metadata/.plugins/org.eclipse.m2e.logback.configuration/
+* .metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
+* .metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.5.1.20150109-1820.xml
+* .metadata/.plugins/org.eclipse.ui.ide/
+* .metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml
+* .metadata/.plugins/org.eclipse.ui.workbench/
+* .metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
+* .metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+* .metadata/version.ini
+* ic_launcher-web.png
+* proguard-project.txt
+From android-support-multidex:
+* README.txt
+From recyclerview:
+* README.txt
+From wheel:
+* .DS_Store
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:23.4.0
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:23.4.0
+android-support-v7-gridlayout.jar => com.android.support:gridlayout-v7:19.1.0
+gson-2.2.jar => com.google.code.gson:gson:2.2
+protobuf-java-2.3.0.jar => com.google.protobuf:protobuf-java:2.3.0
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.jar => version 2.2 in com.google.code.gson:gson:2.2
+protobuf-java-2.3.0.jar => version 2.3.0 in com.google.protobuf:protobuf-java:2.3.0
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+android-support-v7-appcompat => [com.android.support:appcompat-v7:23.4.0]
+android-support-v7-gridlayout => [com.android.support:gridlayout-v7:19.1.0]
+google-play-services_lib => [com.google.android.gms:play-services:+]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In HijriCalendarLibrary:
+* AndroidManifest.xml => hijriCalendarLibrary/src/main/AndroidManifest.xml
+* assets/ => hijriCalendarLibrary/src/main/assets
+* libs/date4j.jar => hijriCalendarLibrary/libs/date4j.jar
+* res/ => hijriCalendarLibrary/src/main/res/
+* src/ => hijriCalendarLibrary/src/main/java/
+In android-support-multidex:
+* AndroidManifest.xml => androidsupportmultidex/src/main/AndroidManifest.xml
+* assets/ => androidsupportmultidex/src/main/assets
+* res/ => androidsupportmultidex/src/main/res/
+* src/ => androidsupportmultidex/src/main/java
+* src/.readme => androidsupportmultidex/src/main/resources/.readme
+In cardview:
+* AndroidManifest.xml => cardview/src/main/AndroidManifest.xml
+* assets/ => cardview/src/main/assets
+* res/ => cardview/src/main/res/
+* src/ => cardview/src/main/java
+* src/.readme => cardview/src/main/resources/.readme
+In recyclerview:
+* AndroidManifest.xml => recyclerview/src/main/AndroidManifest.xml
+* assets/ => recyclerview/src/main/assets
+* res/ => recyclerview/src/main/res/
+* src/ => recyclerview/src/main/java
+In MaterialDialogs:
+* AndroidManifest.xml => materialDialogs/src/main/AndroidManifest.xml
+* assets/ => materialDialogs/src/main/assets/
+* res/ => materialDialogs/src/main/res/
+* src/ => materialDialogs/src/main/java/
+In wheel:
+* AndroidManifest.xml => wheel/src/main/AndroidManifest.xml
+* assets/ => wheel/src/main/assets
+* res/ => wheel/src/main/res/
+* src/ => wheel/src/main/java/
+* src/.DS_Store => wheel/src/main/resources/.DS_Store
+* src/kankan/.DS_Store => wheel/src/main/resources/kankan/.DS_Store
+* src/kankan/wheel/.DS_Store => wheel/src/main/resources/kankan/wheel/.DS_Store
+* src/kankan/wheel/widget/.DS_Store => wheel/src/main/resources/kankan/wheel/widget/.DS_Store
+In Ramadan:
+* AndroidManifest.xml => ramadan/src/main/AndroidManifest.xml
+* assets/ => ramadan/src/main/assets/
+* libs/AudienceNetwork.jar => ramadan/libs/AudienceNetwork.jar
+* libs/android-google-maps-api11.jar => ramadan/libs/android-google-maps-api11.jar
+* libs/com.google.guava_1.6.0.jar => ramadan/libs/com.google.guava_1.6.0.jar
+* libs/dd-plist-1.3.jar => ramadan/libs/dd-plist-1.3.jar
+* libs/google-api-client-1.7.0-beta.jar => ramadan/libs/google-api-client-1.7.0-beta.jar
+* libs/google-api-client-android2-1.7.0-beta.jar => ramadan/libs/google-api-client-android2-1.7.0-beta.jar
+* libs/google-http-client-1.7.0-beta.jar => ramadan/libs/google-http-client-1.7.0-beta.jar
+* libs/google-http-client-android2-1.7.0-beta.jar => ramadan/libs/google-http-client-android2-1.7.0-beta.jar
+* libs/google-oauth-client-1.7.0-beta.jar => ramadan/libs/google-oauth-client-1.7.0-beta.jar
+* libs/httpclient-4.0-beta2.jar => ramadan/libs/httpclient-4.0-beta2.jar
+* libs/httpcore-4.1.jar => ramadan/libs/httpcore-4.1.jar
+* libs/jackson-core-asl-1.9.13.jar => ramadan/libs/jackson-core-asl-1.9.13.jar
+* libs/mobvista_appwall.jar => ramadan/libs/mobvista_appwall.jar
+* libs/mobvista_common.jar => ramadan/libs/mobvista_common.jar
+* libs/mobvista_download.jar => ramadan/libs/mobvista_download.jar
+* lint.xml => ramadan/lint.xml
+* res/ => ramadan/src/main/res/
+* src/ => ramadan/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

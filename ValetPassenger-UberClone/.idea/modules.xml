@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ValetApp-Passenger.iml" filepath="$PROJECT_DIR$/ValetApp-Passenger.iml" />
+      <module fileurl="file:///../NADIR'S DATA/Coding/NewCode/ValetApp(Driver+Passenger)/ValetApp-Passenger/ValetApp-Passenger.iml" filepath="/../NADIR'S DATA/Coding/NewCode/ValetApp(Driver+Passenger)/ValetApp-Passenger/ValetApp-Passenger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file:///../NADIR'S DATA/Coding/NewCode/ValetApp(Driver+Passenger)/ValetApp-Passenger/app/app.iml" filepath="/../NADIR'S DATA/Coding/NewCode/ValetApp(Driver+Passenger)/ValetApp-Passenger/app/app.iml" />
+    </modules>
+  </component>
+</project>

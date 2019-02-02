@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/shadow_width" android:layout_marginTop="@dimen/shadow_width" android:layout_marginRight="@dimen/shadow_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/lyt_listview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:weightSum="1.0">
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.5">
+                <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="#ff00b875" android:gravity="center" android:id="@+id/txt_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/grid_padding" />
+                <TextView android:textStyle="bold" android:textColor="@color/white" android:gravity="left" android:id="@+id/txt_lat" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/grid_padding" android:layout_marginTop="@dimen/padding_menu" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.5">
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff3d90bf" android:gravity="right" android:id="@+id/txt_date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/grid_padding" />
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff3d90bf" android:gravity="right" android:id="@+id/txt_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_menu" android:layout_marginRight="@dimen/grid_padding" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#fff3bf6e" android:gravity="center" android:id="@+id/txt_street" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/grid_padding" android:layout_marginBottom="@dimen/grid_padding" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#fff3bf6e" android:gravity="center" android:id="@+id/txt_place" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/grid_padding" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#fff11717" android:gravity="center" android:id="@+id/txt_prayer_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/grid_padding" />
+    </LinearLayout>
+</LinearLayout>

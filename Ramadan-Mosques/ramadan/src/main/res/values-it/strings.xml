@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="menu_ramdantime">Ramadan</string>
+ <string name="lbl_prayertimes_title">Preghiere</string>
+
+<string name="lbl_prayer">Preghiere</string>
+<string name="lbl_calendar">Calendario</string>
+<string name="lbl_duas">Dua</string>
+<string name="lbl_places">Halal</string>
+<string name="lbl_mosquee">Moschea</string>
+<string name="lbl_names">Nomi</string>
+<string name="lbl_qibla">Qibla</string>
+<string name="lbl_popular">versetti</string>
+<string name="lbl_quran">Corano</string>
+<string name="lbl_shahadah">Shahada</string>
+<string name="lbl_message">Messaggi</string>
+<string name="lbl_tasbee">Tasbih</string>
+<string name="settings">Impostazioni</string>
+<string name="action_settings">Impostazioni</string>
+<string name="send">Invia</string>
+<string name="txtMessageBackgrond">Seleziona un immagine per condividere il versetto con</string>
+
+<string name="topbar_your_location">Scegli la tua posizione</string>
+ <string name="first_boot_message">Scegli la tua posizione</string>
+
+  <string name="loading_halal_places">Caricamento luoghi Halal</string>
+<string name="lbl_hadith">Hadith</string>
+<string name="lbl_pillar">Pilastri</string>
+<string name="degree">%s° In senso orario da nord</string>
+<string name="distance">Distanza dalla Mecca</string>
+<string name="searching_mosques">Ricerca moschee...</string>
+<string name="show_places_onmap">Mostra i luoghi sulla mappa...</string>
+<string name="lbl_shahdah_txt2">Dichiaro che non vi è altro dio degno di adorazione al di fuori di Allah; e dichiaro che Maometto è il messaggero di Allah.</string>
+
+<string name="manual">Clicca qui</string>
+<string name="lbl_date">Convertire</string>
+
+<string name="title_full_screen_tasbeeh">Schermo intero Tasbeeh</string>
+<string name="ans_ok">ok</string>
+<string name="title_backgrounds">sfondi</string>
+
+
+<string name="title_menu_ramdantime">Ramadan</string>
+<string name="title_lbl_prayer">Preghiere</string>
+<string name="title_lbl_calendar">Calendario</string>
+<string name="title_lbl_duas">Dua</string>
+<string name="title_lbl_places">Halal</string>
+<string name="title_lbl_mosquee">Moschea</string>
+<string name="title_lbl_names">Nomi</string>
+<string name="title_lbl_qibla">Qibla</string>
+<string name="title_lbl_popular">versetti</string>
+<string name="title_lbl_quran">Corano</string>
+<string name="title_lbl_shahadah">Shahada</string>
+<string name="title_lbl_message">Messaggi</string>
+<string name="title_lbl_tasbee">Tasbih</string>
+<string name="title_lbl_hadith">Hadith</string>
+<string name="title_lbl_pillar">Pilastri</string>
+
+   <string name="rate_title">Ti piace la nostra app?</string>
+    <string name="rate_text">Dacci 5 stelle di valutazione per sostenerci!</string>
+    <string name="remind_me_later">RICORDAMELO\nPIÙ TARDI</string>
+    <string name="no_thanks">NO,\nGRAZIE</string>
+    <string name="rate_it_now">VALUTA\nADESSO</string>
+
+    <string name="toast_songisplaying">Il brano è già in riproduzione</string>
+<string name="toast_wait">Attendi... caricamento in corso</string>
+<string name="toast_selectsong">Seleziona Ayat da riprodurre</string>
+<string name="toast_compasschanged">Bussola modificata</string>
+<string name="toast_alarmdisabled">Allarme disattivato</string>
+<string name="toast_alarmenabled">Allarme attivato</string>
+<string name="toast_prayerhasbeenpassed">L ora della preghiera è trascorsa: allarme impostato per il giorno successivo</string>
+<string name="toast_tasbeereached">Raggiunto</string>
+<string name="toast_notasbeeinlist">Nessun Tasbeeh disponibile</string>
+<string name="toast_copiedtoclipboard">Copiato negli appunti</string>
+<string name="toast_nomosquetolist">Nessuna Moschea disponibile</string>
+<string name="toast_cantgetlatIng">Impossibile ottenere latit. e longit.</string>
+<string name="toast_entervalidletIng">Inserisci delle coordinate di latitudine e longitudine valide</string>
+<string name="title_lbl_date">Convertitore data</string>
+<string name="topbar_select_location">Seleziona il tuo paese / la tua città</string>
+
+
+<string name="toast_alarmcanceled">Allarme disattivato</string>
+<string name="please_wait">Attendi... caricamento in corso</string>
+    
+</resources>

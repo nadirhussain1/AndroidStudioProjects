@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>version</key>
+	<integer>1</integer>
+	<key>packs</key>
+
+<array>
+	<dict>
+		<key>title</key>
+		<string>While Sleeping</string>
+		<key>meaning</key>
+		<string> O Allah, in Your Name I die and live.</string>
+		<key>texten1</key>
+		<string>Bismika Amoothu Wa’ahya</string>
+		<key>texten2</key>
+		<string>Allahumma Bismika Amoothu Wa’ahya</string>
+		<key>textar1</key>
+		<string> بِاسْمِكَ أَمُوْتُ وَأَحْيَا</string>
+		<key>textar2</key>
+		<string>اَللّهُمَّ بِاسْمِكَ أَمُوْتُ وَأَحْيَا</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Before Sleeping</string>
+		<key>meaning</key>
+		<string>The All-Beneficient</string>
+		<key>texten1</key>
+		<string>Bismika Amoothu Wa’ahya</string>
+		<key>texten2</key>
+		<string>Allahumma Bismika Amoothu Wa’ahya</string>
+		<key>textar1</key>
+		<string> بِاسْمِكَ أَمُوْتُ وَأَحْيَا</string>
+		<key>textar2</key>
+		<string>اَللّهُمَّ بِاسْمِكَ أَمُوْتُ وَأَحْيَا</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Malik</string>
+		<key>meaning</key>
+		<string>The Absolute Ruler</string>
+		<key>texten1</key>
+		<string>Bismika Amoothu Wa’ahya</string>
+		<key>texten2</key>
+		<string>Allahumma Bismika Amoothu Wa’ahya</string>
+		<key>textar1</key>
+		<string> بِاسْمِكَ أَمُوْتُ وَأَحْيَا</string>
+		<key>textar2</key>
+		<string>اَللّهُمَّ بِاسْمِكَ أَمُوْتُ وَأَحْيَا</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Quddus</string>
+		<key>meaning</key>
+		<string>The Pure One</string>
+		<key>texten1</key>
+		<string>Bismika Amoothu Wa’ahya</string>
+		<key>texten2</key>
+		<string>Allahumma Bismika Amoothu Wa’ahya</string>
+		<key>textar1</key>
+		<string> بِاسْمِكَ أَمُوْتُ وَأَحْيَا</string>
+		<key>textar2</key>
+		<string>اَللّهُمَّ بِاسْمِكَ أَمُوْتُ وَأَحْيَا</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>As-Salam</string>
+		<key>meaning</key>
+		<string>The Source of Peace</string>
+		<key>description1</key>
+		<string>The One who is free from every imperfection.</string>
+		<key>description2</key>
+		<string>The Peace, The Tranquility</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Mu’min</string>
+		<key>meaning</key>
+		<string>The Inspirer of Faith</string>
+		<key>description1</key>
+		<string>The One who witnessed for Himself that no one is God but Him.</string>
+		<key>description2</key>
+		<string>The One with Faith, The Faithful, The Trusted</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Muhaymin</string>
+		<key>meaning</key>
+		<string>The Guardian</string>
+		<key>description1</key>
+		<string>The One who witnesses the saying and deeds of His creatures.</string>
+		<key>description2</key>
+		<string>The Protector, The vigilant, the controller</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-’Aziz</string>
+		<key>meaning</key>
+		<string>The Victorious</string>
+		<key>description1</key>
+		<string>The Defeater who is not defeated.</string>
+		<key>description2</key>
+		<string>The Mighty, The Almighty, the powerful</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Jabbar</string>
+		<key>meaning</key>
+		<string>The Compeller</string>
+		<key>description1</key>
+		<string>The One that nothing happens in His Dominion except that which He willed.</string>
+		<key>description2</key>
+		<string>The all Compelling</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Mutakabbir</string>
+		<key>meaning</key>
+		<string>The Greatest</string>
+		<key>description1</key>
+		<string>The One who is clear from the attributes of the creatures and from resembling them.</string>
+		<key>description2</key>
+		<string>The Haughty, The Majestic, The Imperious</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Khaliq</string>
+		<key>meaning</key>
+		<string>The Creator</string>
+		<key>description1</key>
+		<string>The One who brings everything from non-existence to existence.</string>
+		<key>description2</key>
+		<string>The Creator, the Maker</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Bari’</string>
+		<key>meaning</key>
+		<string>The Maker of Order</string>
+		<key>description1</key>
+		<string>The Creator who has the Power to turn the entities.</string>
+		<key>description2</key>
+		<string>The Artificer, the Creator</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Musawwir</string>
+		<key>meaning</key>
+		<string>The Shaper of Beauty</string>
+		<key>description1</key>
+		<string>The One who forms His creatures in different pictures.</string>
+		<key>description2</key>
+		<string>The Fashioner, The Organizer, The Designer</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Ghaffar</string>
+		<key>meaning</key>
+		<string>The Forgiving</string>
+		<key>description1</key>
+		<string>The One who forgives the sins of His slaves time and time again.</string>
+		<key>description2</key>
+		<string>The Forgiving, the Forgiver</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Qahhar</string>
+		<key>meaning</key>
+		<string>The Subduer</string>
+		<key>description1</key>
+		<string>The Subduer who has the perfect Power and is not unable over anything.</string>
+		<key>description2</key>
+		<string>The Almighty, the Dominant</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Wahhab</string>
+		<key>meaning</key>
+		<string>The Giver of All</string>
+		<key>description1</key>
+		<string>The One who is Generous in giving plenty without any return.</string>
+		<key>description2</key>
+		<string>The Donor, the Bestower</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ar-Razzaq</string>
+		<key>meaning</key>
+		<string>The Sustainer</string>
+		<key>description1</key>
+		<string>The Provider, the Sustainer</string>
+		<key>description2</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Fattah</string>
+		<key>meaning</key>
+		<string>The Opener</string>
+		<key>description1</key>
+		<string>The One who opens for His slaves the closed worldly and religious matters.</string>
+		<key>description2</key>
+		<string>The Opener, the Revealer</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-’Alim</string>
+		<key>meaning</key>
+		<string>The Knower of All</string>
+		<key>description1</key>
+		<string>The Knowledgeable; The One nothing is absent from His knowledge.</string>
+		<key>description2</key>
+		<string>The all Knowing, the Omniscient</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Qabid</string>
+		<key>meaning</key>
+		<string>The Constrictor</string>
+		<key>description1</key>
+		<string>The One who constricts the sustenance.</string>
+		<key>description2</key>
+		<string>The Contractor, The Restrainer, the Recipient.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Basit</string>
+		<key>meaning</key>
+		<string>The Reliever</string>
+		<key>description1</key>
+		<string>The One who expands and widens.</string>
+		<key>description2</key>
+		<string>The Expander, He who expands</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Khafid</string>
+		<key>meaning</key>
+		<string>The Abaser</string>
+		<key>description1</key>
+		<string>The One who lowers whoever He willed by His Destruction.</string>
+		<key>description2</key>
+		<string>The Abaser, the Humbler</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ar-Rafi’</string>
+		<key>meaning</key>
+		<string>The Exalter</string>
+		<key>description1</key>
+		<string>The One who raises whoever He willed by His Endowment.</string>
+		<key>description2</key>
+		<string>The Raiser, the Exalter</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Mu’izz</string>
+		<key>meaning</key>
+		<string>The Bestower of Honors</string>
+		<key>description1</key>
+		<string>He gives esteem to whoever He willed, hence there is no one to degrade Him</string>
+		<key>description2</key>
+		<string>The Honorer, the Exalter</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Mudhill</string>
+		<key>meaning</key>
+		<string>The Humiliator</string>
+		<key>description1</key>
+		<string>Degrades whoever he willed, hence there is no one to give him esteem.</string>
+		<key>description2</key>
+		<string>The Abaser, the Degrader, the Subduer</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>As-Sami</string>
+		<key>meaning</key>
+		<string>The Hearer of All</string>
+		<key>description1</key>
+		<string>The One who Hears all things that are heard by His Eternal Hearing without an ear, instrument or organ.</string>
+		<key>description2</key>
+		<string>The Hearer, The All hearing, all knowing.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Basir</string>
+		<key>meaning</key>
+		<string>The Seer of All</string>
+		<key>description1</key>
+		<string>The One who Sees all things that are seen by His Eternal Seeing without a pupil or any other instrument.</string>
+		<key>description2</key>
+		<string>The Seer, The discerning, the All seeing.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Hakam</string>
+		<key>meaning</key>
+		<string>The Judge</string>
+		<key>description1</key>
+		<string>He is the Ruler and His judgment is His Word.</string>
+		<key>description2</key>
+		<string>The arbitrator, the Judge</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-’Adl</string>
+		<key>meaning</key>
+		<string>The Just</string>
+		<key>description1</key>
+		<string>The One who is entitled to do what He does.</string>
+		<key>description2</key>
+		<string>The justice, the equitable. The Just.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Latif</string>
+		<key>meaning</key>
+		<string>The Subtle One</string>
+		<key>description1</key>
+		<string>The Most Gentle, the Gracious.</string>
+		<key>description2</key>
+		<string>The One who is kind</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Khabir</string>
+		<key>meaning</key>
+		<string>The All-Aware</string>
+		<key>description1</key>
+		<string>The One who knows the truth of things.</string>
+		<key>description2</key>
+		<string>The Aware. The Sagacious, one is who is aware.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Halim</string>
+		<key>meaning</key>
+		<string>The Forebearing</string>
+		<key>description1</key>
+		<string>The One who delays the punishment for those who deserve it and then He might forgive them.</string>
+		<key>description2</key>
+		<string>The Gentle. The most patient, the Clement.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-’Azim</string>
+		<key>meaning</key>
+		<string>The Magnificent</string>
+		<key>description1</key>
+		<string>The One deserving the attributes of Exaltment, Glory, Extolment, and Purity from all imperfection.</string>
+		<key>description2</key>
+		<string>The Great, Mighty</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Ghafur</string>
+		<key>meaning</key>
+		<string>The Forgiver and Hider of Faults</string>
+		<key>description1</key>
+		<string>The One who forgives a lot.</string>
+		<key>description2</key>
+		<string>The Forgiving, the Pardoner.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ash-Shakur</string>
+		<key>meaning</key>
+		<string>The Rewarder of Thankfulness</string>
+		<key>description1</key>
+		<string>The One who gives a lot of reward for a little obedience.</string>
+		<key>description2</key>
+		<string>The Grateful, the Thankful</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-’Ali</string>
+		<key>meaning</key>
+		<string>The Highest</string>
+		<key>description1</key>
+		<string>The One who is clear from the attributes of the creatures.</string>
+		<key>description2</key>
+		<string>The most high, the exalted.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Kabir</string>
+		<key>meaning</key>
+		<string>The Greatest</string>
+		<key>description1</key>
+		<string>The One who is greater than everything in status.</string>
+		<key>description2</key>
+		<string>The great, the big.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Hafiz</string>
+		<key>meaning</key>
+		<string>The Preserver</string>
+		<key>description1</key>
+		<string>The One who protects whatever and whoever He willed to protect.</string>
+		<key>description2</key>
+		<string>The Guardian, the preserver.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Muqit</string>
+		<key>meaning</key>
+		<string>The Nourisher</string>
+		<key>description1</key>
+		<string>The One who has the Power.</string>
+		<key>description2</key>
+		<string>The maintainer, The Nourisher</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Hasib</string>
+		<key>meaning</key>
+		<string>The Accounter</string>
+		<key>description1</key>
+		<string>The One who gives the satisfaction.</string>
+		<key>description2</key>
+		<string>The noble, The Reckoner</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Jalil</string>
+		<key>meaning</key>
+		<string>The Mighty</string>
+		<key>description1</key>
+		<string>The One who is attributed with greatness of Power and Glory of status.</string>
+		<key>description2</key>
+		<string>The Majestic. The honorable, the exalted.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Karim</string>
+		<key>meaning</key>
+		<string>The Generous</string>
+		<key>description1</key>
+		<string>The One who is clear from abjectness.</string>
+		<key>description2</key>
+		<string>The most generous, the Bountiful.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ar-Raqib</string>
+		<key>meaning</key>
+		<string>The Watchful One</string>
+		<key>description1</key>
+		<string>The One that nothing is absent from Him. Hence it&apos;s meaning is related to the attribute of Knowledge.</string>
+		<key>description2</key>
+		<string>The Guardian, the watchful. Watcher.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Mujib</string>
+		<key>meaning</key>
+		<string>The Responder to Prayer</string>
+		<key>description1</key>
+		<string>The One who answers the one in need if he asks Him and rescues the yearner if he calls upon Him.</string>
+		<key>description2</key>
+		<string>The Responder. The respondent, one who answers.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Wasi’</string>
+		<key>meaning</key>
+		<string>The All-Comprehending</string>
+		<key>description1</key>
+		<string>The Englober. The enricher, the Omnipresent, the Knowledgeable.</string>
+		<key>description2</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Hakim</string>
+		<key>meaning</key>
+		<string>The Perfectly Wise</string>
+		<key>description1</key>
+		<string>The One who is correct in His doings.</string>
+		<key>description2</key>
+		<string>The most Wise, The Judicious.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Wadud</string>
+		<key>meaning</key>
+		<string>The Loving One</string>
+		<key>description1</key>
+		<string>The Affectionate, the Loving.</string>
+		<key>description2</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Majíd</string>
+		<key>meaning</key>
+		<string>The Majestic One</string>
+		<key>description1</key>
+		<string>The One who is with perfect Power, High Status, Compassion, Generosity and Kindness.</string>
+		<key>description2</key>
+		<string>The Glorious, the exalted.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Ba’ith</string>
+		<key>meaning</key>
+		<string>The Resurrector</string>
+		<key>description1</key>
+		<string>The One who resurrects for reward and/or punishment.</string>
+		<key>description2</key>
+		<string>The Resurrector, the Raiser from death.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ash-Shahid</string>
+		<key>meaning</key>
+		<string>The Witness</string>
+		<key>description1</key>
+		<string>The One who nothing is absent from Him.</string>
+		<key>description2</key>
+		<string>The Witness</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Haqq</string>
+		<key>meaning</key>
+		<string>The Truth</string>
+		<key>description1</key>
+		<string>The One who truly exists.</string>
+		<key>description2</key>
+		<string>The Truth, The Just.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Wakil</string>
+		<key>meaning</key>
+		<string>The Trustee</string>
+		<key>description1</key>
+		<string>The One who gives the satisfaction and is relied upon.</string>
+		<key>description2</key>
+		<string>The Guardian, The Trustee</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Qawi</string>
+		<key>meaning</key>
+		<string>The Possessor of All Strength</string>
+		<key>description1</key>
+		<string>The One with the complete Power.</string>
+		<key>description2</key>
+		<string>The powerful, The Almighty, The Strong</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Matin</string>
+		<key>meaning</key>
+		<string>The Forceful One</string>
+		<key>description1</key>
+		<string>The One with extreme Power which is un-interrupted and He does not get tired.</string>
+		<key>description2</key>
+		<string>The Strong, the Firm</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Wáli</string>
+		<key>meaning</key>
+		<string>The Governor</string>
+		<key>description1</key>
+		<string>The Supporter, the Friend, the Defender the master.</string>
+		<key>description2</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Hamid</string>
+		<key>meaning</key>
+		<string>The Praised One</string>
+		<key>description1</key>
+		<string>The praised One who deserves to be praised.</string>
+		<key>description2</key>
+		<string>The Praiseworthy , the Commendable</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Muhsi</string>
+		<key>meaning</key>
+		<string>The Appraiser</string>
+		<key>description1</key>
+		<string>The One who the count of things are known to him.</string>
+		<key>description2</key>
+		<string>The Counter</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Mubdi</string>
+		<key>meaning</key>
+		<string>The Originator</string>
+		<key>description1</key>
+		<string>The One who started the human being. That is, He created him.</string>
+		<key>description2</key>
+		<string>The Beginner, the Creator, The Originator</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Mu’id</string>
+		<key>meaning</key>
+		<string>The Restorer</string>
+		<key>description1</key>
+		<string>The One who brings back the creatures after death.</string>
+		<key>description2</key>
+		<string>The Restorer, the Resurrector.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Muhyi</string>
+		<key>meaning</key>
+		<string>The Giver of Life</string>
+		<key>description1</key>
+		<string>The One who took out a living human from semen that does not have a soul.</string>
+		<key>description2</key>
+		<string>The Bestower, the Life Giver.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Mumit</string>
+		<key>meaning</key>
+		<string>The Taker of Life</string>
+		<key>description1</key>
+		<string>The One who renders the living dead.</string>
+		<key>description2</key>
+		<string>The Bringer of Death. The Death Giver.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Hayy</string>
+		<key>meaning</key>
+		<string>The Ever Living One</string>
+		<key>description1</key>
+		<string>The One attributed with a life that is unlike our life and is not that of a combination of soul, flesh or blood.</string>
+		<key>description2</key>
+		<string>The Living. The Alive, The ever living.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Qayyum</string>
+		<key>meaning</key>
+		<string>The Self-Existing One</string>
+		<key>description1</key>
+		<string>The One who remains and does not end.</string>
+		<key>description2</key>
+		<string>The Self-Subsistent, The Eternal, The Self Sustaining.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Wajid</string>
+		<key>meaning</key>
+		<string>The Finder</string>
+		<key>description1</key>
+		<string>The Rich who is never poor. Al-Wajd is Richness.</string>
+		<key>description2</key>
+		<string>The all perceiving, The Opulent, The Finder.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Májid</string>
+		<key>meaning</key>
+		<string>The Glorious</string>
+		<key>description1</key>
+		<string>The One who is Majid.</string>
+		<key>description2</key>
+		<string>The Noble, the illustrious.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Wahid</string>
+		<key>meaning</key>
+		<string>The Only One</string>
+		<key>description1</key>
+		<string>The One without a partner.</string>
+		<key>description2</key>
+		<string>The One, the Unique.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Ahad</string>
+		<key>meaning</key>
+		<string>The One</string>
+		<key>description1</key>
+		<string>The only, the Unique.</string>
+		<key>description2</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>As-Samad</string>
+		<key>meaning</key>
+		<string>The Satisfier of All Needs</string>
+		<key>description1</key>
+		<string>The Master who is relied upon in matters and reverted to in ones needs.</string>
+		<key>description2</key>
+		<string>The Perfect, the Eternal.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Qadir</string>
+		<key>meaning</key>
+		<string>The All Powerful</string>
+		<key>description1</key>
+		<string>The One attributed with Power.</string>
+		<key>description2</key>
+		<string>The Able, the Capable, the Omnipotent.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Muqtadir</string>
+		<key>meaning</key>
+		<string>The Creator of All Power</string>
+		<key>description1</key>
+		<string>The One with the perfect Power that nothing is withheld from Him.</string>
+		<key>description2</key>
+		<string>The Capable, The all Powerful</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Muqaddim</string>
+		<key>meaning</key>
+		<string>The Expediter</string>
+		<key>description1</key>
+		<string>He makes ahead what He wills.</string>
+		<key>description2</key>
+		<string>The Presenter, The Advancer, The Expediter</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Mu’akhkhir</string>
+		<key>meaning</key>
+		<string>The Delayer</string>
+		<key>description1</key>
+		<string>The One who delays what He wills.</string>
+		<key>description2</key>
+		<string>The Fulfiller, the keeper behind, The Deferrer</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Awwal</string>
+		<key>meaning</key>
+		<string>The First</string>
+		<key>description1</key>
+		<string>The One whose Existence is without a beginning.</string>
+		<key>description2</key>
+		<string>The First</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Akhir</string>
+		<key>meaning</key>
+		<string>The Last</string>
+		<key>description1</key>
+		<string>The One whose Existence is without an end.</string>
+		<key>description2</key>
+		<string>The Last</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Az-Zahir</string>
+		<key>meaning</key>
+		<string>The Manifest One</string>
+		<key>description1</key>
+		<string>The Apparent, the Exterior, The Manifest</string>
+		<key>description2</key>
+		<string>The One that nothing is above Him and nothing is underneath Him, hence He exists without a place.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Batin</string>
+		<key>meaning</key>
+		<string>The Hidden One</string>
+		<key>description1</key>
+		<string>The Hidden, the Interior, the Latent</string>
+		<key>description2</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Walí</string>
+		<key>meaning</key>
+		<string>The Protecting Friend</string>
+		<key>description1</key>
+		<string>The One who owns things and manages them.</string>
+		<key>description2</key>
+		<string>The Governor, The Ruler, The Master</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Muta’ali</string>
+		<key>meaning</key>
+		<string>The Supreme One</string>
+		<key>description1</key>
+		<string>The One who is clear from the attributes of the creation.</string>
+		<key>description2</key>
+		<string>The Exalted, The most high, one above reproach.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Barr</string>
+		<key>meaning</key>
+		<string>The Doer of Good</string>
+		<key>description1</key>
+		<string>The One who is kind to His creatures, who covered them with His sustenance and specified whoever He willed among them by His support, protection, and special mercy.</string>
+		<key>description2</key>
+		<string>The Benefactor.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>At-Tawwab</string>
+		<key>meaning</key>
+		<string>The Guide to Repentance</string>
+		<key>description1</key>
+		<string>The One who grants repentance to whoever He willed among His creatures and accepts his repentance.</string>
+		<key>description2</key>
+		<string>The Acceptor of Repentance, The Forgiver, the Relenting.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Muntaqim</string>
+		<key>meaning</key>
+		<string>The Avenger</string>
+		<key>description1</key>
+		<string>The One who victoriously prevails over His enemies and punishes them for their sins. It may mean the One who destroys them.</string>
+		<key>description2</key>
+		<string>The Avenger</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Afu</string>
+		<key>meaning</key>
+		<string>The Forgiver</string>
+		<key>description1</key>
+		<string>The One with wide forgiveness.</string>
+		<key>description2</key>
+		<string>The Forgiver, the effacer, the Pardoner</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ar-Ra’uf</string>
+		<key>meaning</key>
+		<string>The Clement</string>
+		<key>description1</key>
+		<string>The One with extreme Mercy. The Mercy of Allah is His will to endow upon whoever He willed among His creatures.</string>
+		<key>description2</key>
+		<string>The merciful, the Ever Indulgent.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Malik al-Mulk</string>
+		<key>meaning</key>
+		<string>The Owner of All</string>
+		<key>description1</key>
+		<string>The One who controls the Dominion and gives dominion to whoever He willed.</string>
+		<key>description2</key>
+		<string>The Ruler of the Kingdom, king of the Universe</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Dhul-Jalali Wal-Ikram</string>
+		<key>meaning</key>
+		<string>The Lord of Majesty and Bounty</string>
+		<key>description1</key>
+		<string>The One who deserves to be Exalted and not denied.</string>
+		<key>description2</key>
+		<string>Lord of Majesty and Generosity</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Muqsit</string>
+		<key>meaning</key>
+		<string>The Equitable One</string>
+		<key>description1</key>
+		<string>The One who is Just in His judgment.</string>
+		<key>description2</key>
+		<string>The Just, the Equitable</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Jami</string>
+		<key>meaning</key>
+		<string>The Gatherer</string>
+		<key>description1</key>
+		<string>The One who gathers the creatures on a day that there is no doubt about, that is the Day of Judgment.</string>
+		<key>description2</key>
+		<string>The Collector, the comprehensive, Gatherer</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Ghani</string>
+		<key>meaning</key>
+		<string>The Rich One</string>
+		<key>description1</key>
+		<string>The One who does not need the creation.</string>
+		<key>description2</key>
+		<string>The rich, the all sufficing, Self-Sufficient</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Mughni</string>
+		<key>meaning</key>
+		<string>The Enricher</string>
+		<key>description1</key>
+		<string>The One who satisfies the necessities of the creatures.</string>
+		<key>description2</key>
+		<string>The Enricher, sufficer, the bestower.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Mani’</string>
+		<key>meaning</key>
+		<string>The Preventer of Harm</string>
+		<key>description1</key>
+		<string>The Supporter who protects and gives victory to His pious believers. Al-Mu&apos;tiy</string>
+		<key>description2</key>
+		<string>The Withholder. The Preventer, The Prohibiter, The Defender.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ad-Darr</string>
+		<key>meaning</key>
+		<string>The Creator of The Harmful</string>
+		<key>description1</key>
+		<string>The One who makes harm reach to whoever He willed.</string>
+		<key>description2</key>
+		<string>The Distresser , The afflictor, the bringer of Adversity.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>An-Nafi</string>
+		<key>meaning</key>
+		<string>The Creator of Good</string>
+		<key>description1</key>
+		<string>The One who gives benefits to whoever He wills.</string>
+		<key>description2</key>
+		<string>The Beneficial Benefactor</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>An-Nur</string>
+		<key>meaning</key>
+		<string>The Light</string>
+		<key>description1</key>
+		<string>The One who guides.</string>
+		<key>description2</key>
+		<string>The Light</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Hadi</string>
+		<key>meaning</key>
+		<string>The Guide</string>
+		<key>description1</key>
+		<string>The One whom with His Guidance His believers were guided, and with His Guidance the living beings have been guided to what is beneficial or them and protected from what is harmful to them.</string>
+		<key>description2</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Badi</string>
+		<key>meaning</key>
+		<string>The Originator</string>
+		<key>description1</key>
+		<string>The One who created the creation and formed it without any preceding example.</string>
+		<key>description2</key>
+		<string>The Wonderful, The maker, Incomparable</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Baqi</string>
+		<key>meaning</key>
+		<string>The Everlasting One</string>
+		<key>description1</key>
+		<string>The One that the state of non-existence is impossible for Him.</string>
+		<key>description2</key>
+		<string>The Enduring, The Everlasting, The eternal</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Al-Warith</string>
+		<key>meaning</key>
+		<string>The Inheritor of All</string>
+		<key>description1</key>
+		<string>The One whose Existence remains.</string>
+		<key>description2</key>
+		<string>The Inheritor, The Heir</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ar-Rashid</string>
+		<key>meaning</key>
+		<string>The Righteous Teacher</string>
+		<key>description1</key>
+		<string>The One who guides.</string>
+		<key>description2</key>
+		<string>The Rightly Guided, The Conscious, the Guide</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>As-Sabur</string>
+		<key>meaning</key>
+		<string>The Patient One</string>
+		<key>description1</key>
+		<string>The One who does not quickly punish the sinners.</string>
+		<key>description2</key>
+		<string>The most Patient, the Enduring.</string>
+	</dict>
+	</array>
+</dict>
+</plist>

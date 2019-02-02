@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:speedreader="http://schemas.android.com/apk/res-auto" >
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/method"
+        android:entryValues="@array/method_values"
+        android:key="method"
+        android:layout="@layout/preference_custom"
+        android:numeric="integer"
+        android:persistent="true"
+        android:summary="@string/methods_detail"
+        android:title="@string/methods" />
+    <com.afollestad.materialdialogs.prefs.MaterialListPreference
+        android:defaultValue="1"
+        android:entries="@array/juristic"
+        android:entryValues="@array/juristic_values"
+        android:key="juristic"
+        android:layout="@layout/preference_custom"
+        android:numeric="integer"
+        android:persistent="true"
+        android:summary="@string/juristic_detail"
+        android:title="@string/juristic" />
+    <com.afollestad.materialdialogs.prefs.MaterialListPreference
+        android:defaultValue="2"
+        android:entries="@array/adjusting"
+        android:entryValues="@array/adjusting_values"
+        android:key="higherLatitudes"
+        android:layout="@layout/preference_custom"
+        android:numeric="integer"
+        android:persistent="true"
+        android:summary="@string/higherLatitudes_detail"
+        android:title="@string/higherLatitudes" />
+    <com.afollestad.materialdialogs.prefs.MaterialListPreference
+        android:key="timezone"
+        android:layout="@layout/preference_custom"
+        android:persistent="true"
+        android:summary="@string/utc_detail"
+        android:title="@string/utc" />
+
+    <com.afollestad.materialdialogs.prefs.MaterialEditTextPreference
+        android:defaultValue="0"
+        android:dialogMessage="@string/optional_dialog_message"
+        android:dialogTitle="@string/edittext_pref_dialogtitle"
+        android:inputType="number"
+        android:key="Imsakdaylight"
+        android:layout="@layout/preference_custom"
+        android:numeric="integer"
+        android:persistent="true"
+        android:summary="@string/edittext_pref_desc"
+        android:title="@string/edittext_pref_Imsak_title" />
+    <com.afollestad.materialdialogs.prefs.MaterialEditTextPreference
+        android:defaultValue="0"
+        android:dialogMessage="@string/optional_dialog_message"
+        android:dialogTitle="@string/edittext_pref_dialogtitle"
+        android:inputType="number"
+        android:key="Fajardaylight"
+        android:layout="@layout/preference_custom"
+        android:numeric="integer"
+        android:persistent="true"
+        android:summary="@string/edittext_pref_desc"
+        android:title="@string/edittext_pref_Fajar_title" />
+    <com.afollestad.materialdialogs.prefs.MaterialEditTextPreference
+        android:defaultValue="0"
+        android:dialogMessage="@string/optional_dialog_message"
+        android:dialogTitle="@string/edittext_pref_dialogtitle"
+        android:inputType="number"
+        android:key="Dhuhrdaylight"
+        android:layout="@layout/preference_custom"
+        android:numeric="integer"
+        android:persistent="true"
+        android:summary="@string/edittext_pref_desc"
+        android:title="@string/edittext_pref_Dhuhr_title" />
+    <com.afollestad.materialdialogs.prefs.MaterialEditTextPreference
+        android:defaultValue="0"
+        android:dialogMessage="@string/optional_dialog_message"
+        android:dialogTitle="@string/edittext_pref_dialogtitle"
+        android:inputType="number"
+        android:key="Asrdaylight"
+        android:layout="@layout/preference_custom"
+        android:numeric="integer"
+        android:persistent="true"
+        android:summary="@string/edittext_pref_desc"
+        android:title="@string/edittext_pref_Asr_title" />
+    <com.afollestad.materialdialogs.prefs.MaterialEditTextPreference
+        android:defaultValue="0"
+        android:dialogMessage="@string/optional_dialog_message"
+        android:dialogTitle="@string/edittext_pref_dialogtitle"
+        android:inputType="number"
+        android:key="Maghribdaylight"
+        android:layout="@layout/preference_custom"
+        android:numeric="integer"
+        android:persistent="true"
+        android:summary="@string/edittext_pref_desc"
+        android:title="@string/edittext_pref_Maghrib_title" />
+    <com.afollestad.materialdialogs.prefs.MaterialEditTextPreference
+        android:defaultValue="0"
+        android:dialogMessage="@string/optional_dialog_message"
+        android:dialogTitle="@string/edittext_pref_dialogtitle"
+        android:inputType="number"
+        android:key="Ishadaylight"
+        android:layout="@layout/preference_custom"
+        android:numeric="integer"
+        android:persistent="true"
+        android:summary="@string/edittext_pref_desc"
+        android:title="@string/edittext_pref_Isha_title" />
+
+    <com.afollestad.materialdialogs.prefs.MaterialListPreference
+        android:defaultValue="0"
+        android:entries="@array/time"
+        android:entryValues="@array/time_values"
+        android:key="timeformat"
+        android:layout="@layout/preference_custom"
+        android:numeric="integer"
+        android:persistent="true"
+        android:summary=""
+        android:title="@string/time_format" />
+    <com.afollestad.materialdialogs.prefs.MaterialListPreference
+        android:defaultValue="0"
+        android:entries="@array/notify"
+        android:entryValues="@array/notify_values"
+        android:key="notification"
+        android:layout="@layout/preference_custom"
+        android:numeric="integer"
+        android:persistent="true"
+        android:summary=""
+        android:title="@string/notification" />
+    <com.afollestad.materialdialogs.prefs.MaterialListPreference
+        android:defaultValue="0"
+        android:entries="@array/adjust_hijri"
+        android:entryValues="@array/adjust_hijri_values"
+        android:key="hijriday"
+        android:layout="@layout/preference_custom"
+        android:summary="@string/adjust_hijri_detail"
+        android:title="@string/adjust_hijri" />
+    <com.afollestad.materialdialogs.prefs.MaterialListPreference
+        android:defaultValue="1"
+        android:entries="@array/font"
+        android:entryValues="@array/font_values"
+        android:key="arabicfont"
+        android:layout="@layout/preference_custom"
+        android:numeric="integer"
+        android:persistent="true"
+        android:summary=""
+        android:title="@string/arabic_font" />
+    <com.afollestad.materialdialogs.prefs.MaterialListPreference
+        android:defaultValue="1"
+        android:entries="@array/font"
+        android:entryValues="@array/font_values"
+        android:key="englishfont"
+        android:layout="@layout/preference_custom"
+        android:numeric="integer"
+        android:persistent="true"
+        android:summary=""
+        android:title="@string/english_font" />
+    <com.afollestad.materialdialogs.prefs.MaterialListPreference
+        android:defaultValue="-5"
+        android:entries="@array/adjust_alarm"
+        android:entryValues="@array/adjust_alarm_values"
+        android:key="adjust_alarm"
+        android:layout="@layout/preference_custom"
+        android:summary="@string/adjust_alarm_detail"
+        android:title="@string/adjust_alarm" />
+
+    <RingtonePreference
+        android:key="ringtone"
+        android:layout="@layout/preference_custom"
+        android:ringtoneType="alarm"
+        android:showDefault="true"
+        android:showSilent="false"
+        android:title="@string/alarm_tone" />
+
+    <Preference
+        android:key="change_city_auto"
+        android:layout="@layout/preference_custom"
+        android:summary="@string/change_city_auto_detail"
+        android:title="@string/change_city_auto" />
+    <Preference
+        android:key="change_city_manual"
+        android:layout="@layout/preference_custom"
+        android:summary="@string/change_city_manual_detail"
+        android:title="@string/change_city_manual" />
+    <Preference
+        android:key="latlng"
+        android:layout="@layout/preference_custom"
+        android:summary=""
+        android:title="@string/change_latlng" />
+
+</PreferenceScreen>

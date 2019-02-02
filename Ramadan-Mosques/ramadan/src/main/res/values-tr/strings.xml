@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="menu_ramdantime">Ramazan</string>
+ <string name="lbl_prayertimes_title">Namazlar</string>
+
+<string name="lbl_prayer">Namazlar</string>
+<string name="lbl_calendar">Takvim</string>
+<string name="lbl_duas">Dualar</string>
+<string name="lbl_places">Helal</string>
+<string name="lbl_mosquee">Cami</string>
+<string name="lbl_names">Ad</string>
+<string name="lbl_qibla">Kıble</string>
+<string name="lbl_popular">Ayetler</string>
+<string name="lbl_quran">Kur an</string>
+<string name="lbl_shahadah">Şahadet</string>
+<string name="lbl_message">Mesajlar</string>
+<string name="lbl_tasbee">Tespih</string>
+<string name="settings">Ayarlar</string>
+<string name="action_settings">Ayarlar</string>
+<string name="send">Gönder</string>
+<string name="txtMessageBackgrond">Ayetle paylaşmak istediğiniz bir resim seçin</string>
+
+<string name="topbar_your_location">Konumunuzu seçin</string>
+ <string name="first_boot_message">Konumunuzu seçin</string>
+
+  <string name="loading_halal_places">Helal Yerler yükleniyor</string>
+<string name="lbl_hadith">Hadis</string>
+<string name="lbl_pillar">İslamın Şartları</string>
+<string name="degree">%s° Kuzey den Saat Yönünde</string>
+<string name="distance">Mekke den mesafe</string>
+<string name="searching_mosques">Camiler aranıyor...</string>
+<string name="show_places_onmap">Yerleri Harita üzerinde göster...</string>
+<string name="lbl_shahdah_txt2">"Allah'tan başka ilah yoktur, Muhammed Aleyhisselâm Onun Elçisidir."</string>
+
+<string name="manual">Buraya Tıkla</string>
+<string name="lbl_date">Dönüştürmek</string>
+
+<string name="title_full_screen_tasbeeh">Tam Ekran Tespih</string>
+<string name="ans_ok">tamam</string>
+<string name="title_backgrounds">Arka Plan</string>
+
+<string name="title_menu_ramdantime">Ramazan</string>
+<string name="title_lbl_prayer">Namazlar</string>
+<string name="title_lbl_calendar">Takvim</string>
+<string name="title_lbl_duas">Dualar</string>
+<string name="title_lbl_places">Helal</string>
+<string name="title_lbl_mosquee">Cami</string>
+<string name="title_lbl_names">Ad</string>
+<string name="title_lbl_qibla">Kıble</string>
+<string name="title_lbl_popular">Ayetler</string>
+<string name="title_lbl_quran">Kur an</string>
+<string name="title_lbl_shahadah">Şahadet</string>
+<string name="title_lbl_message">Mesajlar</string>
+<string name="title_lbl_tasbee">Tespih</string>
+<string name="title_lbl_hadith">Hadis</string>
+<string name="title_lbl_pillar">İslamın Şartları</string>
+
+	<string name="rate_title">Uygulamamızı seviyor musunuz?</string>
+    <string name="rate_text">Lütfen bize destek olmak için 5 yıldız verin!</string>
+    <string name="remind_me_later">hatırlat \ n Sonra</string>
+    <string name="no_thanks">HAYIR\nTEŞEKKÜRLER</string>
+    <string name="rate_it_now">ŞİMDİ\nDEĞERLENDİR</string>
+<string name="toast_songisplaying">Şarkı Zaten Çalıyor</string>
+<string name="toast_wait">Lütfen bekleyin....yükleniyor</string>
+<string name="toast_selectsong">Lütfen çalınacak Ayeti seçin</string>
+<string name="toast_compasschanged">Pusula Değişti</string>
+<string name="toast_alarmdisabled">Alarm Devre Dışı</string>
+<string name="toast_alarmenabled">Alarm Etkin</string>
+<string name="toast_prayerhasbeenpassed">Namazın zamanı geçti, alarm bir sonraki gün için ayarlandı</string>
+<string name="toast_tasbeereached">Ulaşıldı</string>
+<string name="toast_notasbeeinlist">Listelenecek Tesbih yok</string>
+<string name="toast_copiedtoclipboard">Panoya kopyalandı</string>
+<string name="toast_nomosquetolist">Listelenecek Cami yok</string>
+<string name="toast_cantgetlatIng">Enlem ve Boylam alınamıyor</string>
+<string name="toast_entervalidletIng">Geçerli Enlem ve Boylamı girin</string>
+<string name="title_lbl_date">Tarih Dönüştürücü</string>
+<string name="topbar_select_location">Ülke / Şehrinizi seçin</string>
+
+
+<string name="toast_alarmcanceled">Alarm Devre Dışı</string>
+<string name="please_wait">Lütfen bekleyin....yükleniyor</string>
+    
+
+</resources>

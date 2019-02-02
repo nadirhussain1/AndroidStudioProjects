@@ -1,0 +1,125 @@
+{"2015":[
+    {"month":"January", "date":"03","event":"Milad un Nabi"},
+    {"month":"January", "date":"08","event":"Milad un Nabi (Shia)"},
+    {"month":"May", "date":"13","event":"Lailat al Miraj"},
+    {"month":"June", "date":"01","event":"Lailat al Bara'ah"},
+    {"month":"June", "date":"18","event":"Ramadan (start)"},
+    {"month":"July", "date":"13","event":"Laylat al Kadr"},
+    {"month":"July", "date":"18","event":"Eid-al-Fitr (End of Ramadan)"},
+    {"month":"September", "date":"22","event":"Waqf al Arafa - Hajj"},
+    {"month":"September", "date":"24","event":"Eid-al-Adha"},
+    {"month":"October", "date":"15","event":"Hijra - Islamic New Year"},
+    {"month":"October", "date":"24","event":"Day of Ashura / Muharram"}
+    
+],
+
+"2016":[
+{"month":"May", "date":"05","event":"Isra and Mi'raj"},
+{"month":"June", "date":"07","event":"Start of Ramadan"},
+{"month":"July", "date":"02","event":"Laylat al-Qadr"},
+{"month":"July", "date":"07","event":"Eid Al Fitr"},
+{"month":"September", "date":"13","event":"Eid al Adha"},
+{"month":"October", "date":"03","event":"Islamic New Year"},
+{"month":"December", "date":"12","event":"Prophet's Birthday"}
+
+],
+
+"2017":[
+{"month":"May", "date":"27","event":"First day of fasting month"},
+{"month":"June", "date":"15","event":"Lailat ul-Qadr (The night of power)"},
+{"month":"June", "date":"25","event":"Eid Al Fitr"},
+{"month":"August", "date":"30","event":"Hajj days"},
+{"month":"August", "date":"31","event":"Arafa day"},
+{"month":"September", "date":"1","event":"Eidu al-adha"},
+{"month":"September", "date":"30","event":"Aashoraa day"}
+
+],
+
+"2018":[
+{"month":"May", "date":"16","event":"First day of fasting month"},
+{"month":"June", "date":"04","event":"Lailat ul-Qadr (The night of power)"},
+{"month":"June", "date":"15","event":"Eid Al Fitr"},
+{"month":"August", "date":"19","event":"Hajj days"},
+{"month":"August", "date":"20","event":"Arafa day"},
+{"month":"August", "date":"21","event":"Eidu al-adha"},
+{"month":"September", "date":"20","event":"Aashoraa day"}
+
+],
+
+"2019":[
+{"month":"May", "date":"06","event":"First day of fasting month"},
+{"month":"May", "date":"25","event":"Lailat ul-Qadr (The night of power)"},
+{"month":"June", "date":"04","event":"Eid Al Fitr"},
+{"month":"August", "date":"09","event":"Hajj days"},
+{"month":"August", "date":"10","event":"Arafa day"},
+{"month":"August", "date":"11","event":"Eidu al-adha"},
+{"month":"September", "date":"09","event":"Aashoraa day"}
+
+],
+
+"2020":[
+{"month":"April", "date":"24","event":"First day of fasting month"},
+{"month":"May", "date":"13","event":"Lailat ul-Qadr (The night of power)"},
+{"month":"May", "date":"24","event":"Eid Al Fitr"},
+{"month":"July", "date":"29","event":"Hajj days"},
+{"month":"July", "date":"30","event":"Arafa day"},
+{"month":"July", "date":"31","event":"Eidu al-adha"},
+{"month":"August", "date":"29","event":"Aashoraa day"}
+
+],
+
+"2021":[
+{"month":"April", "date":"13","event":"First day of fasting month"},
+{"month":"May", "date":"02","event":"Lailat ul-Qadr (The night of power)"},
+{"month":"May", "date":"13","event":"Eid Al Fitr"},
+{"month":"July", "date":"18","event":"Hajj days"},
+{"month":"July", "date":"19","event":"Arafa day"},
+{"month":"July", "date":"20","event":"Eidu al-adha"},
+{"month":"August", "date":"18","event":"Aashoraa day"}
+
+],
+"2022":[
+{"month":"April", "date":"02","event":"First day of fasting month"},
+{"month":"April", "date":"21","event":"Lailat ul-Qadr (The night of power)"},
+{"month":"May", "date":"02","event":"Eid Al Fitr"},
+{"month":"July", "date":"07","event":"Hajj days"},
+{"month":"July", "date":"08","event":"Arafa day"},
+{"month":"July", "date":"09","event":"Eidu al-adha"},
+{"month":"August", "date":"08","event":"Aashoraa day"}
+
+],
+"2023":[
+{"month":"March", "date":"23","event":"First day of fasting month"},
+{"month":"April", "date":"11","event":"Lailat ul-Qadr (The night of power)"},
+{"month":"April", "date":"21","event":"Eid Al Fitr"},
+{"month":"June", "date":"26","event":"Hajj days"},
+{"month":"June", "date":"27","event":"Arafa day"},
+{"month":"June", "date":"28","event":"Eidu al-adha"},
+{"month":"July", "date":"28","event":"Aashoraa day"}
+
+],
+"2024":[
+{"month":"March", "date":"11","event":"First day of fasting month"},
+{"month":"March", "date":"30","event":"Lailat ul-Qadr (The night of power)"},
+{"month":"April", "date":"10","event":"Eid Al Fitr"},
+{"month":"June", "date":"14","event":"Hajj days"},
+{"month":"June", "date":"15","event":"Arafa day"},
+{"month":"June", "date":"16","event":"Eidu al-adha"},
+{"month":"July", "date":"16","event":"Aashoraa day"}
+
+],
+"2025":[
+{"month":"March", "date":"01","event":"First day of fasting month"},
+{"month":"March", "date":"20","event":"Lailat ul-Qadr (The night of power)"},
+{"month":"March", "date":"30","event":"Eid Al Fitr"},
+{"month":"June", "date":"04","event":"Hajj days"},
+{"month":"June", "date":"05","event":"Arafa day"},
+{"month":"June", "date":"06","event":"Eidu al-adha"}
+
+]
+
+
+
+}
+
+

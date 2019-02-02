@@ -1,0 +1,466 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            class="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+        <RelativeLayout
+            android:id="@+id/pinLocLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/pinMarkerIconView"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:layout_centerInParent="true"
+                android:background="@drawable/pin_location_icon"/>
+
+            <Button
+                android:id="@+id/pinDoneButton"
+                android:layout_width="match_parent"
+                android:layout_height="150px"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="50px"
+                android:background="@android:color/black"
+                android:text="DONE"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/whereToLayaout"
+            android:layout_width="match_parent"
+            android:layout_height="160px"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"
+            android:layout_marginTop="300px"
+            android:background="@android:color/white"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/scheduleImageView"
+                android:layout_width="80px"
+                android:layout_height="80px"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="30px"
+                android:background="@drawable/schedule_image"/>
+
+            <View
+                android:id="@+id/div"
+                android:layout_width="1dp"
+                android:layout_height="100px"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="30px"
+                android:layout_toLeftOf="@+id/scheduleImageView"
+                android:background="#44000000"
+                android:tag="constantWidth"/>
+
+            <TextView
+                android:id="@+id/whereToTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/div"
+                android:gravity="center_vertical"
+                android:paddingLeft="80px"
+                android:text="Where to?"
+                android:textColor="#88000000"
+                android:textSize="28dp"
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/searchInputsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="550px"
+            android:background="@android:color/white"
+            android:paddingLeft="50px"
+            android:paddingRight="50px"
+            android:visibility="invisible">
+
+
+            <RelativeLayout
+                android:id="@+id/sourceInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="120px"
+                android:layout_marginLeft="130px"
+                android:layout_marginTop="230px"
+                android:background="#11000000">
+
+                <EditText
+                    android:id="@+id/sourceLocEditor"
+                    android:layout_width="match_parent"
+                    android:layout_height="120px"
+                    android:layout_marginRight="15px"
+                    android:layout_toLeftOf="@+id/clearImageView"
+                    android:background="@android:color/transparent"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingLeft="15px"
+                    android:text=""
+                    android:textSize="26dp"/>
+
+                <ImageView
+                    android:id="@+id/clearImageView"
+                    android:layout_width="80px"
+                    android:layout_height="80px"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20px"
+                    android:background="@drawable/clear_image"
+                    android:visibility="invisible"/>
+
+                <View
+                    android:id="@+id/sourceClearClickArea"
+                    android:layout_width="120px"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/destinationInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="120px"
+                android:layout_alignLeft="@+id/sourceInputLayout"
+                android:layout_below="@+id/sourceInputLayout"
+                android:layout_marginTop="30px"
+                android:background="#33000000">
+
+                <EditText
+                    android:id="@+id/destinationLocEditor"
+                    android:layout_width="match_parent"
+                    android:layout_height="120px"
+                    android:layout_marginRight="15px"
+                    android:layout_toLeftOf="@+id/clearDestImageView"
+                    android:background="@android:color/transparent"
+                    android:hint="Where to?"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingLeft="15px"
+                    android:text=""
+                    android:textColorHint="#66000000"
+                    android:textSize="26dp">
+                </EditText>
+
+
+                <ImageView
+                    android:id="@+id/clearDestImageView"
+                    android:layout_width="80px"
+                    android:layout_height="80px"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20px"
+                    android:background="@drawable/clear_image"
+                    android:visibility="invisible"
+                    />
+
+                <View
+                    android:id="@+id/destClearClickArea"
+                    android:layout_width="120px"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+        <FrameLayout
+            android:id="@+id/searchLayoutContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/searchInputsLayout">
+
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/backButtonLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130px"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/backArrowView"
+                android:layout_width="80px"
+                android:layout_height="80px"
+                android:layout_marginLeft="40px"
+                android:layout_marginTop="20px"
+                android:background="@drawable/back_arrow"/>
+
+            <View
+                android:id="@+id/backClickArea"
+                android:layout_width="180px"
+                android:layout_height="120px"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/requestDriverLayout"
+            android:layout_width="match_parent"
+            android:layout_height="250px"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/white"
+            android:padding="30px"
+            android:visibility="invisible">
+
+            <Button
+                android:id="@+id/requestUberButton"
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:layout_alignParentBottom="true"
+                android:background="@android:color/black"
+                android:text="REQUEST DRIVER"
+                android:textColor="@android:color/white"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/estimatedFareStaticTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/requestUberButton"
+                android:layout_marginBottom="30px"
+                android:text="Estimated Fare:"
+                android:textColor="#88000000"
+                android:textSize="20dp"
+                android:visibility="visible"
+                />
+
+            <TextView
+                android:id="@+id/estimatedFareValueTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/requestUberButton"
+                android:layout_marginBottom="30px"
+                android:layout_marginLeft="10px"
+                android:layout_toRightOf="@+id/estimatedFareStaticTextView"
+                android:text="250-500 PKR"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:gravity="center"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/requestingLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="30px"
+            android:background="@android:color/white"
+            android:padding="20px"
+            android:visibility="invisible">
+
+
+            <ImageView
+                android:id="@+id/requestLogoIconView"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:src="@drawable/uber_logo"
+                />
+
+            <TextView
+                android:id="@+id/requestingStaticTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_toRightOf="@+id/requestLogoIconView"
+                android:text="Finding your ride"
+                android:textColor="@android:color/black"
+                android:textSize="22dp"
+                />
+
+            <ProgressBar
+                android:id="@+id/requestingProgressBar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/requestingStaticTextView"
+                android:layout_below="@+id/requestingStaticTextView"
+                android:layout_marginTop="10px"
+                android:indeterminate="true"
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/driverInfoLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="30px"
+            android:background="@android:color/white"
+            android:padding="20px"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/driverIconView"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:src="@drawable/uber_logo"/>
+
+            <TextView
+                android:id="@+id/driverNameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="20px"
+                android:layout_toRightOf="@+id/driverIconView"
+                android:text="Mushi Driver is on its way"
+                android:textColor="@android:color/black"
+                android:textSize="22dp"/>
+
+            <Button
+                android:id="@+id/cancelRideButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/driverIconView"
+                android:layout_marginTop="10px"
+                android:text="Cancel"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/scheduleRideLayout"
+            android:layout_width="match_parent"
+            android:layout_height="1200px"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/white"
+            android:paddingBottom="100px"
+            android:paddingLeft="50px"
+            android:paddingRight="50px"
+            android:paddingTop="100px"
+            android:visibility="gone"
+            >
+
+            <Button
+                android:id="@+id/setPickUpWindowButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@android:color/black"
+                android:text="SET PICKUP WINDOW"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18dp"
+                android:textStyle="bold"
+
+                />
+
+            <View
+                android:id="@+id/div1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_above="@+id/setPickUpWindowButton"
+                android:layout_marginBottom="100px"
+                android:background="#44000000"
+                android:tag="constantHeight"
+                />
+
+            <TextView
+                android:id="@+id/scheduleTimeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/div1"
+                android:gravity="center"
+                android:paddingBottom="100px"
+                android:paddingTop="100px"
+                android:text="13:00 - 13:15"
+                android:textColor="@android:color/black"
+                android:textSize="22dp"
+                />
+
+            <View
+                android:id="@+id/div2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_above="@+id/scheduleTimeTextView"
+                android:background="#22000000"
+                android:tag="constantHeight"
+                />
+
+            <TextView
+                android:id="@+id/scheduleDateTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/div2"
+                android:gravity="center"
+                android:paddingBottom="100px"
+                android:paddingTop="100px"
+                android:text="13:00 - 13:15"
+                android:textColor="@android:color/black"
+                android:textSize="22dp"
+                />
+
+            <View
+                android:id="@+id/div3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_above="@+id/scheduleDateTextView"
+                android:background="#22000000"
+                android:tag="constantHeight"
+                />
+
+            <TextView
+                android:id="@+id/scheduleRideTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/div3"
+                android:gravity="center"
+                android:paddingBottom="100px"
+                android:text="Schedule a Ride"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                />
+
+
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/closeIconView"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_alignRight="@+id/scheduleRideLayout"
+            android:layout_alignTop="@+id/scheduleRideLayout"
+            android:src="@drawable/close_icon"
+            android:visibility="gone"
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+

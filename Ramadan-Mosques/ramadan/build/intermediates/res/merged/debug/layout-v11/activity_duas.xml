@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@+id/top_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@+id/toolbar" layout="@layout/tool_bar" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/lyt_content" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_main" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/padding_main" android:layout_above="@+id/slider_layout" android:layout_below="@+id/top_layout">
+        <TextView android:textSize="16.0sp" android:typeface="serif" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@+id/txt_title" android:background="@color/green" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+        <ScrollView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="8.0">
+            <TextView android:textSize="20.0sp" android:textColor="@color/black" android:id="@+id/txt_data" android:padding="@dimen/padding_main" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="3.0" android:textIsSelectable="true" />
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/slider_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_weight="3.0" android:layout_above="@+id/txt_counter">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/img_slider_previous" android:paddingLeft="@dimen/text_padding" android:paddingRight="@dimen/text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/slider_previous" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/img_slider_next" android:paddingLeft="@dimen/text_padding" android:paddingRight="@dimen/text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/slider_next" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:textStyle="bold" android:textColor="@color/green" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/txt_counter" android:background="@drawable/button_bg" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="1/99" android:layout_above="@+id/ad_layout" android:layout_centerHorizontal="true" />
+    <LinearLayout android:id="@+id/ad_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include layout="@layout/ad_layout" />
+    </LinearLayout>
+</RelativeLayout>

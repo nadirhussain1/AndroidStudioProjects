@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="650px"
+        android:background="@android:color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:id="@+id/timeInfoLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50px"
+            android:paddingTop="30px"
+            >
+
+            <TextView
+                android:id="@+id/scheduleTimeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="June 21 at 19:51"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:id="@+id/estFareTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scheduleTimeTextView"
+                android:layout_marginTop="5px"
+                android:text="PKR 120-144"
+                android:textColor="#88000000"
+                android:textSize="18dp"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="50px"
+            android:background="#22000000"
+            android:tag="constantHeight"
+            />
+
+        <RelativeLayout
+            android:id="@+id/sourceDestinationLayout"
+            android:layout_width="match_parent"
+            android:layout_height="300px"
+            android:padding="30px">
+
+            <LinearLayout
+                android:id="@+id/dotSquareLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="24px"
+                    android:layout_height="24px"
+                    android:background="@drawable/dot_icon"/>
+
+                <View
+                    android:layout_width="5px"
+                    android:layout_height="130px"
+                    android:layout_marginTop="10px"
+                    android:background="#44000000"
+                    />
+
+                <ImageView
+                    android:layout_width="24px"
+                    android:layout_height="24px"
+                    android:background="@drawable/black_square"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/sourceLocationNameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="120px"
+                android:layout_marginLeft="50px"
+                android:layout_toRightOf="@+id/dotSquareLayout"
+                android:gravity="center_vertical"
+                android:text="Q Block, Model Town"
+                android:textColor="@android:color/black"
+                android:textSize="24dp"
+                />
+
+            <View
+                android:id="@+id/div"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignLeft="@+id/sourceLocationNameTextView"
+                android:layout_below="@+id/sourceLocationNameTextView"
+                android:background="#22000000"
+                android:tag="constantHeight"
+                />
+
+            <TextView
+                android:id="@+id/destLocationNameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="120px"
+                android:layout_alignLeft="@+id/sourceLocationNameTextView"
+                android:layout_below="@+id/div"
+                android:gravity="center_vertical"
+                android:text="Q Block, Model Town"
+                android:textColor="@android:color/black"
+                android:textSize="24dp"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/bottomDiv"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#22000000"
+            android:tag="constantHeight"
+            />
+
+        <RelativeLayout
+            android:id="@+id/actionsButtonLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/cancelRideTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Cancel Ride"
+                android:textColor="#00679D"
+                android:textSize="22dp"
+                />
+
+            <TextView
+                android:id="@+id/editTimeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="150px"
+                android:layout_toRightOf="@+id/cancelRideTextView"
+                android:gravity="center_vertical"
+                android:text="Edit Pickup Time"
+                android:textColor="#00679D"
+                android:textSize="22dp"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

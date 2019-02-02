@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="menu_ramdantime">Рамадан</string>
+ <string name="lbl_prayertimes_title">Молитвы</string>
+
+<string name="lbl_prayer">Молитвы</string>
+<string name="lbl_calendar">Календарь</string>
+<string name="lbl_duas">Дуа</string>
+<string name="lbl_places">халяль</string>
+<string name="lbl_mosquee">Мечети</string>
+<string name="lbl_names">имен</string>
+<string name="lbl_qibla">Кибла</string>
+<string name="lbl_popular">аяты</string>
+<string name="lbl_quran">Коран</string>
+<string name="lbl_shahadah">Шахада</string>
+<string name="lbl_message">Сообщения</string>
+<string name="lbl_tasbee">Тасбих</string>
+<string name="settings">Настройки</string>
+<string name="action_settings">Настройки</string>
+<string name="send">Отправить</string>
+<string name="txtMessageBackgrond">Выбрать изображение для публикации аята</string>
+
+<string name="topbar_your_location">Выберите свое местоположение</string>
+ <string name="first_boot_message">Выберите свое местоположение</string>
+
+  <string name="loading_halal_places">Загрузка халяльных мест</string>
+<string name="lbl_hadith">Хадис</string>
+<string name="lbl_pillar">Столпы</string>
+<string name="degree">%s° По часовой стрелке, начиная с севера</string>
+<string name="distance">Расстояние от Мекки</string>
+<string name="searching_mosques">Поиск мечетей...</string>
+<string name="show_places_onmap">Показать места на карте...</string>
+<string name="lbl_shahdah_txt2">Свидетельствую, что нет иного Бога, кроме Аллаха, и ещё свидетельствую, что Мухаммед — Посланник Аллаха.</string>
+
+<string name="manual">кликните сюда</string>
+<string name="lbl_date">Конвертировать</string>
+
+<string name="title_full_screen_tasbeeh">Полный экран тасбих</string>
+<string name="ans_ok">ОК</string>
+<string name="title_backgrounds">Фон</string>
+
+
+<string name="title_menu_ramdantime">Рамадан</string>
+<string name="title_lbl_prayer">Молитвы</string>
+<string name="title_lbl_calendar">Календарь</string>
+<string name="title_lbl_duas">Дуа</string>
+<string name="title_lbl_places">халяль</string>
+<string name="title_lbl_mosquee">Мечети</string>
+<string name="title_lbl_names">имен</string>
+<string name="title_lbl_qibla">Кибла</string>
+<string name="title_lbl_popular">аяты</string>
+<string name="title_lbl_quran">Коран</string>
+<string name="title_lbl_shahadah">Шахада</string>
+<string name="title_lbl_message">Сообщения</string>
+<string name="title_lbl_tasbee">Тасбих</string>
+<string name="title_lbl_hadith">Хадис</string>
+<string name="title_lbl_pillar">Столпы</string>
+
+    <string name="rate_title">Вам нравится наше приложение?</string>
+    <string name="rate_text">Пожалуйста, поставьте оценку 5 звёзд для нашей поддержки!</string>
+    <string name="remind_me_later">НАПОМНИТЬ\nПОЗЖЕ</string>
+    <string name="no_thanks">НЕТ,\nСПАСИБО</string>
+    <string name="rate_it_now">ОЦЕНИТЬ\nСЕЙЧАС</string>
+
+    <string name="toast_songisplaying">Композиция уже воспроизводится</string>
+<string name="toast_wait">Ожидайте... Идет загрузка</string>
+<string name="toast_selectsong">Выберите аят для воспроизведения</string>
+<string name="toast_compasschanged">Компас изменен</string>
+<string name="toast_alarmdisabled">Сигнал отключен</string>
+<string name="toast_alarmenabled">Сигнал включен</string>
+<string name="toast_prayerhasbeenpassed">Время молитвы прошло. Сигнал установлен на следующий день</string>
+<string name="toast_tasbeereached">Достигнуто</string>
+<string name="toast_notasbeeinlist">Нет четок для отображения</string>
+<string name="toast_copiedtoclipboard">Cкопировано в буфер обмена</string>
+<string name="toast_nomosquetolist">Нет мечети для отображения</string>
+<string name="toast_cantgetlatIng">Не удается получить широту/долготу</string>
+<string name="toast_entervalidletIng">Введите действительную широту и долготу</string>
+<string name="title_lbl_date">Конвертер даты</string>
+<string name="topbar_select_location">Выберите страну / город</string>
+
+
+<string name="toast_alarmcanceled">Сигнал отключен</string>
+<string name="please_wait">Ожидайте... Идет загрузка</string>
+    
+</resources>

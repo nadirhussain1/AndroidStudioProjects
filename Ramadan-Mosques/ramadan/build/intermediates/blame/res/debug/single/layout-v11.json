@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/layout-v11/activity_shahadah_fragment.xml",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/layout-v11/activity_shahadah_fragment.xml"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/layout-v11/activity_duas.xml",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/layout-v11/activity_duas.xml"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/layout-v11/activity_names.xml",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/layout-v11/activity_names.xml"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/layout-v11/activity_hadith.xml",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/layout-v11/activity_hadith.xml"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/layout-v11/calendar_view.xml",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/layout-v11/calendar_view.xml"
+    }
+]

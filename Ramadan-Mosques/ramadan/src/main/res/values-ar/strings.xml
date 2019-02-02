@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+      <string-array name="date_converter_month">
+        <item>كانون الثاني</item>
+        <item>شُباط</item>
+        <item>آذار</item>
+        <item>نَيْسان</item>
+        <item>أَيّار</item>
+        <item>حُزَيْران</item>
+        <item>تَمّوز</item>
+        <item>آب</item>
+        <item>أَيْلول</item>
+        <item>تِشْرين الأَوَّل</item>
+        <item>تِشْرين الثاني</item>
+        <item>كانون الأَوَّل</item>
+    </string-array>
+     <string-array name="date_converter_monthsh">
+        <item></item>
+         <item>مُحَرَّم</item>
+        <item>صَفَر</item>
+        <item>ربيع الأوّل</item>
+        <item>ربيع الثاني‎‎</item>
+        <item>جمادى الأولى‎‎</item>
+        <item>جمادى الثاني‎‎</item>
+        <item>رجب‎‎</item>
+        <item>شعبان</item>
+        <item>رمضان</item>
+        <item>شوّال</item>
+        <item>ذو القعدة</item>
+        <item>ذو الحجة</item>
+    </string-array>
+        
+<string name="menu_ramdantime">رمضان</string>
+ <string name="lbl_prayertimes_title">لصلوات</string>
+
+<string name="lbl_prayer">لصلوات</string>
+<string name="lbl_calendar">التقويم</string>
+<string name="lbl_duas">الأدعية</string>
+<string name="lbl_places">حلالا</string>
+<string name="lbl_mosquee">مسجد</string>
+<string name="lbl_names">الأسماء</string>
+<string name="lbl_qibla">القبلة</string>
+<string name="lbl_popular">الآيات</string>
+<string name="lbl_quran">القرآن</string>
+<string name="lbl_shahadah">الشهادة</string>
+<string name="lbl_message">الرسائل</string>
+<string name="lbl_tasbee">تسبيح</string>
+<string name="settings">الإعدادات</string>
+<string name="action_settings">الإعدادات</string>
+<string name="send">إرسال</string>
+<string name="txtMessageBackgrond">تحديد صورة لمشاركة الآية معها</string>
+
+<string name="topbar_your_location">اختر موقعك</string>
+ <string name="first_boot_message">اختر موقعك</string>
+
+  <string name="loading_halal_places">رفع مناطق الحلال</string>
+<string name="lbl_hadith">الحديث </string>
+<string name="lbl_pillar">أعمدة</string>
+<string name="degree">%s° شمالا باتجاه عقارب الساعة</string>
+<string name="distance">المسافة من مكة</string>
+<string name="searching_mosques">البحث عن مساجد...</string>
+<string name="show_places_onmap">إظهار الأماكن على الخريطة...</string>
+<string name="lbl_shahdah_txt2">أشهد ألا إله إلا الله وأشهد أن محمدًا رسول الله.</string>
+
+<string name="manual">انقر هنا</string>
+<string name="lbl_date">تحول</string>
+
+<string name="title_full_screen_tasbeeh">شاشة كاملة التسبيح</string>
+<string name="ans_ok">حسنا</string>
+<string name="title_backgrounds">خلفيات</string>
+
+
+<string name="title_menu_ramdantime">رمضان</string>
+<string name="title_lbl_prayer">لصلوات</string>
+<string name="title_lbl_calendar">التقويم</string>
+<string name="title_lbl_duas">الأدعية</string>
+<string name="title_lbl_places">حلالا</string>
+<string name="title_lbl_mosquee">مسجد</string>
+<string name="title_lbl_names">الأسماء</string>
+<string name="title_lbl_qibla">القبلة</string>
+<string name="title_lbl_popular">الآيات</string>
+<string name="title_lbl_quran">القرآن</string>
+<string name="title_lbl_shahadah">الشهادة</string>
+<string name="title_lbl_message">الرسائل</string>
+<string name="title_lbl_tasbee">تسبيح</string>
+<string name="title_lbl_hadith">الحديث</string>
+<string name="title_lbl_pillar">أعمدة</string>
+
+
+
+    <string name="rate_title">هل يعجبك تطبيقنا؟</string>
+    <string name="rate_text">يرجى أن تقيمنا ب 5 نجوم لدعمنا!</string>
+    <string name="no_thanks">لا، شكراً</string>
+    
+   
+    <string name="remind_me_later">ذكرني\nلاحقا</string>
+    
+    <string name="rate_it_now">التقييم\nالآن</string>
+    
+    <string name="toast_songisplaying">الأغنية قيد التشغيل</string>
+<string name="toast_wait">يرجى الانتظار...جارٍ التحميل</string>
+<string name="toast_selectsong">حدد آية لتشغيلها</string>
+<string name="toast_compasschanged">تم تغيير البوصلة</string>
+<string name="toast_alarmdisabled">تم تعطيل المنبه</string>
+<string name="toast_alarmenabled">تم تفعيل المنبه</string>
+<string name="toast_prayerhasbeenpassed">لقد فات وقت الصلاة. تم ضبط المنبه لليوم التالي</string>
+<string name="toast_tasbeereached">تم بلوغه</string>
+<string name="toast_notasbeeinlist">لا تسبيحات لعرضها</string>
+<string name="toast_copiedtoclipboard">تم النسخ للحافظة</string>
+<string name="toast_nomosquetolist">لا مساجد لعرضها</string>
+<string name="toast_cantgetlatIng">تعذَّر الحصول على إحداثيات العرض والطول</string>
+<string name="toast_entervalidletIng">أدخل خطوط عرض وطول صحيحة</string>
+<string name="title_lbl_date">محوّل التاريخ</string>
+<string name="topbar_select_location">حدد دولتك/ مدينتك</string>
+
+
+<string name="toast_alarmcanceled">تم تعطيل المنبه</string>
+<string name="please_wait">يرجى الانتظار...جارٍ التحميل</string>
+    
+</resources>

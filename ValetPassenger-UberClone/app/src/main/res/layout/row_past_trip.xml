@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="700px">
+
+        <ImageView
+            android:id="@+id/tripImageView"
+            android:layout_width="match_parent"
+            android:layout_height="550px"
+            android:scaleType="centerCrop"
+            android:background="@android:color/white"
+            />
+
+        <RelativeLayout
+            android:id="@+id/tripInfoLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tripImageView"
+            android:background="@android:color/white"
+            android:paddingLeft="50px"
+            android:paddingRight="50px"
+            >
+
+            <TextView
+                android:id="@+id/dateTimeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="@android:color/black"
+                android:textSize="18dp"
+                android:text="5/25/17 at 7:22 PM"/>
+            <TextView
+                android:id="@+id/fareTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@android:color/black"
+                android:textSize="18dp"
+                android:text="RS121"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@+id/layoutconverter" android:background="@drawable/bg_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@+id/top_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@+id/toolbar" layout="@layout/tool_bar" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5">
+        <TextView android:typeface="serif" android:textStyle="bold" android:textColor="@color/green" android:gravity="center" android:id="@+id/gregorianc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/gregorian" style="@android:style/TextAppearance.Large" />
+        <LinearLayout android:layout_gravity="center" android:id="@+id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <kankan.wheel.widget.WheelView android:layout_gravity="center" android:id="@+id/day" android:layout_width="70.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_padding" android:layout_marginRight="@dimen/text_padding" />
+            <kankan.wheel.widget.WheelView android:layout_gravity="center" android:id="@+id/month" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_padding" android:layout_marginRight="@dimen/text_padding" />
+            <kankan.wheel.widget.WheelView android:layout_gravity="center" android:id="@+id/year" android:layout_width="70.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_padding" android:layout_marginRight="@dimen/text_padding" />
+        </LinearLayout>
+        <TextView android:typeface="serif" android:textColor="@color/green" android:gravity="center" android:id="@+id/gregorianc_date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" style="@android:style/TextAppearance.Medium" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5">
+        <TextView android:typeface="serif" android:textStyle="bold" android:textColor="@color/green" android:gravity="center" android:id="@+id/hijric" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/hijri" style="@android:style/TextAppearance.Large" />
+        <LinearLayout android:layout_gravity="center" android:id="@+id/linearLayout2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <kankan.wheel.widget.WheelView android:id="@+id/hday" android:layout_width="70.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_padding" android:layout_marginRight="@dimen/text_padding" />
+            <kankan.wheel.widget.WheelView android:id="@+id/hmonth" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_padding" android:layout_marginRight="@dimen/text_padding" />
+            <kankan.wheel.widget.WheelView android:id="@+id/hyear" android:layout_width="70.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_padding" android:layout_marginRight="@dimen/text_padding" />
+        </LinearLayout>
+        <TextView android:typeface="serif" android:textColor="@color/green" android:gravity="center" android:id="@+id/hijric_date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" style="@android:style/TextAppearance.Medium" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/ad_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/ad_layout" />
+    </LinearLayout>
+</LinearLayout>

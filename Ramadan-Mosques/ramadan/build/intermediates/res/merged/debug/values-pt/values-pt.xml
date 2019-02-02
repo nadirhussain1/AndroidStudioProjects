@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Concluído"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Selecione um app"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESATIVAR"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ATIVAR"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Pesquisar..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartilhar com %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Recolher"</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="ans_ok">Está bem</string>
+    <string name="degree">%s° Sentido Horário do Norte</string>
+    <string name="distance">Distância Da Meca</string>
+    <string name="first_boot_message">Escolha Sua Localização</string>
+    <string name="lbl_calendar">Calendário</string>
+    <string name="lbl_date"/>
+    <string name="lbl_duas">Duas</string>
+    <string name="lbl_hadith">Hadith</string>
+    <string name="lbl_message">Mensagens</string>
+    <string name="lbl_mosquee">Mesquitas</string>
+    <string name="lbl_names">Nomes</string>
+    <string name="lbl_pillar">Pilares</string>
+    <string name="lbl_places">Halal</string>
+    <string name="lbl_popular">Versos</string>
+    <string name="lbl_prayer">Orações</string>
+    <string name="lbl_prayertimes_title">Orações</string>
+    <string name="lbl_qibla">Qibla</string>
+    <string name="lbl_quran">Alcorão</string>
+    <string name="lbl_shahadah">Shahadah</string>
+    <string name="lbl_shahdah_txt2">Declaro que não há divindade digna de louvor exceto Alá, e declaro que Maomé é o Mensageiro de Alá.</string>
+    <string name="lbl_tasbee">Tasbih</string>
+    <string name="loading_halal_places">Carregando Lugares de Halal</string>
+    <string name="manual">Clique aqui</string>
+    <string name="menu_ramdantime">Ramadã</string>
+    <string msgid="8327680881775995150" name="mr_media_route_button_content_description">"Transmitir"</string>
+    <string msgid="7553005460920830010" name="mr_media_route_chooser_searching">"Procurando dispositivos…"</string>
+    <string msgid="7106830097177242655" name="mr_media_route_chooser_title">"Conectar ao dispositivo"</string>
+    <string msgid="109793632378378069" name="mr_media_route_controller_disconnect">"Desconectar"</string>
+    <string msgid="3641544772007543920" name="mr_media_route_controller_no_info_available">"Nenhuma informação disponível"</string>
+    <string msgid="8315773974194466049" name="mr_media_route_controller_pause">"Pausar"</string>
+    <string msgid="5214423499524760404" name="mr_media_route_controller_play">"Reproduzir"</string>
+    <string msgid="379358765881274425" name="mr_media_route_controller_settings_description">"Configurações de rota"</string>
+    <string msgid="5398645111664294430" name="mr_media_route_controller_stop">"Interromper transmissão"</string>
+    <string msgid="5441529851481176817" name="mr_system_route_name">"Sistema"</string>
+    <string msgid="7498112907524977311" name="mr_user_route_category_name">"Dispositivos"</string>
+    <string name="no_thanks">NÃO,\nOBRIGADO</string>
+    <string name="please_wait">Por favor, aguarde... carregando</string>
+    <string name="rate_it_now">AVALIAR\nAGORA</string>
+    <string name="rate_text">Dê 5 estrelas para ajudar-nos!</string>
+    <string name="rate_title">Gosta da nossa aplicação?</string>
+    <string name="remind_me_later">LEMBRAR-ME\nMAIS TARDE</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Pesquisar"</string>
+    <string name="searching_mosques">Procurando Mesquitas...</string>
+    <string name="send">Enviar</string>
+    <string name="settings">Ajustes</string>
+    <string name="show_places_onmap">Mostrar Lugares no Mapa...</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="title_backgrounds">Fundos</string>
+    <string name="title_full_screen_tasbeeh"/>
+    <string name="title_lbl_calendar">Calendário</string>
+    <string name="title_lbl_date">Conversor de data</string>
+    <string name="title_lbl_duas">Duas</string>
+    <string name="title_lbl_hadith">Hadith</string>
+    <string name="title_lbl_message">Mensagens</string>
+    <string name="title_lbl_mosquee">Mesquitas</string>
+    <string name="title_lbl_names">Nomes</string>
+    <string name="title_lbl_pillar">Pilares</string>
+    <string name="title_lbl_places">Halal</string>
+    <string name="title_lbl_popular">Versos</string>
+    <string name="title_lbl_prayer">Orações</string>
+    <string name="title_lbl_qibla">Qibla</string>
+    <string name="title_lbl_quran">Alcorão</string>
+    <string name="title_lbl_shahadah">Shahadah</string>
+    <string name="title_lbl_tasbee">Tasbih</string>
+    <string name="title_menu_ramdantime">Ramadã</string>
+    <string name="toast_alarmcanceled">Alarme desativado</string>
+    <string name="toast_alarmdisabled">Alarme desativado</string>
+    <string name="toast_alarmenabled">Alarme ativado</string>
+    <string name="toast_cantgetlatIng">Não é possível obter a lat, long</string>
+    <string name="toast_compasschanged">Compasso alterado</string>
+    <string name="toast_copiedtoclipboard">Copiado para a área de transferência</string>
+    <string name="toast_entervalidletIng">Digite latitude e longitude válidas</string>
+    <string name="toast_nomosquetolist">Nenhuma mesquita na lista</string>
+    <string name="toast_notasbeeinlist">Sem Tasbeeh na lista</string>
+    <string name="toast_prayerhasbeenpassed">A oração foi encaminhada, o alarme foi definido para o dia seguinte</string>
+    <string name="toast_selectsong">Por favor, selecione Ayat para reproduzir</string>
+    <string name="toast_songisplaying">A música já está tocando</string>
+    <string name="toast_tasbeereached">Alcançado</string>
+    <string name="toast_wait">Por favor, aguarde... carregando</string>
+    <string name="topbar_select_location">Selecione seu país / cidade</string>
+    <string name="topbar_your_location">Escolha Sua Localização</string>
+    <string name="txtMessageBackgrond">Selecione uma imagem para compartilhar o verso com ela</string>
+</resources>

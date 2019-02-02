@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="menu_ramdantime">Ramadan</string>
+ <string name="lbl_prayertimes_title">Gebete</string>
+
+<string name="lbl_prayer">Gebete</string>
+<string name="lbl_calendar">Kalender</string>
+<string name="lbl_duas">Duas</string>
+<string name="lbl_places">Halas</string>
+
+<string name="lbl_mosquee">Moschee</string>
+<string name="lbl_names">Namen</string>
+<string name="lbl_qibla">Qibla</string>
+<string name="lbl_popular">Verse</string>
+<string name="lbl_quran">Koran</string>
+<string name="lbl_shahadah">Shahadah</string>
+<string name="lbl_message">Nachrichten</string>
+<string name="lbl_tasbee">Tasbih</string>
+<string name="settings">Einstellungen</string>
+<string name="action_settings">Einstellungen</string>
+<string name="send">Senden</string>
+<string name="txtMessageBackgrond">Wählen Sie ein Bild, das mit dem Vers geteilt wird</string>
+
+<string name="topbar_your_location">Wähle deinen Standort</string>
+ <string name="first_boot_message">Wähle deinen Standort</string>
+
+  <string name="loading_halal_places">Halal-Orte werden geladen</string>
+<string name="lbl_hadith">Hadith</string>
+<string name="lbl_pillar">Säulen</string>
+<string name="degree">%s° Im Uhrzeigersinn von Norden</string>
+<string name="distance">Entfernung von Mekka</string>
+<string name="searching_mosques">Moscheen werden gesucht...</string>
+<string name="show_places_onmap">Orte auf Karte anzeigen...</string>
+<string name="lbl_shahdah_txt2">Ich erkläre, dass es keinen der Anbetung würdigen Gott gibt, außer Allah; und ich erkläre, dass Mohammed der Gesandte Allahs ist.</string>
+
+<string name="title_full_screen_tasbeeh">Full Screen Tasbih</string>
+<string name="ans_ok">OK</string>
+<string name="title_backgrounds">Bildhintergrund</string>
+
+
+
+<string name="manual">Klick hier</string>
+<string name="lbl_date">Konvertieren</string>
+
+<string name="title_menu_ramdantime">Ramadan</string>
+<string name="title_lbl_prayer">Gebete</string>
+<string name="title_lbl_calendar">Kalender</string>
+<string name="title_lbl_duas">Duas</string>
+<string name="title_lbl_places">Halas</string>
+<string name="title_lbl_mosquee">Moschee</string>
+<string name="title_lbl_names">Namen</string>
+<string name="title_lbl_qibla">Qibla</string>
+<string name="title_lbl_popular">Verse</string>
+<string name="title_lbl_quran">Koran</string>
+<string name="title_lbl_shahadah">Shahadah</string>
+<string name="title_lbl_message">Nachrichten</string>
+<string name="title_lbl_tasbee">Tasbih</string>
+<string name="title_lbl_hadith">Hadith</string>
+<string name="title_lbl_pillar">Säulen</string>
+
+    <string name="rate_title">Mögen Sie unsere app?</string>
+    <string name="rate_text">Bitte gebe uns eine 5 Sterne-Bewertung, um uns zu unterstützen!</string>
+    <string name="no_thanks">Nein\ danke</string>
+    
+   
+    <string name="remind_me_later">Erinnere mich \n Später</string>
+    
+    <string name="rate_it_now">bewerte es\n jetzt</string>
+
+    <string name="toast_songisplaying">Song wird bereits abgespielt</string>
+<string name="toast_wait">Bitte warten ... wird geladen</string>
+<string name="toast_selectsong">Bitte Ayat zum Abspielen wählen</string>
+<string name="toast_compasschanged">Kompass geändert</string>
+<string name="toast_alarmdisabled">Alarm deaktiviert</string>
+<string name="toast_alarmenabled">Alarm aktiviert</string>
+<string name="toast_prayerhasbeenpassed">Das Gebet ist vorüber. Der Alarm wird für den nächsten Tag eingerichtet.</string>
+<string name="toast_tasbeereached">Erreicht</string>
+<string name="toast_notasbeeinlist">Kein Tasbeeh für Liste</string>
+<string name="toast_copiedtoclipboard">In Zwischenablage kopiert</string>
+<string name="toast_nomosquetolist">Keine Moschee für Liste</string>
+<string name="toast_cantgetlatIng">Breiten- und Längengrad können nicht abgerufen werden.</string>
+<string name="toast_entervalidletIng">Gültigen Breiten- und Längengrad eingeben</string>
+<string name="title_lbl_date">Datumsrechner</string>
+<string name="topbar_select_location">Wähle dein Land/deine Stadt</string>
+
+
+<string name="toast_alarmcanceled">Alarm deaktiviert</string>
+<string name="please_wait">Bitte warten ... wird geladen</string>
+    
+</resources>

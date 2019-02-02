@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="menu_ramdantime">Ramadan</string>
+ <string name="lbl_prayertimes_title">Rezos</string>
+
+<string name="lbl_prayer">Rezos</string>
+<string name="lbl_calendar">Calendario</string>
+<string name="lbl_duas">Súplicas</string>
+<string name="lbl_places">Halal</string>
+
+<string name="lbl_mosquee">Mezquita</string>
+<string name="lbl_names">Nombres</string>
+<string name="lbl_qibla">Quibla</string>
+<string name="lbl_popular">versos</string>
+<string name="lbl_quran">Corán</string>
+<string name="lbl_shahadah">Shahada</string>
+<string name="lbl_message">Mensajes</string>
+<string name="lbl_tasbee">Tasbih</string>
+<string name="settings">Ajustes</string>
+<string name="action_settings">Ajustes</string>
+<string name="send">Enviar</string>
+<string name="txtMessageBackgrond">Seleccione una imagen para compartir con el verso</string>
+
+<string name="topbar_your_location">Elige tu ubicación</string>
+ <string name="first_boot_message">Elige tu ubicación</string>
+
+  <string name="loading_halal_places">Cargando lugares halal</string>
+<string name="lbl_hadith">Hadiz</string>
+<string name="lbl_pillar">Pilares</string>
+<string name="degree">%s° Sentido de las agujas del reloj desde el norte</string>
+<string name="distance">Distancia desde La Meca</string>
+<string name="searching_mosques">Buscando mezquitas...</string>
+<string name="show_places_onmap">Mostrar lugares en mapa...</string>
+
+<string name="lbl_shahdah_txt2">Declaro que no hay más dios que Alá, y declaro que Mahoma es el mensajero de Alá.</string>
+
+<string name="manual">haga clic aquí</string>
+<string name="lbl_date">Convertir</string>
+
+<string name="title_full_screen_tasbeeh">Pantalla completa Tasbih</string>
+<string name="ans_ok">DE ACUERDO</string>
+<string name="title_backgrounds">latar belakang</string>
+
+
+<string name="title_menu_ramdantime">Ramadan</string>
+<string name="title_lbl_prayer">Rezos</string>
+<string name="title_lbl_calendar">Calendario</string>
+<string name="title_lbl_duas">Súplicas</string>
+<string name="title_lbl_places">Halal</string>
+<string name="title_lbl_mosquee">Mezquita</string>
+<string name="title_lbl_names">Nombres</string>
+<string name="title_lbl_qibla">Quibla</string>
+<string name="title_lbl_popular">versos</string>
+<string name="title_lbl_quran">Corán</string>
+<string name="title_lbl_shahadah">Shahada</string>
+<string name="title_lbl_message">Mensajes</string>
+<string name="title_lbl_tasbee">Tasbih</string>
+<string name="title_lbl_hadith">Hadiz</string>
+<string name="title_lbl_pillar">Pilares</string>
+
+   <string name="rate_title">¿Te gusta nuestra aplicación?</string>
+    <string name="rate_text">¡Por favor, danos 5 estrellas para ayudarnos!</string>
+    <string name="remind_me_later">RECORDARME\n MÁS TARDE</string>
+    <string name="no_thanks">No, gracias</string>
+    <string name="rate_it_now">CALIFÍCALA AHORA</string>
+  
+    <string name="toast_songisplaying">La canción ya se está reproduciendo</string>
+<string name="toast_wait">Cargando...</string>
+<string name="toast_selectsong">Selecciona una aleya para reproducirla</string>
+<string name="toast_compasschanged">La brújula ha cambiado</string>
+<string name="toast_alarmdisabled">Alarma desactivada</string>
+<string name="toast_alarmenabled">Alarma activada</string>
+<string name="toast_prayerhasbeenpassed">La oración ha pasado, la alarma se ha configurado para el día siguiente</string>
+<string name="toast_tasbeereached">Terminado</string>
+<string name="toast_notasbeeinlist">No hay tasbih para la lista</string>
+<string name="toast_copiedtoclipboard">Se ha copiado al portapapeles</string>
+<string name="toast_nomosquetolist">No hay mezquitas para la lista</string>
+<string name="toast_cantgetlatIng">No se puede obtener la latitud ni la longitud</string>
+<string name="toast_entervalidletIng">Introduce una latitud y longitud válidas</string>
+<string name="title_lbl_date">Conversor de fechas</string>
+<string name="topbar_select_location">Selecciona tu país/ciudad</string>
+
+
+<string name="toast_alarmcanceled">Alarma desactivada</string>
+<string name="please_wait">Cargando...</string>
+    
+</resources>

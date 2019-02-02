@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@+id/top_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <include android:id="@+id/toolbar" layout="@layout/tool_bar" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/time_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@+id/top_layout">
+        <include layout="@layout/activity_time" />
+    </LinearLayout>
+    <View android:orientation="horizontal" android:background="@color/gray" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="@dimen/shadow_width" android:layout_marginRight="@dimen/shadow_width" />
+    <GridView android:id="@+id/lv_gridview" android:scrollbars="none" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/shadow_width" android:layout_marginTop="@dimen/padding_main" android:layout_marginRight="@dimen/shadow_width" android:listSelector="@null" android:horizontalSpacing="@dimen/shadow_width" android:verticalSpacing="@dimen/shadow_width" android:stretchMode="columnWidth" android:numColumns="2" android:layout_above="@+id/bottom_layout" android:layout_below="@+id/time_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@+id/bottom_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/slider_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="12.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/img_slider_previous" android:paddingLeft="@dimen/text_padding" android:paddingRight="@dimen/text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/slider_previous" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/img_slider_next" android:paddingLeft="@dimen/text_padding" android:paddingRight="@dimen/text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/slider_next" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/ad_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/ad_layout" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

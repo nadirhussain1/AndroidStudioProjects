@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="menu_ramdantime">Ramadan</string>
+ <string name="lbl_prayertimes_title">Sholat</string>
+
+<string name="lbl_prayer">Sholat</string>
+<string name="lbl_calendar">Kalender</string>
+<string name="lbl_duas">Doa-doa</string>
+<string name="lbl_places">Halal</string>
+<string name="lbl_mosquee">Mesjid</string>
+<string name="lbl_names">Nama</string>
+<string name="lbl_qibla">Kiblat</string>
+<string name="lbl_popular">Ayat</string>
+<string name="lbl_quran">Al-Quran</string>
+<string name="lbl_shahadah">Syahadat</string>
+<string name="lbl_message">Pesan</string>
+<string name="lbl_tasbee">Tasbih</string>
+<string name="settings">Pengaturan</string>
+<string name="action_settings">Pengaturan</string>
+<string name="send">Kirim</string>
+<string name="txtMessageBackgrond">Pilih gambar untuk disertakan dengan ayat yang dibagikan</string>
+
+<string name="topbar_your_location">Pilih Lokasi Anda</string>
+ <string name="first_boot_message">Pilih Lokasi Anda</string>
+
+  <string name="loading_halal_places">Memuat Tempat-Tempat Halal</string>
+<string name="lbl_hadith">Hadis</string>
+<string name="lbl_pillar">Pilar</string>
+<string name="degree">%s° Searah Jarum Jam dari Utara</string>
+<string name="distance">Jarak dari Mekah</string>
+<string name="searching_mosques">Mencari Masjid...</string>
+<string name="show_places_onmap">Tampilkan Tempat di Peta...</string>
+<string name="lbl_shahdah_txt2">Saya bersaksi bahwa tiada Tuhan selain Allah; dan saya bersaksi bahwa Muhammad adalah Rasul (utusan) Allah.</string>
+
+<string name="manual">Klik disini</string>
+<string name="lbl_date">Mengubah</string>
+
+<string name="title_full_screen_tasbeeh">Full Screen Tasbih</string>
+<string name="ans_ok">baik</string>
+<string name="title_backgrounds">latar belakang</string>
+
+
+<string name="title_menu_ramdantime">Ramadan</string>
+<string name="title_lbl_prayer">Sholat</string>
+<string name="title_lbl_calendar">Kalender</string>
+<string name="title_lbl_duas">Doa-doa</string>
+<string name="title_lbl_places">Halal</string>
+<string name="title_lbl_mosquee">Mesjid</string>
+<string name="title_lbl_names">Nama</string>
+<string name="title_lbl_qibla">Kiblat</string>
+<string name="title_lbl_popular">Ayat</string>
+<string name="title_lbl_quran">Al-Quran</string>
+<string name="title_lbl_shahadah">Syahadat</string>
+<string name="title_lbl_message">Pesan</string>
+<string name="title_lbl_tasbee">Tasbih</string>
+<string name="title_lbl_hadith">Hadis</string>
+<string name="title_lbl_pillar">Pilar</string>
+
+   <string name="rate_title">Anda menyukai aplikasi kami?</string>
+    
+    <string name="rate_text">Beri kami nilai 5 bintang untuk mendukung kami!</string>
+    <string name="no_thanks">TIDAK\nTERIMA KASIH</string>
+    
+    <string name="remind_me_later">INGATKAN \nSAYA NANTI</string>
+  
+    <string name="rate_it_now">BERI PERINGKAT\nSEKARANG</string>
+
+<string name="toast_songisplaying">Lagu Sedang Diputar</string>
+<string name="toast_wait">Tunggu...sedang memuat</string>
+<string name="toast_selectsong">Pilih Ayat untuk diputar</string>
+<string name="toast_compasschanged">Kompas Berubah</string>
+<string name="toast_alarmdisabled">Alarm Dinonaktifkan</string>
+<string name="toast_alarmenabled">Alarm Diaktifkan</string>
+<string name="toast_prayerhasbeenpassed">Waktu sembahyang lewat, Alarm diatur ke Hari Berikutnya.</string>
+<string name="toast_tasbeereached">Tercapai</string>
+<string name="toast_notasbeeinlist">Tidak ada Tasbih dalam Daftar</string>
+<string name="toast_copiedtoclipboard">Disalin ke clipboard</string>
+<string name="toast_nomosquetolist">Tidak ada Masjid dalam Daftar</string>
+<string name="toast_cantgetlatIng">Garis bujur, lintang tidak diperoleh</string>
+<string name="toast_entervalidletIng">Masukkan Garis Bujur and Lintang yang Valid</string>
+<string name="title_lbl_date">Konverter Tanggal</string>
+<string name="topbar_select_location">Pilih Negara/Kota</string>
+
+
+<string name="toast_alarmcanceled">Alarm Dinonaktifkan</string>
+<string name="please_wait">Tunggu...sedang memuat</string>
+    
+</resources>

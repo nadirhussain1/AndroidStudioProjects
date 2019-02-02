@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@+id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Tasbeeh here" android:imeOptions="actionNext" />
+    <EditText android:id="@+id/Describtion" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Tasbeeh Detail here" android:imeOptions="actionNext" />
+    <EditText android:id="@+id/countno" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Counting here" android:inputType="number" android:imeOptions="actionGo" />
+</LinearLayout>

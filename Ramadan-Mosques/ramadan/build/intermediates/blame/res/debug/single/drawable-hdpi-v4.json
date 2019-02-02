@@ -1,0 +1,1430 @@
+[
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/alarm_240.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/alarm_240.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/asar_icon_disabled.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/asar_icon_disabled.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_twitter.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_twitter.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/sunset_icon.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/sunset_icon.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/compass10.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/compass10.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_replay_30_white_24.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_replay_30_white_24.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/shadah.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/shadah.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle2_thumb.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle2_thumb.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_compass.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_compass.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/shadahhover.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/shadahhover.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/alarm_active_240.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/alarm_active_240.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_mosque_finer_selected.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_mosque_finer_selected.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_qibla.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_qibla.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle11_thumb.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle11_thumb.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/mobvista_wall_img_back.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/mobvista_wall_img_back.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_skip_next_grey600_36.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_skip_next_grey600_36.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_cast_on_2_light.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-hdpi/ic_cast_on_2_light.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/fastinghover.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/fastinghover.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_skip_previous_white_24.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_skip_previous_white_24.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_pause_circle_filled_grey600_36.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_pause_circle_filled_grey600_36.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/play1.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/play1.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/compass12.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/compass12.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle5.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle5.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle8_thumb.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle8_thumb.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_refresh_white_24.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_refresh_white_24.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_alarm_normal.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_alarm_normal.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle11.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle11.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_play_arrow_grey600_48.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_play_arrow_grey600_48.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg_main.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/bg_main.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/compass2.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/compass2.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_replay_30_white_36.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_replay_30_white_36.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_add.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_add.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_plusone_medium_off_client.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.4.0/res/drawable-hdpi-v4/ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/mobvista_wall_shuffle_close.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/mobvista_wall_shuffle_close.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/isha_icon.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/isha_icon.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_black_16dp.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/mobvista_wall_star_nor.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/mobvista_wall_star_nor.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_feedback.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_feedback.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/fasting_end.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/fasting_end.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_facebook.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_facebook.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/compass4.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/compass4.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_counter.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_counter.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_quran_selected.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_quran_selected.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_settings.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_settings.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_plus_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_reset.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_reset.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/mobvista_wall_star_sel.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/mobvista_wall_star_sel.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle9_thumb.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle9_thumb.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/asar_icon.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/asar_icon.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_play_clicked1.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_play_clicked1.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_media_route_on_1_mono_dark.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-hdpi/ic_media_route_on_1_mono_dark.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/mark_blue.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/mark_blue.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_cast_white_36.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_cast_white_36.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_volume_mute_white_36.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_volume_mute_white_36.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_play_arrow_grey600_36.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_play_arrow_grey600_36.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/maghrib_icon_disabled.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/maghrib_icon_disabled.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/tick_clicked.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/tick_clicked.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/slider_next.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/slider_next.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/counter_bg.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/counter_bg.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_popular.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_popular.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_close.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_close.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle3.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle3.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/slider_previous1.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/slider_previous1.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_cast_on_light.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-hdpi/ic_cast_on_light.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/mobvista_wall_bg_title.jpg",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/mobvista_wall_bg_title.jpg"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_plus_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/places_ic_search.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.4.0/res/drawable-hdpi-v4/places_ic_search.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_date_converter.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_date_converter.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_keyboard_arrow_down_white_36.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_keyboard_arrow_down_white_36.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_plus_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_calendar.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_calendar.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/alarm_icon_clicked.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/alarm_icon_clicked.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/salahhover.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/salahhover.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/mobvista_wall_shuffle_center_bg.jpg",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/mobvista_wall_shuffle_center_bg.jpg"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/mobvista_wall_down.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/mobvista_wall_down.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_drawer.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_drawer.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/namaz.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/namaz.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/compass7.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/compass7.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_forward_30_white_36.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_forward_30_white_36.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_media_route_on_0_mono_dark.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-hdpi/ic_media_route_on_0_mono_dark.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_clear_white_24.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_clear_white_24.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_black_48dp.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_light_normal.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_plus_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_cast_light.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-hdpi/ic_cast_light.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/compass6.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/compass6.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_prayer_time.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_prayer_time.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_closed_caption_white_36.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_closed_caption_white_36.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_settings_selected.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_settings_selected.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/shorook_icon.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/shorook_icon.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_message_selected.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_message_selected.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_dark_focused.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle1_thumb.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle1_thumb.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/compass.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/compass.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle10_thumb.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle10_thumb.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_fasting_end.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_fasting_end.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/tick.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/tick.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/compass14.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/compass14.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_date_converter_selected.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_date_converter_selected.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_back_1.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_back_1.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/zuher_icon.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/zuher_icon.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_fasting_start.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_fasting_start.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_plus_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/mobvista_wall_white_shadow.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/mobvista_wall_white_shadow.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_cast_on_1_light.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-hdpi/ic_cast_on_1_light.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_plusone_tall_off_client.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.4.0/res/drawable-hdpi-v4/ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_light_normal.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/compass5.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/compass5.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_play_circle_filled_white_36.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_play_circle_filled_white_36.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle7_thumb.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle7_thumb.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/language_icon.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/language_icon.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/manual_clicked.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/manual_clicked.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/calendar_next_arrow1.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/calendar_next_arrow1.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/mobvista_wall_bg_pager_title_sel.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/mobvista_wall_bg_pager_title_sel.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_pause_white_24.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_pause_white_24.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/splash.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/splash.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle12_thumb.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle12_thumb.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/maghrib_icon.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/maghrib_icon.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_skip_previous_white_36.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_skip_previous_white_36.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/bg.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_alpha.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/mark_red.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/mark_red.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/seekbar.xml",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/seekbar.xml"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/calendar_prev_arrow1.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/calendar_prev_arrow1.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/fajar_icon.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/fajar_icon.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/isha_icon_disabled.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/isha_icon_disabled.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_light_focused.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_calendar_selected.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_calendar_selected.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/mobvista_wall_img_logo.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/mobvista_wall_img_logo.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_os_notification_fallback_white_24dp.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.onesignal/OneSignal/3.1.0/res/drawable-hdpi-v4/ic_os_notification_fallback_white_24dp.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_popular_selected.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_popular_selected.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_ramadan_prayer.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_ramadan_prayer.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/calendar_prev_arrow.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/calendar_prev_arrow.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle10.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle10.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/fasting_upd.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/fasting_upd.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_alarm_clicked.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_alarm_clicked.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle14_thumb.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle14_thumb.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_closed_caption_grey600_36.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_closed_caption_grey600_36.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/slider_next1.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/slider_next1.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_play.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_play.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_plus_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/default_compass.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/default_compass.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle3_thumb.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle3_thumb.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_setting_light.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-hdpi/ic_setting_light.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_tasbeeh_counter_selected.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_tasbeeh_counter_selected.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/shahdah.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/shahdah.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_quran.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_quran.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_full_screen.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_full_screen.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/compass1.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/compass1.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle4.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle4.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_play_dark.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-hdpi/ic_play_dark.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_light_focused.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_skip_next_white_36.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_skip_next_white_36.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle12.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle12.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/seek_handler.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/seek_handler.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_stop_grey600_48.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_stop_grey600_48.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/zakat.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/zakat.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/shorook_icon_disabled.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/shorook_icon_disabled.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_duas.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_duas.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_ramadan_times_selected.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_ramadan_times_selected.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/list_view_bg.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/list_view_bg.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/hajj_upd.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/hajj_upd.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_action_refresh_dark.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_action_refresh_dark.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/midnight_icon.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/midnight_icon.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle5_thumb.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle5_thumb.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_pause_grey600_36.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_pause_grey600_36.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/mobvista_wall_install_download.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/mobvista_wall_install_download.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/stop_alarm.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/stop_alarm.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_setting_dark.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-hdpi/ic_setting_dark.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_about.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_about.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_halal_selected.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_halal_selected.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/compass11.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/compass11.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_compass_selected.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_compass_selected.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_pause_dark.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-hdpi/ic_pause_dark.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_play_circle_filled_grey600_36.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_play_circle_filled_grey600_36.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/manual.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/manual.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_back.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_back.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_alpha.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/play_clicked1.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/play_clicked1.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/cast_ic_notification_on.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.4.0/res/drawable-hdpi-v4/cast_ic_notification_on.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_replay_white_24.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_replay_white_24.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle14.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle14.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/powered_by_google_dark.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.4.0/res/drawable-hdpi-v4/powered_by_google_dark.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_decreament.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_decreament.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_prayertimes.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_prayertimes.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_ramadan_times.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_ramadan_times.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle2.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle2.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_volume_off_grey600_36.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_volume_off_grey600_36.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/fasting_start.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/fasting_start.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_prayer_time_selected.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_prayer_time_selected.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/play.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/play.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/slider_previous.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/slider_previous.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_tasbeeh_counter.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_tasbeeh_counter.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/shadah_upd.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/shadah_upd.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/compass13.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/compass13.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/alarm_icon.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/alarm_icon.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_pause_grey600_48.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_pause_grey600_48.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_light_pressed.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_forward_30_grey600_36.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_forward_30_grey600_36.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_plusone_small_off_client.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.4.0/res/drawable-hdpi-v4/ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_media_route_disabled_mono_dark.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-hdpi/ic_media_route_disabled_mono_dark.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_question.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_question.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_stop_grey600_36.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_stop_grey600_36.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/salah.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/salah.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_forward_30_white_24.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_forward_30_white_24.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/calendar_next_arrow.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/calendar_next_arrow.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/stop_alarm_clicked.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/stop_alarm_clicked.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_pillar_selected.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_pillar_selected.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/sunrise_icon_disabled.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/sunrise_icon_disabled.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_replay_10_white_24.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_replay_10_white_24.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/btn_pause.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/btn_pause.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_names_selected.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_names_selected.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_volume_off_white_36.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_volume_off_white_36.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_cast_dark.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-hdpi/ic_cast_dark.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_skip_previous_grey600_36.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_skip_previous_grey600_36.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_fasting_middle.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_fasting_middle.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/mobvista_wall_img_line_title.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/mobvista_wall_img_line_title.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_media_pause.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-hdpi/ic_media_pause.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/powered_by_google_light.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.4.0/res/drawable-hdpi-v4/powered_by_google_light.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_delete.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_delete.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_pillar.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_pillar.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_forward_10_white_24.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_forward_10_white_24.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/automatic.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/automatic.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_skip_next_white_24.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_skip_next_white_24.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/fajar_icon_disabled.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/fajar_icon_disabled.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_media_play.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-hdpi/ic_media_play.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_more.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_more.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_shahadah.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_shahadah.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle6.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle6.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/top_bar_name.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/top_bar_name.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_cast_disabled_light.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-hdpi/ic_cast_disabled_light.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_ic_googleplayservices.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_prayer.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_prayer.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/about_image.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/about_image.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_plus_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_home.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_home.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_comp_theme.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_comp_theme.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_rate.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_rate.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_stop_white_24.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_stop_white_24.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_names.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_names.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_full_open_on_phone.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_full_open_on_phone.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_volume_mute_grey600_36.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_volume_mute_grey600_36.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/cast_ic_notification_2.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.4.0/res/drawable-hdpi-v4/cast_ic_notification_2.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/places_ic_clear.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.4.0/res/drawable-hdpi-v4/places_ic_clear.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/fasting.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/fasting.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_light_focused.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_google_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_mosque_finer.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_mosque_finer.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/sunrise_icon.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/sunrise_icon.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/hajjhover.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/hajjhover.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_pause_light.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-hdpi/ic_pause_light.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_play_arrow_white_24.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_play_arrow_white_24.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_light_disabled.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle8.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle8.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_message.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_message.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_art_track_grey600_48.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_art_track_grey600_48.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_alpha.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/shahdahhover.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/shahdahhover.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/midnight_icon_disabled.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/midnight_icon_disabled.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/cast_ic_notification_0.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.4.0/res/drawable-hdpi-v4/cast_ic_notification_0.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/hajj.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/hajj.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_plus_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/play_clicked.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/play_clicked.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/sunset_icon_disabled.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/sunset_icon_disabled.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/compass8.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/compass8.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_plus_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_plusone_standard_off_client.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.4.0/res/drawable-hdpi-v4/ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_focused_holo.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_cast_on_0_light.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-hdpi/ic_cast_on_0_light.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_halal.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_halal.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle6_thumb.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle6_thumb.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle7.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle7.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_cast_connected_white_24.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_cast_connected_white_24.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_media_route_off_mono_dark.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-hdpi/ic_media_route_off_mono_dark.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_play_clicked.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_play_clicked.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_hadith.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_hadith.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_plus_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_cast_off_light.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-hdpi/ic_cast_off_light.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_share.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_share.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/zakat_upd.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/zakat_upd.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_black_36dp.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_prayertimes_selected.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_prayertimes_selected.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/compass9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/compass9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_replay_30_grey600_36.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_replay_30_grey600_36.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/mobvista_wall_shuffle_refurbish.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/mobvista_wall_shuffle_refurbish.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/compass3.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/compass3.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/btn_play.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/btn_play.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle1.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle1.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_media_route_on_2_mono_dark.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-hdpi/ic_media_route_on_2_mono_dark.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle13.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle13.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/mobvista_wall_new_tip.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/mobvista_wall_new_tip.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_duas_clicked.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_duas_clicked.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_media_route_on_mono_dark.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-hdpi/ic_media_route_on_mono_dark.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/salah_upd.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/salah_upd.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle4_thumb.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle4_thumb.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/automatic_clicked.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/automatic_clicked.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/zuher_icon_disabled.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/zuher_icon_disabled.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/cast_ic_notification_1.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.4.0/res/drawable-hdpi-v4/cast_ic_notification_1.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_hadith_selected.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_hadith_selected.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_shahadah_selected.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/ic_shahadah_selected.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/zakathover.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/zakathover.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/needle13_thumb.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/src/main/res/drawable-hdpi/needle13_thumb.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_longpressed_holo.9.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_play_light.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-hdpi/ic_play_light.png"
+    },
+    {
+        "merged": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_pause_circle_filled_white_36.png",
+        "source": "/Users/nadirhussain/Downloads/Ramadan/ramadan/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-hdpi-v4/quantum_ic_pause_circle_filled_white_36.png"
+    }
+]

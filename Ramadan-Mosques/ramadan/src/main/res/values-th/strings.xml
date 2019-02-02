@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="menu_ramdantime">รอมฎอน</string>
+ <string name="lbl_prayertimes_title">ละหมาด</string>
+
+<string name="lbl_prayer">ละหมาด</string>
+<string name="lbl_calendar"></string>
+<string name="lbl_duas">ปฏิทิน</string>
+<string name="lbl_places">ฮาลาล</string>
+<string name="lbl_mosquee">มัสยิด</string>
+<string name="lbl_names">พระนาม</string>
+<string name="lbl_qibla">กิบลัต</string>
+<string name="lbl_popular">โองการ</string>
+<string name="lbl_quran">กุรอาน</string>
+<string name="lbl_shahadah">ชะฮาดะฮฺ</string>
+<string name="lbl_message">ข้อความ</string>
+<string name="lbl_tasbee">อธิษฐานจิตภาวนา</string>
+<string name="settings">การตั้งค่า</string>
+<string name="action_settings">การตั้งค่า</string>
+<string name="send">ส่ง</string>
+<string name="txtMessageBackgrond">เลือกภาพที่แชร์โองการด้วย</string>
+
+<string name="topbar_your_location">เลือกตำแหน่งของท่าน</string>
+ <string name="first_boot_message">เลือกตำแหน่งของท่าน</string>
+
+  <string name="loading_halal_places">กำลังโหลดสถานที่ฮาลาล</string>
+<string name="lbl_hadith">หะดีษ</string>
+<string name="lbl_pillar">เสาหลัก</string>
+<string name="degree">%s° ตามเข็มนาฬิกาจากทิศเหนือ</string>
+<string name="distance">ระยะห่างจากนครมักกะฮ์</string>
+<string name="searching_mosques">กำลังค้นหามัสยิด...</string>
+<string name="show_places_onmap">แสดงสถานที่ในแผนที่...</string>
+<string name="lbl_shahdah_txt2">ข้าพเจ้าขอประกาศว่าไม่มีพระเจ้าใดควรแก่การบูชายกเว้นพระอัลเลาะห์ และขอประกาศว่านบีมูฮัมหมัดเป็นศาสนทูตของพระองค์</string>
+
+<string name="manual">คลิกที่นี่</string>
+<string name="lbl_date">แปลง</string>
+
+<string name="title_full_screen_tasbeeh">เต็มหน้าจอ</string>
+<string name="ans_ok">ตกลง</string>
+<string name="title_backgrounds">ภูมิหลัง</string>
+
+
+<string name="title_menu_ramdantime">รอมฎอน</string>
+<string name="title_lbl_prayer">ละหมาด</string>
+<string name="title_lbl_calendar"></string>
+<string name="title_lbl_duas">ปฏิทิน</string>
+<string name="title_lbl_places">ฮาลาล</string>
+<string name="title_lbl_mosquee">มัสยิด</string>
+<string name="title_lbl_names">พระนาม</string>
+<string name="title_lbl_qibla">กิบลัต</string>
+<string name="title_lbl_popular">โองการ</string>
+<string name="title_lbl_quran">กุรอาน</string>
+<string name="title_lbl_shahadah">ชะฮาดะฮฺ</string>
+<string name="title_lbl_message">ข้อความ</string>
+<string name="title_lbl_tasbee">อธิษฐานจิตภาวนา</string>
+<string name="title_lbl_hadith">หะดีษ</string>
+<string name="title_lbl_pillar">เสาหลัก</string>
+
+  <string name="rate_title">คุณชอบแอพพลิเคชั่นของเราหรือไม่</string>
+    
+        <string name="rate_text">กรุณาให้เรา 5 ดาวเพื่อเป็นการสนับสนุนเรา!</string>
+    <string name="no_thanks">ไม่\nขอบคุณ</string>
+    
+    <string name="remind_me_later">เตือนฉันใหม่ภายหลัง</string>
+   
+    <string name="rate_it_now">ให้คะแนนเลย</string>
+    
+    <string name="toast_songisplaying">เพลงกำลังเล่นอยู่</string>
+<string name="toast_wait">กรุณารอ…กำลังโหลด</string>
+<string name="toast_selectsong">กรุณาเลือกอายะฮ์ที่ต้องการเล่น</string>
+<string name="toast_compasschanged">เปลี่ยนเข็มทิศแล้ว</string>
+<string name="toast_alarmdisabled">ปิดนาฬิกาปลุกแล้ว</string>
+<string name="toast_alarmenabled">เปิดนาฬิกาปลุกแล้ว</string>
+<string name="toast_prayerhasbeenpassed">บทสวดผ่านไปแล้ว ตั้งนาฬิกาปลุกสำหรับวันถัดไปแล้ว</string>
+<string name="toast_tasbeereached">ถึงแล้ว</string>
+<string name="toast_notasbeeinlist">ไม่มีตัสบีห์ให้แสดง</string>
+<string name="toast_copiedtoclipboard">คัดลอกไปยังคลิปบอร์ดแล้ว</string>
+<string name="toast_nomosquetolist">ไม่มีมัสยิดให้แสดง</string>
+<string name="toast_cantgetlatIng">ไม่สามารถรับพิกัดได้</string>
+<string name="toast_entervalidletIng">กรอกละติจูดและลองจิจูดที่ถูกต้อง</string>
+<string name="title_lbl_date">แปลงวันที่</string>
+<string name="topbar_select_location">เลือกประเทศและเมืองของคุณ</string>
+
+
+<string name="toast_alarmcanceled">ปิดนาฬิกาปลุกแล้ว</string>
+<string name="please_wait">กรุณารอ…กำลังโหลด</string>
+    
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="5.0dip">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_menu"
+        android:layout_marginRight="@dimen/padding_menu"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green"
+            android:textSize="20.0sp"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/grid_padding"
+            android:textColor="@color/green"
+            android:textSize="20.0sp"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/tv_count"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/grid_padding"
+            android:textColor="@color/green"
+            android:textSize="18.0sp"
+            android:typeface="serif"
+            android:visibility="gone" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

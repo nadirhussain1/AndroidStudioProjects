@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="menu_ramdantime">Ramadã</string>
+ <string name="lbl_prayertimes_title">Orações</string>
+
+<string name="lbl_prayer">Orações</string>
+<string name="lbl_calendar">Calendário</string>
+<string name="lbl_duas">Duas</string>
+<string name="lbl_places">Halal</string>
+<string name="lbl_mosquee">Mesquitas</string>
+<string name="lbl_names">Nomes</string>
+<string name="lbl_qibla">Qibla</string>
+<string name="lbl_popular">Versos</string>
+<string name="lbl_quran">Alcorão</string>
+<string name="lbl_shahadah">Shahadah</string>
+<string name="lbl_message">Mensagens</string>
+<string name="lbl_tasbee">Tasbih</string>
+<string name="settings">Ajustes</string>
+<string name="action_settings">Ajustes</string>
+<string name="send">Enviar</string>
+<string name="txtMessageBackgrond">Selecione uma imagem para compartilhar o verso com ela</string>
+
+<string name="topbar_your_location">Escolha Sua Localização</string>
+ <string name="first_boot_message">Escolha Sua Localização</string>
+
+  <string name="loading_halal_places">Carregando Lugares de Halal</string>
+<string name="lbl_hadith">Hadith</string>
+<string name="lbl_pillar">Pilares</string>
+<string name="degree">%s° Sentido Horário do Norte</string>
+<string name="distance">Distância Da Meca</string>
+<string name="searching_mosques">Procurando Mesquitas...</string>
+<string name="show_places_onmap">Mostrar Lugares no Mapa...</string>
+<string name="lbl_shahdah_txt2">Declaro que não há divindade digna de louvor exceto Alá, e declaro que Maomé é o Mensageiro de Alá.</string>
+
+<string name="manual">Clique aqui</string>
+<string name="lbl_date"></string>
+
+<string name="title_full_screen_tasbeeh"></string>
+<string name="ans_ok">Está bem</string>
+<string name="title_backgrounds">Fundos</string>
+
+
+<string name="title_menu_ramdantime">Ramadã</string>
+<string name="title_lbl_prayer">Orações</string>
+<string name="title_lbl_calendar">Calendário</string>
+<string name="title_lbl_duas">Duas</string>
+<string name="title_lbl_places">Halal</string>
+<string name="title_lbl_mosquee">Mesquitas</string>
+<string name="title_lbl_names">Nomes</string>
+<string name="title_lbl_qibla">Qibla</string>
+<string name="title_lbl_popular">Versos</string>
+<string name="title_lbl_quran">Alcorão</string>
+<string name="title_lbl_shahadah">Shahadah</string>
+<string name="title_lbl_message">Mensagens</string>
+<string name="title_lbl_tasbee">Tasbih</string>
+<string name="title_lbl_hadith">Hadith</string>
+<string name="title_lbl_pillar">Pilares</string>
+
+   <string name="rate_title">Gosta da nossa aplicação?</string>
+    <string name="rate_text">Dê 5 estrelas para ajudar-nos!</string>
+    <string name="remind_me_later">LEMBRAR-ME\nMAIS TARDE</string>
+    <string name="no_thanks">NÃO,\nOBRIGADO</string>
+    <string name="rate_it_now">AVALIAR\nAGORA</string>
+
+    <string name="toast_songisplaying">A música já está tocando</string>
+<string name="toast_wait">Por favor, aguarde... carregando</string>
+<string name="toast_selectsong">Por favor, selecione Ayat para reproduzir</string>
+<string name="toast_compasschanged">Compasso alterado</string>
+<string name="toast_alarmdisabled">Alarme desativado</string>
+<string name="toast_alarmenabled">Alarme ativado</string>
+<string name="toast_prayerhasbeenpassed">A oração foi encaminhada, o alarme foi definido para o dia seguinte</string>
+<string name="toast_tasbeereached">Alcançado</string>
+<string name="toast_notasbeeinlist">Sem Tasbeeh na lista</string>
+<string name="toast_copiedtoclipboard">Copiado para a área de transferência</string>
+<string name="toast_nomosquetolist">Nenhuma mesquita na lista</string>
+<string name="toast_cantgetlatIng">Não é possível obter a lat, long</string>
+<string name="toast_entervalidletIng">Digite latitude e longitude válidas</string>
+<string name="title_lbl_date">Conversor de data</string>
+<string name="topbar_select_location">Selecione seu país / cidade</string>
+
+
+<string name="toast_alarmcanceled">Alarme desativado</string>
+<string name="please_wait">Por favor, aguarde... carregando</string>
+    
+</resources>

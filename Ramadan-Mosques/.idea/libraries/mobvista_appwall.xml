@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mobvista_appwall">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ramadan/libs/mobvista_appwall.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

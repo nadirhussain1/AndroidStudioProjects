@@ -1,0 +1,22 @@
+ * You will see Eleven Features in App after Splash Screen.
+
+ * You can see Navigation drawer in main screen top left corner. Following Features are available:
+
+ * Select Qibla Themes from 15 different Qibla Dials as per your liking.
+
+ * You can download a lot of other islamic apps developed by AppSourceHub by selecting “More Apps” option.
+
+ * If you like this app then please do rate app by selecting “Rate App” option.
+
+ * Share your app experience with your relatives & friends on different social networks by using “Share App” option.
+
+ * Give your feedback to improve the app by selecting “Feedback: option.
+
+ * Follow us on Facebook and Twitter for latest news about our apps.
+
+ * Select Settings tab right side of Main Screen to change your location, alarm tone, Time format 12/24, Prayer calculation methods, Daylight saving, Font sizes etc.
+
+ * Tab on prayer time center to enter Daylight savings, Tab on Alarm icon to set Alarm.
+
+ * You can choose your current location or set any location manually from settings.
+

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/backButtonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="180px"
+        android:background="@android:color/black"
+        >
+
+        <ImageView
+            android:layout_width="128px"
+            android:layout_height="128px"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20px"
+            android:background="@drawable/white_back_arrow"/>
+
+        <View
+            android:id="@+id/backClickArea"
+            android:layout_width="180px"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:maxLines="1"
+            android:text="Help"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/backClickArea"
+            android:layout_marginLeft="50px"
+            android:textColor="@android:color/white"
+            />
+
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/loadingBar"
+        style="@android:style/Widget.Holo.Light.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/backButtonLayout"
+        android:layout_marginTop="-16px"
+        />
+
+    <RelativeLayout
+        android:id="@+id/contentsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/loadingBar">
+
+        <WebView
+            android:id="@+id/helpDetailWebView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            >
+        </WebView>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/helpContentsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            >
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/errorTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Something went wrong \nTry again later"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="muslim.prayers.time"
+    android:versionCode="8"
+    android:versionName="3.4">
+
+    <uses-sdk
+        android:maxSdkVersion="23"
+        android:minSdkVersion="14" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <!-- These permissions are strongly recommended and will result in higher performance -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.prayertimes.qibla.appsourcehub.activity.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppLTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBytpaJqmYYBGFEM9zwOV6DyXLbeYdzOAY" />
+
+        <activity
+            android:name="com.facebook.ads.InterstitialAdActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.ActivityNamesList"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.ActivityAbout"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.ActivityLatLng"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.ActivityInstruction"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.ActivityNames"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.ActivitySearch"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.ActivitySettings"
+            android:label="@string/settings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.ActivityMain"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.FragmentHome"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.FragmentPrayer"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.FragmentCalender"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.ActivityLocation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.ActivityMessages"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.MessageBackgroungActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.MessageSendActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.HalalPlaceActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.OpenHalalPlaceActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <!-- mobvista start -->
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.mobvista.HandlerActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name="com.mobvista.msdk.shell.MVActivity"
+            android:configChanges="keyboard|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.mobvista.msdk.shell.MVService">
+            <intent-filter>
+                <action android:name="com.mobvista.msdk.download.action" />
+            </intent-filter>
+        </service>
+
+        <!-- mobvista End -->
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.ActivitySplash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.QuranActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.IndividualChapter"
+            android:label="@string/title_activity_individual_chapter" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.IndividualChpater"
+            android:label="@string/title_activity_individual_chpater" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.ActivityThemes"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.fivepillars.FivePillarsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.ActivityAlarm"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.MapActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.PrayerTimesActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.PlacesMapActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.TasbeeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.FullscreenActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.ListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.DateConverter"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.ActivityDuas"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.ActivityQibla"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.ActivityHadith"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.ActivityCalender"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.ShahadahActivity"
+            android:label="@string/lbl_shahadah" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.ActivityMessageList"
+            android:label="@string/lbl_message" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.PlaceActivity"
+            android:label="@string/lbl_places" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.PopularActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.PopularDetailActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.PopularSendActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.PopularSurasBackgroungActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            tools:replace="android:configChanges" />
+
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            tools:replace="android:configChanges" />
+
+        <receiver android:name="com.prayertimes.qibla.appsourcehub.receiver.AlarmReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.prayertimes.qibla.appsourcehub.receiver.NotificationReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.prayertimes.qibla.appsourcehub.support.AppLocationService" />
+        <service
+            android:name="com.prayertimes.qibla.appsourcehub.activity.RateService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.fivepillars.Shahadah"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.fivepillars.Shahadahfrag"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.fivepillars.ShahadahFragment"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.fivepillars.SalahFragment"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.fivepillars.ZakatFragment"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.fivepillars.PagerActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.fivepillars.Salah"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.fivepillars.Zakat"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.fivepillars.Zakatfrag"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.fivepillars.PillarsListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.fivepillars.Fastingfrag"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.fivepillars.FastingFragment"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.fivepillars.HajiFragment"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.fivepillars.Hajj"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.fivepillars.Hajjfrag"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prayertimes.qibla.appsourcehub.activity.ActivityPlaceLocation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+
+        //// Ads Integration///
+
+        <activity
+            android:name="com.mopub.mobileads.MoPubActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.mopub.mobileads.MraidActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.mopub.common.MoPubBrowser"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.mopub.mobileads.MraidVideoPlayerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+    </application>
+
+</manifest>

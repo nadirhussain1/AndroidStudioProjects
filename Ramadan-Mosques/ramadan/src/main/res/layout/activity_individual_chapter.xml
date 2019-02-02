@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@+id/top_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <include android:id="@+id/toolbar" layout="@layout/tool_bar" />
+    </LinearLayout>
+    <ListView android:id="@+id/single_chapter_list" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@+id/ad_layout" android:layout_below="@+id/top_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@+id/ad_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="vertical" android:background="#ff27ae60" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/white" android:id="@+id/txt_songname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_songname" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/btn_play" android:layout_width="wrap_content" android:layout_height="40.0dip" android:src="@drawable/btn_play" />
+                <ImageView android:id="@+id/btn_pause" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="40.0dip" android:src="@drawable/btn_pause" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_top">
+                <TextView android:textColor="@color/white" android:id="@+id/txt_totaltime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/lbl_time" />
+                <SeekBar android:id="@+id/seekBar1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" android:maxHeight="2.0dip" android:progressDrawable="@drawable/seekbar" android:minWidth="2.0dip" android:thumb="@drawable/seek_handler" android:thumbOffset="8.0dip" android:layout_weight="1.0" />
+                <TextView android:textColor="@color/white" android:id="@+id/txt_curenttime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/lbl_time" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/ad1_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <include layout="@layout/ad_layout" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

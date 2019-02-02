@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:com.prayertimesandqiblapro="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_market"
+        android:icon="@drawable/gift_1"
+        android:title="@string/Market"
+        com.prayertimesandqiblapro:showAsAction="always"/>
+    
+    <item
+        android:id="@+id/action_setting"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/action_settings"
+        com.prayertimesandqiblapro:showAsAction="always"/>
+</menu>

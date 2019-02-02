@@ -1,0 +1,315 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            class="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+
+        <RelativeLayout
+            android:id="@+id/requestActionslayout"
+            android:layout_width="wrap_content"
+            android:layout_height="200px"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30px"
+            android:background="@android:color/white"
+            android:visibility="invisible">
+
+            <Button
+                android:id="@+id/startButton"
+                android:layout_width="500px"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#88000000"
+                android:text="Start"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="22dp"/>
+
+            <View
+                android:id="@+id/div"
+                android:layout_width="10px"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/startButton"
+                />
+
+            <Button
+                android:id="@+id/cancelButton"
+                android:layout_width="500px"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/div"
+                android:background="#88000000"
+                android:text="Cancel"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="22dp"
+                />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="invisible"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/completeRideButton"
+            android:layout_width="950px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30px"
+            android:background="#88000000"
+            android:text="Complete Ride"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="22dp"
+            android:visibility="invisible"/>
+
+        <ProgressBar
+            android:id="@+id/centralProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"/>
+
+        <RelativeLayout
+            android:id="@+id/completeRideInfoLayout"
+            android:layout_width="950px"
+            android:layout_height="600px"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30px"
+            android:background="@android:color/white"
+            android:paddingBottom="30px"
+            android:paddingLeft="30px"
+            android:paddingRight="30px"
+            android:paddingTop="50px"
+            android:visibility="gone"
+            >
+
+            <LinearLayout
+                android:id="@+id/basePriceLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:text="Base price:"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp"
+                    />
+
+                <TextView
+                    android:id="@+id/basePriceValueTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:gravity="center"
+                    android:text="350"
+                    android:textColor="#AA000000"
+                    android:textSize="18dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/perKmChargeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/basePriceLayout"
+                android:layout_marginTop="20px"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:text="Charge Per KM:"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp"
+                    />
+
+                <TextView
+                    android:id="@+id/chargePerKmValue"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:gravity="center"
+                    android:text="50"
+                    android:textColor="#AA000000"
+                    android:textSize="18dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/perMinChargeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/perKmChargeLayout"
+                android:layout_marginTop="20px"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:text="Charge Per Min:"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp"
+                    />
+
+                <TextView
+                    android:id="@+id/chargePerMintValue"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:gravity="center"
+                    android:text="50"
+                    android:textColor="#AA000000"
+                    android:textSize="18dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/totalMinsLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/perMinChargeLayout"
+                android:layout_marginTop="20px"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:text="Total Minutes:"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp"
+                    />
+
+                <TextView
+                    android:id="@+id/totalMintValueTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:gravity="center"
+                    android:text="50"
+                    android:textColor="#AA000000"
+                    android:textSize="18dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/totalKmLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/totalMinsLayout"
+                android:layout_marginTop="20px"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:text="Total Km:"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp"
+                    />
+
+                <TextView
+                    android:id="@+id/totaKmValueTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:gravity="center"
+                    android:text="50"
+                    android:textColor="#AA000000"
+                    android:textSize="18dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/totalFareLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/totalKmLayout"
+                android:layout_marginTop="40px"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:text="Total Fare:"
+                    android:textColor="@android:color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/totalFareValueTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:gravity="center"
+                    android:text="50"
+                    android:textColor="#AA000000"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/closeIconView"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_alignRight="@+id/completeRideInfoLayout"
+            android:layout_alignTop="@+id/completeRideInfoLayout"
+            android:src="@drawable/close_icon"
+            android:visibility="gone"
+            />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="150px"
+            android:padding="50px"
+            >
+
+            <Switch
+                android:id="@+id/onlineStatusSwitchView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Offline"
+                android:textSize="22dp"
+                android:textColor="@color/colorAccent"
+                />
+        </FrameLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+

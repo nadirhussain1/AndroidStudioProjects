@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="google_analytic_id">UA-65527348-45</string>
+    <string name="GoogleIntersitialAddid">ca-app-pub-8140216007326867/3542977636</string>
+    <string name="admob_publisher_id">ca-app-pub-8140216007326867/3542977636</string>
+    <string name="facebookAddId">1739053329687000_1739053503020316</string>
+    <string name="mopub_add_unit_id">b94edc3745c94243bb613ce0d3884ef6</string>
+
+    <string name="month_jan">Muharram</string>
+    <string name="month_feb">Safar</string>
+    <string name="month_mar">Rabiul Awwal</string>
+    <string name="month_apr">Rabiul Akhir</string>
+    <string name="month_may">Jumadal Ula</string>
+    <string name="month_jun">Jumadal Akhira</string>
+    <string name="month_jul">Rajab</string>
+    <string name="month_aug">Shaaban</string>
+    <string name="month_sep">Ramadhan</string>
+    <string name="month_oct">Shawwal</string>
+    <string name="month_nov">Dhulqaada</string>
+    <string name="month_dec">Dhulhijja</string>
+
+    <!-- Prashant -->
+    <string-array name="date_converter_month">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>Decembers</item>
+    </string-array>
+    <string-array name="date_converter_monthsh">
+        <item></item>
+        <item>Muharram</item>
+        <item>Safar</item>
+        <item>Rabiul Awwal</item>
+        <item>Rabiul Akhir</item>
+        <item>Jumadal Ula</item>
+        <item>Jumadal Akhira</item>
+        <item>Rajab</item>
+        <item>Shaaban</item>
+        <item>Ramadhan</item>
+        <item>Shawwal</item>
+        <item>Dhulqaada</item>
+        <item>Dhulhijja</item>
+    </string-array>
+
+    <string name="store_picture_title">Save image</string>
+    <string name="store_picture_message">Allow Ad to store image in Picture gallery?</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="create_calendar_title">Create calendar event</string>
+    <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_notification_needs_installation_title">An application requires installation of Google Play services.</string>
+    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
+    <string name="common_android_wear_notification_needs_update_text">An application requires an update to the Android Wear app.</string>
+    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by %1$s</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_install_text_phone">"This app won't run without Google Play services, which are missing from your phone."</string>
+    <string name="common_google_play_services_install_text_tablet">"This app won't run without Google Play services, which are missing from your tablet."</string>
+    <string name="common_google_play_services_install_button">Get Google Play services</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_enable_text">"This app won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_android_wear_update_title">Update Android Wear</string>
+    <string name="common_google_play_services_update_text">"This app won't run unless you update Google Play services."</string>
+    <string name="common_android_wear_update_text">"This app won't run unless you update the Android Wear app."</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string name="common_google_play_services_unsupported_text">Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="wallet_buy_button_place_holder">Buy with Google</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="app_name">Muslim Prayers Pro</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="background">Backgrounds</string>
+    <string name="action_settings">Settings</string>
+    <string name="txt_counter">%s/100</string>
+    <string name="txt_counter_dua">%s/8</string>
+    <string name="lbl_shahdah">Shahadah</string>
+    <string name="lbl_shahdah_txt1">\t\t\t la ’ilaha ’illa-llah,\nmuhammadur rasﬁlu-llah</string>
+    <string name="lbl_shahdah_txt2">I declare that there is no diety worthy of  worship except Allah; and i declare that Muhhamad is the messanger of Allah.</string>
+    <string name="lbl_salat">Salah</string>
+    <string name="lbl_sawn">Fasting</string>
+    <string name="lbl_zakat">Zakat</string>
+    <string name="lbl_hajj">Hajj</string>
+    <string name="lbl_pillar_title">5 Pillars of Isalm</string>
+    <string name="lbl_prayertimes_title">Prayers</string>
+    <string name="progress_dialog">Getting Location…</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="nointernet">Please Enable Internet</string>
+    <string name="nolocation">Unable to Get The Location</string>
+    <string name="edittext_pref_title">DayLight Saving</string>
+    <string name="edittext_pref_Imsak_title">Imsak DayLight Saving</string>
+    <string name="edittext_pref_Fajar_title">Fajar DayLight Saving</string>
+    <string name="edittext_pref_Dhuhr_title">Dhuhr DayLight Saving</string>
+    <string name="edittext_pref_Asr_title">Asr DayLight Saving</string>
+    <string name="edittext_pref_Maghrib_title">Maghrib DayLight Saving</string>
+    <string name="edittext_pref_Isha_title">Isha DayLight Saving</string>
+    <string name="edittext_pref_desc">Enter DayLight Saving</string>
+    <string name="edittext_pref_dialogtitle">DayLight Saving</string>
+    <string name="edittext_pref_optionalvalue">0</string>
+    <string name="optional_dialog_message">Enter in minutes</string>
+    <string name="lbl_prayer">Prayers</string>
+    <string name="lbl_calendar">Calendar</string>
+    <string name="lbl_qibla">Qibla</string>
+    <string name="lbl_mosquee">Mosques</string>
+    <string name="lbl_tasbee">Tasbih</string>
+    <string name="lbl_hadith">40 Hadith</string>
+    <string name="lbl_message">Messages</string>
+    <string name="lbl_places">Halal</string>
+    <string name="lbl_popular">Verses</string>
+    <string name="lbl_shahadah">Shahadah</string>
+    <string name="lbl_date">Converter</string>
+    <string name="lbl_pillar">5 Pillars</string>
+    <string name="lbl_duas">Duas</string>
+    <string name="lbl_quran">Quran</string>
+    <string name="lbl_names">Names</string>
+    <string name="searching_mosques">Searching Mosques...</string>
+    <string name="show_places_onmap">Show Places on Map</string>
+    <string name="topbar_your_location">Choose Your Location</string>
+    <string name="topbar_halal_places">Halal Places</string>
+    <string name="loading_halal_places">Loading Halal Places...</string>
+    <string name="title_menu_ramdantime">Ramadan</string>
+    <string name="title_lbl_prayer">Prayers</string>
+    <string name="title_lbl_calendar">Calendar</string>
+    <string name="title_lbl_duas">Duas</string>
+    <string name="title_lbl_places">Halal Places</string>
+    <string name="title_lbl_mosquee">Mosques</string>
+    <string name="title_lbl_names">Names</string>
+    <string name="title_lbl_qibla">Qibla</string>
+    <string name="title_lbl_popular">Popular Verses</string>
+    <string name="title_lbl_quran">Quran</string>
+    <string name="title_lbl_shahadah">Shahadah</string>
+    <string name="title_lbl_message">Messages</string>
+    <string name="title_lbl_tasbee">Tasbih</string>
+    <string name="title_lbl_date">Convertor</string>
+    <string name="title_lbl_hadith">Hadith</string>
+    <string name="title_lbl_pillar">5 Pillars</string>
+    <string name="title_full_screen_tasbeeh">Full Screen Tasbeeh</string>
+    <string name="ans_ok">OK</string>
+    <string name="title_backgrounds">Backgrounds</string>
+    <string name="toast_songisplaying">Song is Playing Already</string>
+    <string name="toast_wait">Please wait…loading</string>
+    <string name="toast_selectsong">Please select Ayat to play</string>
+    <string name="toast_compasschanged">Compass Changed</string>
+    <string name="toast_alarmdisabled">Alarm Disabled</string>
+    <string name="toast_alarmenabled">Alarm Enabled</string>
+    <string name="toast_prayerhasbeenpassed">Prayer has been passed, Alarm set for Next Day</string>
+    <string name="toast_tasbeereached">Reached</string>
+    <string name="toast_notasbeeinlist">No Tasbeeh to List</string>
+    <string name="toast_copiedtoclipboard">Copied to clipboard</string>
+    <string name="toast_nomosquetolist">No Mosque to List</string>
+    <string name="toast_cantgetlatIng">Cannot get the lat,lng</string>
+    <string name="toast_entervalidletIng">Enter Valid Latitude, Longitude</string>
+    <string name="topbar_select_location">Select your Country / City</string>
+    <string name="toast_alarmcanceled">Alarm Disabled</string>
+    <string name="degree">%s° Clockwise From North</string>
+    <string name="distance">Distance From Mecca</string>
+    <string name="no_magnetometer">No Magnetometer</string>
+    <string name="gregorian">Gregorian</string>
+    <string name="hijri">Hijri</string>
+    <string name="lbl_arabic">Arabic (العَرَبِيَّة)</string>
+    <string name="lbl_english">English</string>
+    <string name="settings">Settings</string>
+    <string name="location">location</string>
+    <string name="send">Send</string>
+    <string name="lbl_5km">5km</string>
+    <string name="lbl_10km">10km</string>
+    <string name="lbl_15km">15km</string>
+    <string name="lbl_all">All</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_praytime">Prayer Times</string>
+    <string name="menu_qibla">Qibla Compass</string>
+    <string name="menu_dua">Ramadan Duas</string>
+    <string name="menu_names">99 Names of Allah</string>
+    <string name="menu_rate_app">Rate App</string>
+    <string name="menu_moreapps">More Apps</string>
+    <string name="menu_share">Share App</string>
+    <string name="menu_arabic">Arabic</string>
+    <string name="menu_pronun">Pronunciation</string>
+    <string name="menu_translation">Translation</string>
+    <string name="menu_calendarfull">Calendar</string>
+    <string name="menu_converter">Converter</string>
+    <string name="menu_compass_themes">Compass Themes</string>
+    <string name="methods"><u><b><i>Method</i></b></u></string>
+    <string name="methods_detail">Different methods to calculate Fajr and Isha prayers</string>
+    <string name="juristic"><b>Asar Method</b></string>
+    <string name="juristic_detail">The method to calculate Asar prayer</string>
+    <string name="higherLatitudes"><b>Angle based method</b></string>
+    <string name="higherLatitudes_detail">Only for high latitudes to calculate Fajr and Isha</string>
+    <string name="utc"><b>Coordinated Universal Time</b></string>
+    <string name="utc_detail">Select the correct time zone for your location</string>
+    <string name="change_city_auto"><b>Automatic</b></string>
+    <string name="change_city_auto_detail">Automatic</string>
+    <string name="change_city_manual"><b>Manual</b></string>
+    <string name="change_city_manual_detail">Manual</string>
+    <string name="change_city">Change City</string>
+    <string name="change_latlng"><b>Enter Latitude, Longitude</b></string>
+    <string name="stop_alarm">Stop Alarm</string>
+    <string name="adjust_alarm_detail">Adjustment of Alarm Time</string>
+    <string name="adjust_alarm"><b>Adjust Alarm</b></string>
+    <string name="adjustment_section">Adjustments</string>
+    <string name="adjust_hijri"><b>Hijri Adjust</b></string>
+    <string name="adjust_hijri_detail">Adjusts Hijri dates According to ur Region</string>
+    <string name="menu_ok">Ok</string>
+    <string name="alarm_tone"><b>Alarm tone</b></string>
+    <string name="font_title">Font Settings</string>
+    <string name="arabic_font"><b>Arabic Font</b></string>
+    <string name="english_font"><b>English Font</b></string>
+    <string name="time_format"><b>Time Format</b></string>
+    <string name="notification"><b>Notification</b></string>
+    <string name="back_button_label">Back</string>
+    <string name="next_button_label">Next</string>
+    <string name="skip_button_label">Skip</string>
+    <string name="ad_interval">40000</string>
+    <string name="first_boot_message">Choose Your Location</string>
+    <!-- <string name="rate_title">Support Us! Please Rate 5 Stars! :)</string> -->
+    <string name="share_via">Share Via</string>
+    <string name="rate_agree">5 STAR</string>
+    <string name="rate_disagree">Later</string>
+    <string name="openDrawer">open</string>
+    <string name="closeDrawer">close</string>
+    <string name="play_url">https://play.google.com/store/apps/developer?id=AppSourceHub</string>
+    <string name="play_rate_url">https://play.google.com/store/apps/details?id=com.prayertimes.qibla.appsourcehub</string>
+    <string name="facebook_url">https://www.facebook.com/AppSourceHub</string>
+    <string name="twitter_url">https://www.twitter.com/AppSourceHub</string>
+    <string name="menu_facebook">Facebook</string>
+    <string name="menu_twitter">Twitter</string>
+    <string name="menu_about">About us</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_instruction">Instruction</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="title_activity_individual_chapter">Individual Chapter</string>
+    <string name="title_activity_individual_chpater">Individual Chapter</string>
+    <string name="title_activity_settings_page">Settings Page</string>
+    <string name="Languages">Languages</string>
+    <string name="txtMessageBackgrond">Select an image to share the message with</string>
+    <string name="choose">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="lbl_time">00.00</string>
+    <string name="lbl_exit_app">Are you sure want to exit app</string>
+    <string name="automatic">Automatic</string>
+    <string name="Market">More Apps</string>
+    <string name="topbar_allah_names">Asma Al-Husna</string>
+    <string name="manual">Click Here</string>
+    <string name="banner_id">ca-app-pub-8140216007326867/7973177236</string>
+    <string name="interstitial_id">ca-app-pub-8140216007326867/3542977636</string>
+    <string name="lang_English">English</string>
+    <string name="lang_French">French</string>
+    <string name="lang_German">German</string>
+    <string name="lang_Indonesian">Indonesian</string>
+    <string name="lang_Malay">Malay</string>
+    <string name="lang_Spanish">Spanish</string>
+    <string name="lang_Turkish">Turkish</string>
+    <string name="lang_Urdu">Urdu</string>
+    <string name="method_one">Shia Ithna-Ashari</string>
+    <string name="method_two">University of Islamic Sciences, Karachi</string>
+    <string name="method_three">Islamic Society of North America (ISNA)</string>
+    <string name="method_four">Muslim World League (MWL)</string>
+    <string name="method_five">Umm al-Qura, Makkah</string>
+    <string name="method_six">Egyptian General Authority of Survey</string>
+    <string name="method_seven">Institute of Geophysics, University of Tehran</string>
+    <string name="api_key">AIzaSyBCfrNVHyEC81SalLaGwJ0NOJpxuaF5pss</string>
+    <string name="sehri">IMSAK</string>
+    <string name="suhoor">SUHOOR</string>
+    <string name="iftar">IFTAR</string>
+    <string name="fajar">Fajr</string>
+    <string name="shorook">Imsak</string>
+    <string name="zuher">Dhuhr</string>
+    <string name="asar">Asr</string>
+    <string name="maghrib">Maghrib</string>
+    <string name="isha">Isha</string>
+    <string name="date">Date</string>
+    <string name="menu_ramdantime">Ramadan</string>
+    <string name="menu_prayer_ramdantime">Ramadan Prayer Times</string>
+    <string name="lblcitycountry">%1$s, %2$s</string>
+    <string name="lblprayertime">Prayer Time</string>
+    <string name="error_occured">Error</string>
+    <string name="exit">Are you want to exit App?</string>
+    <string name="ok">Ok</string>
+    <string name="lbl_songname">Surah Name</string>
+    <string name="shahadah_lheader1">Introduction</string>
+    <string name="shahadah_lheader2">Believing in God</string>
+    <string name="shahadah_lheader3">Believing in Prophets</string>
+    <string name="shahadah_lheader4">Believing in Holy Books</string>
+    <string name="shahadah_lheader5">Believing in Angels</string>
+    <string name="shahadah_lheader6">Believing in Judgement Day</string>
+    <string name="shahadah_lheader7">Believing in Fate</string>
+    <string name="salah_lheader1">Introduction</string>
+    <string name="salah_lheader2">Types of Salah/Namaz</string>
+    <string name="salah_lheader3">Daily Prayer Rakaats</string>
+    <string name="salah_lheader4">Rules of Qibla</string>
+    <string name="salah_lheader5">Condition For the Dress Worn for Prayers</string>
+    <string name="salah_lheader6">Makrooh Thing</string>
+    <string name="salah_lheader7">Things which make a Prayer Void</string>
+    <string name="salah_lheader8">Doubts in Namaz</string>
+    <string name="zakat_lheader1">Introduction</string>
+    <string name="zakat_lheader2">Person of wealth on which Zakat is Obligatory</string>
+    <string name="zakat_lheader3">Kinds of the wealth on which Zakat Imposed</string>
+    <string name="zakat_lheader4">Zakat Distribution</string>
+    <string name="zakat_lheader5">Kinds of the wealth not Applicable for Zakat</string>
+    <string name="zakat_lheader6">Zakat Recipients</string>
+    <string name="zakat_lheader7">Person Who can not be given Zakat</string>
+    <string name="zakat_lheader8">Punishment for not Offering Zakat</string>
+    <string name="fasting_lheader1">Introduction</string>
+    <string name="fasting_lheader2">Things That Void a Fast</string>
+    <string name="fasting_lheader3">Haram Fasts</string>
+    <string name="fasting_lheader4">Person Exempted from Fasting</string>
+    <string name="fasting_lheader5">Things Invalidating Fast</string>
+    <string name="fasting_lheader6">Traveler in Ramadan</string>
+    <string name="fasting_lheader7">Fasting for Sick person</string>
+    <string name="fasting_lheader8">Kaffara for not Keeping or Breaking the Fast</string>
+    <string name="haji_lheader1">Introduction</string>
+    <string name="haji_lheader2">Step 1: Entering in the State of Ihram</string>
+    <string name="haji_lheader3">Step 2: Performing Umrah</string>
+    <string name="haji_lheader4">Step 3: Departure to Mina</string>
+    <string name="haji_lheader5">Step 4: Departure to Arafat</string>
+    <string name="haji_lheader6">Step 5: Departure to Muzdalifa</string>
+    <string name="haji_lheader7">Step 6: Returning to Mina</string>
+    <string name="haji_lheader8">Step 7: Tawaf Al-Ifada</string>
+    <string name="haji_lheader9">Step 8: Returning to Mina(Again)</string>
+    <string name="haji_lheader10">Step 9: Farewell Tawaf</string>
+    <string name="shahadah_title1">1. Introduction</string>
+    <string name="shahadah_text1">The basic and most important of all the pillars of islam of Islam is Shahadah. It is a public declaration from a person starting. “There is no God but Allah and Muhammad (PUBH) is Hid Messenger.\ufffd? For a Muslim it is the base, while a non-Muslim needs to repeat the Kalima of Shahadah three time with witnesses around.</string>
+    <string name="shahadah_title2">2. Believing in God</string>
+    <string name="shahadah_text2">The foundation of Shahdah is the believe in Almighty Allah as a God. Moreover, besides believing in Allah, a Muslim also needs to declare that there is no one equal to Almighty Allah and no one his partner. He is the only and sole creator of all living and nonliving things and none should ever be considered equal to him.</string>
+    <string name="shahadah_title3">3. Believing in Prophets</string>
+    <string name="shahadah_text3">For a Muslim to fulfill Shahdah, it is mandatory to believe in all Prophets sent by Allah Almighty in addition to the belief in Prophet Muhammad (PUBH) being the last Prophet of Allah. All the prophets that were sent by Allah, preached only the oneness of Allah Almighty and showed people the right path to achieving blessing and mercy of Allah.</string>
+    <string name="shahadah_title4">4. Believing in Holy Books</string>
+    <string name="shahadah_text4">In declaration of Shahada a Muslim needs to affirm his or her believe on all the Holy Books in addition to the final Injeel, Toraah, Zaboor and Suhuf. Different Prophets were provided with books from Allah Almighty that contained the instruction of Allah. Believing on all the four Holy Books and Suhuf sent by Allah is mandatory for a Muslim.</string>
+    <string name="shahadah_title5">5. Believing in Angels</string>
+    <string name="shahadah_text5">Besides human there are other creations of Allah as well. Among them, Angels are the ones upon which believing is mandatory for the completion of Shahadah and Consequently the completion of Faith. Angels must be believed as creation of Allah who carry out His Orders and are devoid of committing sin.</string>
+    <string name="shahadah_title6">6. Believing in Judgement Day</string>
+    <string name="shahadah_text6">A muslim needs to believe that the Judgement Day is inevitable and it will come. On the Day of Judgement, all people would rise from their graves and Allah Almighty would judge all people and for the life they spent in this world and the deeds they committed. Without believing in resurrection after death and life hereafter, the Shahadah will not be considered complete.</string>
+    <string name="shahadah_title7">7. Believing in Fate</string>
+    <string name="shahadah_text7">A Muslim needs to submit to the will of Allah and consider date an essential part of life and integral part of Shahadah. By believing in faith, a Muslim yields to the preordained will of Allah ALmighty and regards all that happens as the will of Allah. Submitting to the will of Allah as fate is an essential part for the completion of faith.</string>
+    <string name="salah_title1">1. Introduction</string>
+    <string name="salah_text1">Salah/Namaz or Prayers is the second pillar of Islamic faith. It is mandatory for all Muslims to say prayers five times a day in different hours of the day. Prayers are made mandatory to every Muslim above the age of seven. They are said at dawn, in noon, in the mid-afternoon, at sunset and later in the evening.</string>
+    <string name="salah_title2">2. Types of Salah/Namaz</string>
+    <string name="salah_text2">"Salah/Namaz or Prayers is the second pillar of Islamic faith. It is mandatory for all Muslims to say prayers five times a day in different hours of the day. Prayers are made mandatory to every Muslim above the age of seven. They are said at dawn, in noon, in the mid-afternoon, at sunset and later in the evening. 
+ * Daily Namaz (Jumma Nanaz included). 
+ * Namaz-e-Ayaat. 
+ * Namaz-e-Mayyit. 
+ * Obligatory Namaz for Tawaf of Ka'bah. 
+ * Oadah Namaz of father which as a precaution the ledest son has to. 
+ * Namaz which become obligatory in case of vow, oath or hire. 
+Daily Obligatory Namaz: 
+Number of Rak'ats obligatory 
+Namaz said five times a day are: 
+ * Fajr (Dawn Prayers ) - 2 Rak'ats. 
+ * Zuhr (Mid day) - 4 Rak'ats. 
+ * Asr (Afternoon Prayers) - 4 Rak'ats. 
+ * Maghrib (Dusk Prayers) - 3 Rak'ats. 
+ * Isha (Night Prayers) - 4 Rak'ats."</string>
+    <string name="salah_title3">3. Daily Prayer Rakaats</string>
+    <string name="salah_text3">"There are five prayers, Muslim have to pray everyday. Each prayer is offered at different times of a day. Each prayer has different number of Rakaats to be offered, which are 
+ * Fajr: 2 Rakkat Sunnah and 2 Rakat Fard 
+ * Zuhr: 4 Rakkat Sunnah, 4 Rakaat Fard, 2 Rakaat Sunnah, and 2 Rakaat Nafl. 
+ * Asr: 4 Rakkat Sunnah and 4 Rakaat Fard. 
+ * Maghrib: 3 Rakkat Fard, 2 Rakaat Sunnah and 2 Rakaat Nafl. 
+ * Isha: 4 Rakkat Sunnah, 4 Rakaat Fard, 2 Rakaat Sunnah, 2 Rakaat Nafl, 3 Rakkat Witr and 2 Rakaat NAfl. 
+ * Jumma (Friday Prayer ): 4 Rakkat Sunnah, 2 Rakaat Fard, 4 Rakaat Sunnah, 2 Rakaat Sunnah and 2 Rakaat Nafl"</string>
+    <string name="salah_title4">4. Rules of Qibla</string>
+    <string name="salah_text4">"Qibla is the Holy Ka'bah in Makkah,Pointing towards which every Muslim has to say prayers,Some of the rules related to pointing toward Qibla are 
+ * For obligatory prayer, a person standing must have feet, chest, stomach and face pointed towards Qibla 
+ * A person offering prayer while sitting, must point the face, stomach and chest towards Qibla. 
+ * While offering prayers in a lying posture, a person must lie towards right or left in posture that the front of body faces Qibla. If not possible then the sole of the feet of the. 
+ * Namaz-e-ihtiyat, forgotten Sajda, forgotten tashahhud and Sajda-e-Sahv all should be performed facing Qibla. 
+ * For Mustahab Namaz in condition of riding and walking, it is not mandatory to dave Qibla. 
+ * For a person identifying the direction o f Qibla, one could identify it with testimony of two people, the Mehrab of Masjid, the direction of Reavesm or by using any other. 
+ * In case of confusion in deciding the direction of Qibla, aperson should not rely on guess if there are means available of finding the authentic direction. 
+ * If a person can not make any idea about the direction of Qibla, then in such a case the person can offer prayers facing any."</string>
+    <string name="salah_title5">5. Condition For the Dress Worn for Prayers</string>
+    <string name="salah_text5">"The six conditions that must be met in a dress for prayers include 
+ * It must be Pak/Clean. 
+ * The dress must be Mubah (permissible) for the person. 
+ * The dress must not have been made out of any of the parts of dead body. 
+ * The dress should not be made of the animal carcass which is Haram. 
+ * The dress of male should not contain pure silk. 
+ * The Dress of male should not have gold embroidered on it."</string>
+    <string name="salah_title6">6. Makrooh Thing</string>
+    <string name="salah_text6">"Some of the Major Makrooh things in the dress or a person saying Prayer include: Wearing tight and dirty dress. 
+ * Wearing clothes of a person who does not care about Najasat. 
+ * Dress having images on it. 
+ * Keeping buttons open. 
+ * Wearing ring that has images carved on it. 
+Exceptions: 
+Some of the exceptions for the dress of a person saying prayers are: If the dress of a person is stained from blood discharged from some. 
+ * If the stain of the blood from body is less than the size of a dirham (not more than the joint of the thumb). 
+ * If person does not have any other option other than saying prayer in a najis dress or with najis body. 
+ * If small clothes such as scalp caps or socks are najis, a person can still say."</string>
+    <string name="salah_title7">7. Things which make a Prayer Void</string>
+    <string name="salah_text7">"There are things that can cause a prayer to be void, which include: 
+ * Failing to fulfill the prerequisites of Namaz like, The Pak dress or place. 
+ * Secondary if a person does something intentionally or unintentionally that voids. 
+ * Turning away from Qibla without any valid excuse also invalidates the prayer. 
+ * Talking or uttering a single which has some meaning also voids the prayer. 
+ * laughing loud intentionally invalidates the prayer. 
+ * Weeping or crying either silently or loudly over some worldly matter voids the prayer. 
+ * Performing an act that results in change in Namaz's form like jumping or clapping. 
+ * Drinking or eating during Namaz invalidates it. 
+ * Having doubt about the Rak'ats of Namaz will also result in invalidating the prayer. 
+ * Omission or addition of any of the Rukh of Namaz also results in prayer being."</string>
+    <string name="salah_title8">8. Doubts in Namaz</string>
+    <string name="salah_text8">"There are several doubts that can occur before or during the prayer. Some of them invalidate the prayer, while the rest of them can be ignored.The Details are: 
+Prayer Invalidating Doubts: 
+Doubt about the Rak'ats of prayer. 
+ * For a four Rak'at prayer the doubt of whether having performed one or more than one Rak'ats. 
+ * In a four Rak'at prayer the doubt of having being performed 2 Rak'ats before going to the second Sajdah. 
+ * Doubts between 5 and 2 Rak'ats or between a number more than 5. 
+ * Doubts between 6 and 3 Rak'ats or between a number more than 6 rak'ats. 
+ * Doubts between 6 and 4 Rak'ats or between a number more than 6 Rak'ats. 
+
+Ignorable Doubts: 
+ * Doubt about an act the time of performance of which has passed such as in Ruku a person doubting whether the Surah-al-Hamd had been recited or not. 
+ * Doubts that occur after saying Salam to conclude the prayer. 
+ * Doubts occurring after the time of the prayer has passed already. 
+ * Doubts of a person who doubts habitually. 
+ * The doubts about the number of Rak'ats by the Imam, when the Ma'mum (follower) has the true idea about the number of Rak'ats, similarly the doubt of Ma'mum about Rak'ats number when Imam has the idea."</string>
+    <string name="zakat_title1">1. Introduction</string>
+    <string name="zakat_text1">The literal meanings of word Zakat are of purification and growth. Zakat is one of the major obligations on Muslim after Namaz. It works on the guidelines given by Allah, where every able Muslim must set aside a certain proportion of their wealth for the other poor and needy people. Besides bringing the appreciation of Allah, it also boosts economic growth and social welface.</string>
+    <string name="zakat_title2">2. Person of wealth on which Zakat is Obligatory.</string>
+    <string name="zakat_text2">"Zakat is obligatory for the following Person: 
+ * The person must be a Muslim, free, sane and adult 
+ * The wealth possessed by the person must be excessive to the minimum specified amount (nisaab) excluding all personal needs. 
+ * The wealth must have been possessed for a whole lunar year to next. 
+ * The possession should be of prodcutive nature that can produce profit such as silver, gold, liverstock. 
+
+The Zakat is applicable on the following Nisaab: 
+ * Gold 87.48 Gram. 
+ * Silver 612.36 Gram. 
+ * On other assets and cash the amount must be equivalent to the worth of specified gold or silver.>"</string>
+    <string name="zakat_title3">3. Kinds of the wealth on which Zakat Imposed.</string>
+    <string name="zakat_text3">"Silver and gold in any form. 
+ * Bonds, Stocks, bank notes, cash etc. 
+ * Business merchandise that is of the value 
+ * Live Stock."</string>
+    <string name="zakat_title4">4. Zakat Distribution.</string>
+    <string name="zakat_text4">"Zakat should be given as soon as it is applicable. 
+ *All the zakat can be given to one person or distributed among different people. 
+ *Zakat can not be given to a person for his or her service. 
+ *Zakat is only valid if the receiver is made owner of the amount. 
+ *It can not be given for purposes such as construction of Hospital, Madrasah, Masjid."</string>
+    <string name="zakat_title5">5. Kinds of the wealth not Applicable for Zakat.</string>
+    <string name="zakat_text5">"Metals of any kind except then gold and silver. 
+ * Vehicles or equipment that are used for running of business. 
+ * Precious stones like diamonds, and pearls that are in personal use. 
+ * The things under personal use like furniture clothing and personal residence are exempted. 
+ * If personal liabilities exceed or equals assets then there is no Zakat."</string>
+    <string name="zakat_title6">6. Zakat Recipients.</string>
+    <string name="zakat_text6">"Fuqara: 
+ Who do not have possession worth giving Zakat 
+ Masakeen: 
+ People who are extremely needy and can not fulfill their needs. 
+ Amileen: 
+ People appointed by Islamic Government for collection of Zakat. 
+ Mu-Allafatul-Qulub: 
+ People who have recently entered Islam and are needy. 
+ Al_Riqaab: 
+ Slaves who have the right to purchase their freedom. 
+ Al Ghaarmeen: 
+ People who can not play off their debts. 
+ Fi-Sabilillah: 
+ Giving people who are unable to complete some obligation due to financial constraints. 
+ Ibn-Us-Sabeel: 
+ Travelers who do not have wealth to meet their travel needs"</string>
+    <string name="zakat_title7">7. Person Who can not be given Zakat.</string>
+    <string name="zakat_text7">"The descendants of Prophet (PBUH). 
+ Parents, grandparents and children."</string>
+    <string name="zakat_title8">8. Punishment for not Offering Zakat.</string>
+    <string name="zakat_text8">"Almighty Allah says in Quran: 
+ And there are those who hoard gold and silver and do not spend it in the way of Allah, announce to them a most grievous penalty (when) on the Day of Judgement heat will be produced out of that wealth in the fire of leg, then with it they will be branded on their forehead and their flanks and backs. (It will be said to them) this is the treasure which you hoarded for yourselves taste than the treasure that you have been hoarding. (Al-Quran 9:34-35)"</string>
+    <string name="fasting_title1">1. Introduction</string>
+    <string name="fasting_text1">Fasting during the month of Ramadan every year is another pillar of faith of Islam. During the whole Ramadan Muslims refrain from, all kinds of drinks, food and sexual intercource from dawn till dusk. Besides these, Muslims are also expected to refrain from all other minor and major evils during Ramadan and when in fast.</string>
+    <string name="fasting_title2">2. Things That Void a Fast</string>
+    <string name="fasting_text2">"
+ * Eating and drinking of any kind during the fasting hours. 
+ * Indulging in sexual intercourse and fornication during fasting hours. 
+ * Mastrubating during fasting hours. 
+ * Imputing lies on Allah and Prophet (PBUH) also void the fast of a person. 
+ * Letting the dust of either some eatable item or simple earth reach the throat also voids the fast. 
+ * Remaining in the state of janabat (Sexual impurity) till the Fajar Azan also voids the fast. 
+ * Voluntary vomiting other then the reason sickness voids the fast."</string>
+    <string name="fasting_title3">3. Haram Fasts</string>
+    <string name="fasting_text3">"
+ * Fasting on the day of Eid-ul Fitr and Eid-ul-Azha. 
+ * For a wife to keep Mustahab fast if she won’t be able to perform the duties to husband. 
+ * Haram for children to keep Mustahab fast as causes emotion strain. 
+ * Haram in cause there is a danger of health by keeping the fast."</string>
+    <string name="fasting_title4">4. Person Exempted from Fasting</string>
+    <string name="fasting_text4">"Those who are exempted from fasting in Ramadan include: 
+ * Na-baligh person. 
+ * Insane person. 
+ * A traveler needs to offer Qaza. 
+ * Women in menstruation need to keep Qaza fast after Ramadan. 
+ * Aged person not having the strength of fasting in Ramadan. 
+ * If fasting is harmful for the baby of a pregnant woman then she must do Qaza. 
+ * For breast-feeding woman in case of any problem of health the Qaza is wajib after"</string>
+    <string name="fasting_title5">5. Things Invalidating Fast</string>
+    <string name="fasting_text5">"If the following are done intentionally they break the fast: 
+ * Drinking or eating. 
+ * Vomiting 
+ * Dust reaching the throat. 
+ * Liquid enema. 
+ * Sexual intercourse. 
+ * Mastrubation 
+ * Not doing Ghusl before Fajr in case of Janabat."</string>
+    <string name="fasting_title6">6 Traveler in Ramadan</string>
+    <string name="fasting_text6">"
+ * If journey starts after mid day in Ramadan, then the fast must be observed. 
+ * If the journey starts before midday in Ramadan, then the fast would automatically break after reaching a certain. 
+ * If you return back to your home after Zawal from a journey then no need to observer fast that day, 
+ * If you return back home from a journey before zawal then you can observe the fast but Qaza needs to be paid. 
+ * Traveling somewhere with not living more than 10 fast must not be kept."</string>
+    <string name="fasting_title7">7. Fasting for Sick person</string>
+    <string name="fasting_text7">"For a sick person fasting is not wajib under the following conditions: 
+ * If a person feels that keeping a fast would surely harm him or her. 
+ * If the person is not sure about the harm of fasting but is advised by the doctor."</string>
+    <string name="fasting_title8">8. Kaffara for not Keeping or Breaking the Fast.</string>
+    <string name="fasting_text8">"If the fast is broken intentionally or not kept at all then in addition to Qaza a person needs to pay Kaffara as well against each fast, which is: 
+ * Feeding of 60 poor people. 
+ * Doing 60 fasts."</string>
+    <string name="haji_title1">1. Introduction</string>
+    <string name="haji_text1">Hajj is the fifth pillar of Islam. Hajj refers to the pilgrimage paid by Muslims to the holy city of Makkah in the month of DHul Hijjah. Every physically and financially able Muslim must perform hajj in his or her life at least once. Moreover, there are different rites of Hajj which the pilgrims perform during their pilgrimage. The conclusive day of Hajj marks the festival of Eid-ul-Azha.</string>
+    <string name="haji_title2">Step 1: Ihram</string>
+    <string name="haji_text2">"
+ * Take a Bathe. 
+ * Wear Ihram Dress. 
+ * Make intention for Umrah or Hajj. 
+ * Recite Talbiyah. 
+ * Avoid Unnecessary acts while in the state."</string>
+    <string name="haji_title3">Step 2: Umrah</string>
+    <string name="haji_text3">"
+ * Do Tawaf around the Kabah. 
+ * Pray two Rak’ah Salat. 
+ * Between Safa and Marwah, Make sai 
+ * Cut your hair and remove Imram Dress."</string>
+    <string name="haji_title4">Step 3: Mina</string>
+    <string name="haji_text4">"
+ * After Umrah. wear Imram dress again. 
+ * Make intention for Hajj. 
+ * Stay in Mina during the shul-Jikka and perform five prayers, (zuhr to Fajron the day of Arafat)."</string>
+    <string name="haji_title5">Step 4 : Arafat</string>
+    <string name="haji_text5">"
+ * Going for Arafat on the morning of the 9th of Dhul-Hijja and remain until sunset. 
+ * Reside in any part of Arafat. 
+ * Glorify Allah, repeat supplication, repeat to Allah and ask for forgiveness."</string>
+    <string name="haji_title6">Step 5 : Muzdalifah</string>
+    <string name="haji_text6">"
+ * Leave for Muzdalifah shortly after sunset. 
+ * Pray Maghrib Salat and shortened Isha. 
+ * Now stay all night and perform the Fajr."</string>
+    <string name="haji_title7">Step 6 : Returning Mina</string>
+    <string name="haji_text7">"Soon before sunrise, leave Muzdalifah for Mina, Depart to Jamrat al-Aqabah and stone it with seven pebbles. 
+ * Slaughter your sacrifice. 
+ * Shave your head. 
+ * Now Take off Ihram dress."</string>
+    <string name="haji_title8">Step 7 : Tawaf Al-lfda</string>
+    <string name="haji_text8">"
+ * Perform Tawaf Al-Ifada and sa’i between.\u0009\u0009\u0009\u0009\u0009
+  * Later than Tawaf al-Ifada, all restrictions."</string>
+    <string name="haji_title9">Step 8 : Mina Again</string>
+    <string name="haji_text9">"
+ * Spend the Tashreeq days (11th,12th and 13th of Dhul-Hijja) in Mina. 
+ *After Zuhr prayer each day, stone the three Jamarat, starting with the small one and ending with al-Aqabah."</string>
+    <string name="haji_title10">Step 9 : Farewell Tawaf</string>
+    <string name="haji_text10">"
+ * Depart to Mecca and do a farewell Tawaf. 
+ * Let the Tawaf be the last thing you do in."</string>
+    <string name="rate_title">Do you like our app ?</string>
+    <string name="rate_text">Why not take a moment to rate us 5-Stars on Google Play.</string>
+    <string name="remind_me_later">REMIND ME\nLATER </string>
+    <string name="no_thanks">NO\nTHANKS </string>
+    <string name="rate_it_now">RATE IT\nNOW </string>
+
+    <!--  Mobvista Ids   -->
+    <string name="mobvista_app_id">25533</string>
+    <string name="mobvista_unit_id">1314</string>
+    <string name="mobvista_api_key">ad6cb77e3ad6e9115166b3c38124f9fe</string>
+    <string name="mobvista_property_id">1314</string>
+
+</resources>
