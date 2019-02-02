@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/readingEditor"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:hint="@string/reading_input_hint"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/customerNumEditor"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/readingEditor"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:digits="abcdefghijklmnopqrstuvwxyz1234567890 "
+                android:maxLength="10"
+                android:gravity="center"
+                android:hint="@string/service_number_hint"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/calcualteButton"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/customerNumEditor"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="@string/calculate"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:id="@+id/PrevTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/calcualteButton"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/prev_reading"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/PrevValueView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/calcualteButton"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@+id/PrevTextView"
+                android:text=""
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/costTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/PrevTextView"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/cost"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/costValueView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/PrevTextView"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@+id/costTextView"
+                android:text=""
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/configureButton"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/costTextView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="@string/configure"
+                android:textAllCaps="false" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

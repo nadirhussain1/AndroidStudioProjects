@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BillCalculator</string>
+    <string name="reading_input_hint">Enter reading value in KW</string>
+    <string name="service_number_hint">Enter service number</string>
+    <string name="calculate">Calculate</string>
+    <string name="configure">Configure</string>
+    <string name="cost">Calculated cost:</string>
+    <string name="cat_limit">Upper Limit:</string>
+    <string name="cancel">Cancel</string>
+    <string name="cat_rate">Rate:</string>
+    <string name="delete">Delete</string>
+    <string name="go_back">Go back</string>
+    <string name="enter_limit_hint">Enter category upper limit</string>
+    <string name="enter_rate_hint">Enter category rate</string>
+    <string name="done">Done</string>
+    <string name="empty_config">No value should be empty</string>
+    <string name="prev_reading">Previous reading:</string>
+    <string name="empty_reading_error">Reading value can\'t be empty</string>
+    <string name="less_reading_error">Future reading can\'t be lass than previous one</string>
+    <string name="digits_number_error">Service number should be 10 digits.</string>
+    <string name="add_new_cat">Add new category</string>
+</resources>

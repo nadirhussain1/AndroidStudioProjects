@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@+id/relativeLayout1" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="42.899994dip">
+        <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ff3b3b4d" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/Word" android:layout_width="100.0dip" android:layout_height="fill_parent" android:layout_marginLeft="13.859985dip" android:text="123456789abcd" android:singleLine="true" android:layout_centerVertical="true" />
+        <CheckBox android:id="@+id/CheckBox" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.939972dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/MyCheckBox" />
+        <TextView android:textSize="17.0sp" android:textColor="#ff86868c" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/Meaning" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="123456789abcdefghi" android:singleLine="true" android:layout_toLeftOf="@id/CheckBox" android:layout_toRightOf="@id/Word" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

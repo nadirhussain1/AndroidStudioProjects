@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" android:keyWidth="12.5%p" android:keyHeight="7%p">
+    <Row android:horizontalGap="1%p" android:verticalGap="1%p">
+        <Key android:codes="4608,4609,4610,4611,4612,4613,4614" android:popupKeyboard="@xml/popup" android:popupCharacters="ሀሁሂሃሄህሆ" android:keyEdgeFlags="left" android:keyLabel="ሀ" />
+        <Key android:codes="4616,4617,4618,4619,4620,4621,4622,4623" android:popupKeyboard="@xml/popup" android:popupCharacters="ለሉሊላሌልሎሏ" android:keyLabel="ለ" />
+        <Key android:codes="4624,4625,4626,4627,4628,4629,4630,4631" android:popupKeyboard="@xml/popup" android:popupCharacters="ሐሑሒሓሔሕሖሗ" android:keyLabel="ሐ" />
+        <Key android:codes="4632,4633,4634,4635,4636,4637,4638,4639" android:popupKeyboard="@xml/popup" android:popupCharacters="መሙሚማሜምሞሟ" android:keyLabel="መ" />
+        <Key android:codes="4640,4641,4642,4643,4644,4645,4646,4647" android:popupKeyboard="@xml/popup" android:popupCharacters="ሠሡሢሣሤሥሦሧ" android:keyLabel="ሠ" />
+        <Key android:codes="4648,4649,4650,4651,4652,4653,4654,4655" android:popupKeyboard="@xml/popup" android:popupCharacters="ረሩሪራሬርሮሯ" android:keyLabel="ረ" />
+        <Key android:codes="4656,4657,4658,4659,4660,4661,4662,4663" android:popupKeyboard="@xml/popup" android:popupCharacters="ሰሱሲሳሴስሶሷ" android:keyLabel="ሰ" />
+        <Key android:codes="4664,4665,4666,4667,4668,4669,4670,4671" android:popupKeyboard="@xml/popup" android:popupCharacters="ሸሹሺሻሼሽሾሿ" android:keyLabel="ሸ" />
+        <Key android:codes="4672,4673,4674,4675,4676,4677,4678,4683" android:popupKeyboard="@xml/popup" android:popupCharacters="ቀቁቂቃቄቅቆቋ" android:keyLabel="ቀ" />
+        <Key android:codes="4704,4705,4706,4707,4708,4709,4710,4711" android:popupKeyboard="@xml/popup" android:popupCharacters="በቡቢባቤብቦቧ" android:keyEdgeFlags="right" android:keyLabel="በ" />
+    </Row>
+    <Row android:horizontalGap="1%p" android:verticalGap="1%p">
+        <Key android:codes="4712,4713,4714,4715,4716,4717,4718,4719" android:popupKeyboard="@xml/popup" android:popupCharacters="ቨቩቪቫቬቭቮቯ" android:keyEdgeFlags="left" android:keyLabel="ቨ" />
+        <Key android:codes="4720,4721,4722,4723,4724,4725,4726,4727" android:popupKeyboard="@xml/popup" android:popupCharacters="ተቱቲታቴትቶቷ" android:keyLabel="ተ" />
+        <Key android:codes="4728,4729,4730,4731,4732,4733,4734,4735" android:popupKeyboard="@xml/popup" android:popupCharacters="ቸቹቺቻቼችቾቿ" android:keyLabel="ቸ" />
+        <Key android:codes="4752,4753,4754,4755,4756,4757,4758,4759" android:popupKeyboard="@xml/popup" android:popupCharacters="ነኑኒናኔንኖኗ" android:keyLabel="ነ" />
+        <Key android:codes="4768,4769,4770,4771,4772,4773,4774,4775" android:popupKeyboard="@xml/popup" android:popupCharacters="አኡኢኣኤእኦኧ" android:keyLabel="አ" />
+        <Key android:codes="4816,4817,4818,4819,4820,4821,4822" android:popupKeyboard="@xml/popup" android:popupCharacters="ዐዑዒዓዔዕዖ" android:keyLabel="ዐ" />
+        <Key android:codes="4776,4777,4778,4779,4780,4781,4782,4787" android:popupKeyboard="@xml/popup" android:popupCharacters="ከኩኪካኬክኮኳ" android:keyLabel="ከ" />
+        <Key android:codes="4808,4809,4810,4811,4812,4813,4814" android:popupKeyboard="@xml/popup" android:popupCharacters="ወዉዊዋዌውዎ" android:keyLabel="ወ" />
+        <Key android:codes="4824,4825,4826,4827,4828,4829,4830,4831" android:popupKeyboard="@xml/popup" android:popupCharacters="ዘዙዚዛዜዝዞዟ" android:keyLabel="ዘ" />
+        <Key android:codes="4832,4833,4834,4835,4836,4837,4838,4839" android:popupKeyboard="@xml/popup" android:popupCharacters="ዠዡዢዣዤዥዦዧ" android:keyEdgeFlags="right" android:keyLabel="ዠ" />
+    </Row>
+    <Row android:horizontalGap="1%p" android:verticalGap="1%p">
+        <Key android:codes="4840,4841,4842,4843,4844,4845,4846" android:popupKeyboard="@xml/popup" android:popupCharacters="የዩዪያዬይዮ" android:keyEdgeFlags="left" android:keyLabel="የ" />
+        <Key android:codes="4848,4849,4850,4851,4852,4853,4854,4855" android:popupKeyboard="@xml/popup" android:popupCharacters="ደዱዲዳዴድዶዷ" android:keyLabel="ደ" />
+        <Key android:codes="4864,4865,4866,4867,4868,4869,4870,4871" android:popupKeyboard="@xml/popup" android:popupCharacters="ጀጁጂጃጄጅጆጇ" android:keyLabel="ጀ" />
+        <Key android:codes="4872,4873,4874,4875,4876,4877,4878,4883" android:popupKeyboard="@xml/popup" android:popupCharacters="ገጉጊጋጌግጎጓ" android:keyLabel="ገ" />
+        <Key android:codes="4896,4897,4898,4899,4900,4901,4902,4903" android:popupKeyboard="@xml/popup" android:popupCharacters="ጠጡጢጣጤጥጦጧ" android:keyLabel="ጠ" />
+        <Key android:codes="4904,4905,4906,4907,4908,4909,4910,4911" android:popupKeyboard="@xml/popup" android:popupCharacters="ጨጩጪጫጬጭጮጯ" android:keyLabel="ጨ" />
+        <Key android:codes="4912,4913,4914,4915,4916,4917,4918,4919" android:popupKeyboard="@xml/popup" android:popupCharacters="ጰጱጲጳጴጵጶጷ" android:keyLabel="ጰ" />
+        <Key android:codes="4928,4929,4930,4931,4932,4933,4934" android:popupKeyboard="@xml/popup" android:popupCharacters="ፀፁፂፃፄፅፆ" android:keyLabel="ፀ" />
+        <Key android:codes="4936,4937,4938,4939,4940,4941,4942,4943" android:popupKeyboard="@xml/popup" android:popupCharacters="ፈፉፊፋፌፍፎፏ" android:keyLabel="ፈ" />
+        <Key android:codes="4944,4945,4946,4947,4948,4949,4950,4951" android:popupKeyboard="@xml/popup" android:popupCharacters="ፐፑፒፓፔፕፖፗ" android:keyEdgeFlags="right" android:keyLabel="ፐ" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom" android:horizontalGap="1%p" android:verticalGap="1%p">
+        <Key android:codes="4920,4921,4922,4923,4924,4925,4926,4927" android:popupKeyboard="@xml/popup" android:popupCharacters="ጸጹጺጻጼጽጾጿ" android:keyEdgeFlags="left" android:keyLabel="ጸ" />
+        <Key android:codes="4736,4737,4738,4739,4740,4741,4742,4747" android:popupKeyboard="@xml/popup" android:popupCharacters="ኀኁኂኃኄኅኆኋ" android:keyLabel="ኀ" />
+        <Key android:codes="4760,4761,4762,4763,4764,4765,4766,4767" android:popupKeyboard="@xml/popup" android:popupCharacters="ኘኙኚኛኜኝኞኟ" android:keyLabel="ኘ" />
+        <Key android:codes="4792,4793,4794,4795,4796,4797,4798,4803" android:popupKeyboard="@xml/popup" android:popupCharacters="ኸኹኺኻኼኽኾዃ" android:keyLabel="ኸ" />
+        <Key android:codes="-5" android:keyIcon="@drawable/ser_back" />
+        <Key android:codes="55002" android:keyIcon="@drawable/key_right" />
+        <Key android:codes="32" android:isRepeatable="true" android:keyIcon="@drawable/sym_keyboard_space" />
+        <Key android:codes="55003" android:keyIcon="@drawable/key_left" />
+        <Key android:codes="-3" android:keyEdgeFlags="right" android:keyIcon="@drawable/ser2" />
+    </Row>
+</Keyboard>

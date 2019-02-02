@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="history_item_nomal">#ffffffff</item>
+    <item type="drawable" name="history_item_tapping">#ffeceaea</item>
+    <item type="drawable" name="transparent">#00000000</item>
+    <item type="drawable" name="edit_list_selected">#ffeceaea</item>
+    <item type="drawable" name="edit_list_normal">#fff7f6f4</item>
+    <item type="drawable" name="white_bg">#ffffffff</item>
+</resources>

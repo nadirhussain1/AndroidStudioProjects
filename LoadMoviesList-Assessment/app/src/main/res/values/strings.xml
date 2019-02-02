@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MoviesListAssessment</string>
+    <string name="title_item_detail">Item Detail</string>
+
+    <string name="loading_dialog_title">Loading data</string>
+    <string name="loading_dialog_message">Please wait! while we get movies list.</string>
+    <string name="no_connection_dialog_msg">Connect to the internet in order to use this app</string>
+    <string name="no_connection_dialog_button">OK</string>
+    <string name="error_dialog_message">Sorry,We are unable to retrieve movies data.</string>
+
+    <string name="rating_text">Rating: </string>
+    <string name="genresText">Genres: </string>
+    <string name="directorText">Director: </string>
+    <string name="castText">Cast: </string>
+    <string name="releaseYear">Release Year: </string>
+    <string name="reviewUrl">Review: </string>
+</resources>

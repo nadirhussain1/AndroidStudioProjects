@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_detail"
+    style="?android:attr/textAppearanceLarge"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <ImageView
+            android:id="@+id/posterImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/posterImageView"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/div1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/description"
+            android:layout_marginTop="5dp"
+            android:background="#44000000" />
+
+        <TextView
+            android:id="@+id/releaseYearTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/div1"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/ratingTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/releaseYearTextView"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/castTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ratingTextView"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/directorTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/castTextView"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/genresTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/directorTextView"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/reviewTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/genresTextView"
+            android:layout_marginTop="5dp"
+            android:autoLink="web"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/div2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/reviewTextView"
+            android:layout_marginTop="5dp"
+            android:background="#44000000" />
+
+        <RelativeLayout
+            android:id="@+id/trailerLayout"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/div2"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_centerHorizontal="true">
+
+            <VideoView
+                android:id="@+id/trailerVideoView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <ImageView
+                android:id="@+id/playButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/play_button" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

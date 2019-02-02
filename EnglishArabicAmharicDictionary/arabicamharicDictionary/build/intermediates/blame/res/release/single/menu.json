@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/build/intermediates/res/merged/release/menu/activity_amharic_dictionary.xml",
+        "source": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/src/main/res/menu/activity_amharic_dictionary.xml"
+    },
+    {
+        "merged": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/build/intermediates/res/merged/release/menu/drawer_menu.xml",
+        "source": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/src/main/res/menu/drawer_menu.xml"
+    },
+    {
+        "merged": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/build/intermediates/res/merged/release/menu/language_options_menu.xml",
+        "source": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/src/main/res/menu/language_options_menu.xml"
+    }
+]

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/delete_cancel_btn" android:background="@drawable/button_delete_cancel_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:enabled="false" android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/button_edit_cancel_color" android:id="@+id/delete_button" android:background="@drawable/delete_cancel_bt_bg" android:layout_width="150.1dip" android:layout_height="wrap_content" android:layout_marginRight="6.5999756dip" android:text="@string/button_delete" android:layout_weight="1.0" />
+    <Button android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/button_edit_cancel_color" android:id="@+id/cancel_button" android:background="@drawable/delete_cancel_bt_bg" android:layout_width="150.1dip" android:layout_height="wrap_content" android:layout_marginRight="6.5999756dip" android:text="@string/button_cancel" android:layout_weight="1.0" />
+</LinearLayout>

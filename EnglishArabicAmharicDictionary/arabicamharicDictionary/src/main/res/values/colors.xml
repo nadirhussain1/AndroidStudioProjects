@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="text_green">#ff638e6c</color>
+    <color name="text_White">#ffffffff</color>
+    <color name="green_light">#ffe9f6e9</color>
+    <color name="blue_light">#ffcceef5</color>
+    <color name="red_light">#fffbd5d6</color>
+    <color name="yellow_light">#fff9fbd5</color>
+    <color name="dark_bule">#ff5c6679</color>
+    <color name="event_title_color">#ff638e6c</color>
+    <color name="event_time_color">#ff333333</color>
+    <color name="edit_total_select_color">#ff4a6eb4</color>
+
+    <color name="key_background">#ffd2d7db</color>
+    <color name="keyboard_background">#ffd2d7db</color>
+    <color name="key_text_color">#ff000000</color>
+    <color name="key_text_glow_color">#ff000000</color>
+    <color name="action_love">#ffa91717</color>
+    <color name="action_love2">#ffdddddd</color>
+</resources>

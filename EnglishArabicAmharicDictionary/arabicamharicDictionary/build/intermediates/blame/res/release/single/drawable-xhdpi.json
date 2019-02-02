@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/build/intermediates/res/merged/release/drawable-xhdpi/ic_launcher.png",
+        "source": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/build/intermediates/res/merged/release/drawable-xhdpi/icon_history.png",
+        "source": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/src/main/res/drawable-xhdpi/icon_history.png"
+    },
+    {
+        "merged": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/build/intermediates/res/merged/release/drawable-xhdpi/icon_favorite.png",
+        "source": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/src/main/res/drawable-xhdpi/icon_favorite.png"
+    },
+    {
+        "merged": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/build/intermediates/res/merged/release/drawable-xhdpi/icon_word_of_day.png",
+        "source": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/src/main/res/drawable-xhdpi/icon_word_of_day.png"
+    },
+    {
+        "merged": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/build/intermediates/res/merged/release/drawable-xhdpi/icon_rate_app.png",
+        "source": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/src/main/res/drawable-xhdpi/icon_rate_app.png"
+    },
+    {
+        "merged": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/build/intermediates/res/merged/release/drawable-xhdpi/icon_download.png",
+        "source": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/src/main/res/drawable-xhdpi/icon_download.png"
+    },
+    {
+        "merged": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/build/intermediates/res/merged/release/drawable-xhdpi/icon_feedback.png",
+        "source": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/src/main/res/drawable-xhdpi/icon_feedback.png"
+    },
+    {
+        "merged": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/build/intermediates/res/merged/release/drawable-xhdpi/icon_search.png",
+        "source": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/src/main/res/drawable-xhdpi/icon_search.png"
+    },
+    {
+        "merged": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/build/intermediates/res/merged/release/drawable-xhdpi/background_action_bar.9.png",
+        "source": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/src/main/res/drawable-xhdpi/background_action_bar.9.png"
+    },
+    {
+        "merged": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/build/intermediates/res/merged/release/drawable-xhdpi/bg_tabbar.png",
+        "source": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/src/main/res/drawable-xhdpi/bg_tabbar.png"
+    },
+    {
+        "merged": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/build/intermediates/res/merged/release/drawable-xhdpi/ic_action_search.png",
+        "source": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/src/main/res/drawable-xhdpi/ic_action_search.png"
+    },
+    {
+        "merged": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/build/intermediates/res/merged/release/drawable-xhdpi/icon_speaker.png",
+        "source": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/src/main/res/drawable-xhdpi/icon_speaker.png"
+    },
+    {
+        "merged": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/build/intermediates/res/merged/release/drawable-xhdpi/icon_favorite_normal.png",
+        "source": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/src/main/res/drawable-xhdpi/icon_favorite_normal.png"
+    }
+]

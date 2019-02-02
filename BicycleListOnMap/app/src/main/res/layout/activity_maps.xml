@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.crossover.bicycleproject.MapsActivity">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/rentActionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:gravity="bottom"
+        android:visibility="gone">
+
+        <View
+            android:id="@+id/whitebg"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@android:color/white" />
+
+        <Button
+            android:id="@+id/rentABikeButton"
+            android:layout_width="@dimen/login_button_width"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/whitebg"
+            android:layout_centerHorizontal="true"
+            android:text="@string/rent_action_label" />
+
+        <EditText
+            android:id="@+id/cardNumberEditText"
+            android:layout_width="@dimen/login_button_width"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rentABikeButton"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:hint="@string/enter_credit_card_hint"
+            android:inputType="numberPassword" />
+
+        <TextView
+            android:id="@+id/bikeOwnerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/cardNumberEditText"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="5dp" />
+    </RelativeLayout>
+
+</FrameLayout>

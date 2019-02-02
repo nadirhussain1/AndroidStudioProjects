@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Volumes/NADIR'S DATA/Coding/EclipseProjects/English_Arabic_Amharic_App/arabicamharicDictionary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

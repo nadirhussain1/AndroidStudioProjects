@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_hint">Search</string>
+    <string name="app_name">English-Arabic-Amharic Dictionary</string>
+    <string name="cancel">Cancel</string>
+    <string name="history_empty">Let’s Search.</string>
+    <string name="favorite_empty">No favorite has been added.</string>
+    <string name="tab0_label">Search</string>
+    <string name="tab1_label">Favorites</string>
+    <string name="tab2_label">Upgrade</string>
+    <string name="menu_copy">Copy</string>
+    <string name="menu_delete">Delete</string>
+    <string name="delete_bar">Total</string>
+    <string name="edit">Edit</string>
+    <string name="delete_all">Delete All</string>
+    <string name="done">Done</string>
+    <string name="favorite">Favorite</string>
+    <string name="home">Home</string>
+    <string name="editbt_name">Edit</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_delete">Delete</string>
+    <string name="entry_added_toast">Added</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="favorite_full_dialog_tip">Favorites can be added at most %s entries.</string>
+    <string name="internet_error">There might be a temporary problem with your Internet connection. The Web page can not be accessed.</string>
+    <string name="websearch_url">http://search.naver.jp/m/search?q=%s&amp;sm=app_esr</string>
+    
+    <string name="admob_unit_id">ca-app-pub-1002726517151985/8198765556</string>
+
+    <string name="language">Language</string>
+    <string name="english_lang">English</string>
+    <string name="arabic_lang">Arabic</string>
+    <string name="amharic_lang">Amharic</string>
+
+    <string name="drawer_search">Search</string>
+    <string name="drawer_history">History</string>
+    <string name="drawer_favourites">Favorites</string>
+    <string name="drawer_word_today">Word Of Today</string>
+    <string name="drawer_rate">Rate Our App</string>
+    <string name="drawer_feedback">Feedback</string>
+
+    <string name="navigation_drawer_open">Opened</string>
+    <string name="navigation_drawer_close">Closed</string>
+    
+    <string-array name="category_array">
+        <item>Search</item>
+        <item>History</item>
+        <item>Favorites</item>
+        <item>Word Of Today</item>
+        <item>Rate Our App</item>
+        <item>Feedback</item>        
+    </string-array>
+</resources>
