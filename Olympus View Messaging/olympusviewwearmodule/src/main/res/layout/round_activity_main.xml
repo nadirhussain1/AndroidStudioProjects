@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear_round">
+
+    <View
+        android:id="@+id/roundThemeBackground"
+        android:layout_width="320px"
+        android:layout_height="320px" />
+
+    <RelativeLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="125px"
+        android:layout_marginTop="150px">
+
+        <TextView
+            android:id="@+id/senderNameTextView"
+            android:layout_width="240px"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30px"
+            android:text="Round Test"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/messageContentTextView"
+            android:layout_width="240px"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/senderNameTextView"
+            android:layout_centerHorizontal="true"
+            android:text="message body"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

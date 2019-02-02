@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/scalingLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1F1F1F">
+
+        <include
+            android:id="@+id/fullScreenLayout"
+            layout="@layout/common_light_screen"
+            android:layout_width="match_parent"
+            android:layout_height="1000px" />
+
+        <RelativeLayout
+            android:id="@+id/colorLayout"
+            android:layout_width="900px"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fullScreenLayout"
+            android:layout_marginTop="300px"
+            android:layout_centerHorizontal="true"
+            >
+
+            <ImageView
+                android:id="@+id/colorWheelView"
+                android:layout_width="90px"
+                android:layout_height="90px"
+                android:layout_centerVertical="true"
+                android:background="@drawable/icon_color_wheel" />
+            <SeekBar
+                android:id="@+id/colorChangeSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/colorWheelView"
+                android:progressDrawable="@drawable/styled_progress"
+                android:thumb="@drawable/colorbar_indicator" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

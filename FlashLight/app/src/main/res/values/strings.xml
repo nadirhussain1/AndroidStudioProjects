@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Flashlight</string>
+    
+	<string name="drawer_open"></string>
+    <string name="drawer_close"></string>
+	<string name="banner_ad_unit_id">ca-app-pub-7645731698476649/8453105216</string>
+	<string name="image_name_prefix">image</string>
+    <string name="photo_saved_text">Your photo is saved in the gallery under "Flashlight"</string>
+    <string name="camera_first_time_text">Great to see you’ve discovered the camera function! It could take up to ~15 minutes before the gallery shows the album “Flashlight” with your pictures.</string>
+    <string name="unable_to_start_camera">Unable to start camera preview.</string>
+    <string name="feedback_subject">Flashlight feedback</string>
+    //Settings Screen Text
+
+    <string name="settings_heading_text">Settings</string>
+    <string name="about_heading_text">About</string>
+    <string name="settings_general_text">GENERAL</string>
+    <string name="settings_sound_text">Sound</string>
+    <string name="settings_switch_off_time_text">Switch off light after</string>
+    <string name="settings_battery_status_text">Show battery status</string>
+    <string name="settings_startup_text">START-UP</string>
+    <string name="settings_mode_open_text">Mode to open at launch</string>
+    <string name="settings_default_state_text">Default state</string>
+    <string name="settings_show_timer_text">Show timer</string>
+    <string name="settings_sos_text">SOS</string>
+    <string name="settings_sos_default_text">Default SOS state</string>
+    <string name="settings_sos_repeat_text">Repeat signal</string>
+    <string name="settings_bubble_text">BUBBLE LEVEL</string>
+    <string name="settings_bubble_display_text">Display values</string>
+
+
+    <string name="warning_alert_head">Warning:</string>
+    <string name="warning_alert_description">Flickering light may trigger seizures for people with photosensitive epilepsy.</string>
+    <string name="dont_show_again_text">Do not show this again</string>
+    <string name="acknowledge_text">Acknowledge</string>
+    <string name="share_app_text">I\'ve found this awesome Flashlight app, check it out here: \n </string>
+    <string name="feedback_button_text">Feedback</string>
+    <string name="app_version_text">App version</string>
+    <string name="timer_shut_toast_text_1">To save the battery, the light turns off automatically after </string>
+    <string name="timer_shut_toast_text_2"> minutes. You can change this in settings.</string>
+
+    <string name="camera_first_thanks_button_text">Thanks, I’ve got it!</string>
+    <string name="speed_label">Speed</string>
+    <string name="slow_label">Slow</string>
+    <string name="fast_label">Fast</string>
+    <string name="repeat_label">Repeat</string>
+    <string name="frequency_label">Frequency</string>
+    <string name="flashlight_noti_title">Flashlight is on</string>
+    <string name="flashlight_noti_msg">Tap to turn off flashlight</string>
+    <string name="strobe_noti_title">Strobe light is on</string>
+    <string name="strobelight_noti_msg">Tap to turn off strobe light</string>
+    <string name="sos_noti_title">SOS light is on</string>
+    <string name="soslight_noti_msg">Tap to turn off SOS light</string>
+    <string name="share_via_label">Share via</string>
+    <string name="send_via_label">Send via</string>
+    <string name="directory_create_failed">Can\'t create directory to save image.</string>
+    <string name="saving_image_failed">Image could not be saved.</string>
+    
+
+
+    //Bubble Screen
+    <string name="reset">Reset</string>
+    <string name="not_supported">Orientation not supported</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="ok">Ok</string>
+    <string name="calibrate_button_text">Calibrate</string>
+    <string name="lock_value_text">Lock screen type</string>
+    <string name="values_locked_text">Locked</string>
+    <string name="calibrate_title">Calibration</string>
+    <string name="calibrate_message">Put any side (including the back) of your Android device on a flat horizontal surface and press the "Calibrate" button.\n\nOr reset the calibration for all sides.</string>
+    <string name="calibrate_again_title">You must re-calibrate</string>
+    <string name="calibrate_again_message">The sensor change requires re-calibration of the phone.</string>
+    <string name="calibrate_saved">Custom calibration saved!</string>
+    <string name="calibrate_failed">Calibration failed!</string>
+    <string name="calibrate_restored">Original calibration restored!</string>
+    <string name="angle">Angle</string>
+    <string name="inclination">Inclination</string>
+    <string name="roof_pitch">Roof pitch</string>
+
+    //New
+
+
+
+    <string-array name="bubble_display_options">
+        <item>Angle</item>
+        <item>Inclination</item>
+        <item>Roof pitch</item>
+    </string-array>
+    <string-array name="mode_options">
+        <item>Flashlight</item>
+        <item>Screen light</item>
+        <item>Strobe</item>
+    </string-array>
+    <string-array name="drawer_title_list">
+        <item>Flashlight</item>
+        <item>Screen light</item>
+        <item>Strobe</item>
+        <item>SOS!</item>
+        <item>Bubble level</item>
+        <item>Settings</item>
+        <item>Share</item>
+        <item>Rate this app</item>
+        <item>About</item>
+    </string-array>
+
+    <string-array name="switch_off_time_options">
+        <item>3 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>20 min</item>
+        <item>30 min</item>
+        <item>Never</item>
+    </string-array>
+
+
+</resources>

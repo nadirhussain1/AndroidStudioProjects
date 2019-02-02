@@ -1,0 +1,15 @@
+<resources>
+    <string name="advTimeAppName">AdventureTimeWearTheme</string>
+    <string name="southParkAppName">SouthParkWearTheme</string>
+    <string name="dumbWaysAppName">DumbWaysWearTheme</string>
+    <string name="titanfallAppName">TitanfallWearTheme</string>
+    <string name="eleGreenAppName">ElegantGreenWearTheme</string>
+    <string name="eleBlueAppName">ElegantBlueWearTheme</string>
+    <string name="elePurpleAppName">ElegantPurpleWearTheme</string>
+    <string name="amazRoyalAppName">AmazingRoyalWearTheme</string>
+
+    <string name="heading_text">Olympus View SMS</string>
+    <string name="secondary_heading_text">An elegant medium for all your messaging</string>
+    <string name="download_app_text">Download Olympus View</string>
+    <string name="apply_text">Apply theme</string>
+</resources>

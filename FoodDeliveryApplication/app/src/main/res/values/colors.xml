@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="ratingBarNormalColor">#AA000000</color>
+    <color name="ratingBarActiveColor">#FBB92D</color>
+
+    <color name="blue_color_in_app">#4E8DF1</color>
+    <color name="red_color_in_app">#F81B25</color>
+    <color name="disabled_green_color">#99E6A7</color>
+    <color name="green_color_in_app">#4BA145</color>
+    <color name="dark_green_color_in_app">#006400</color>
+</resources>

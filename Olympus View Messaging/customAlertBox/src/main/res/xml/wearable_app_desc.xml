@@ -1,0 +1,5 @@
+<wearableApp package="com.olympus.viewsms">
+    <versionCode>11</versionCode>
+    <versionName>1.5</versionName>
+    <rawPathResId>wearable_app</rawPathResId>
+</wearableApp>

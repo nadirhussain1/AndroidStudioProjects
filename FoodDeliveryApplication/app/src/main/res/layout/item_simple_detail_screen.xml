@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/topBarLyout"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/green_color_in_app">
+
+            <ImageView
+                android:id="@+id/backIconView"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/white_back_icon"/>
+
+            <TextView
+                android:id="@+id/titleView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/backIconView"
+                android:gravity="center_vertical"
+                android:paddingLeft="30px"
+                android:text="Liquid Protein"
+                android:textColor="@android:color/white"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+            <ImageView
+                android:id="@+id/cartIconView"
+                android:layout_width="47px"
+                android:layout_height="40px"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="50px"
+                android:background="@drawable/white_cart_icon"/>
+
+            <TextView
+                android:id="@+id/cartCountTextView"
+                android:layout_width="30px"
+                android:layout_height="30px"
+                android:layout_alignRight="@+id/cartIconView"
+                android:layout_marginRight="-10px"
+                android:layout_marginTop="30px"
+                android:background="@drawable/black_cart_circle_bg"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@android:color/white"
+                android:textSize="10dp"
+
+                />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/itemNameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/topBarLyout"
+            android:layout_marginLeft="40px"
+            android:layout_marginTop="20px"
+            android:text="Liquid Protein"
+            android:textColor="#AA000000"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/itemIconView"
+            android:layout_width="250px"
+            android:layout_height="350px"
+            android:layout_below="@+id/itemNameView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10px"
+            android:background="@android:color/holo_red_dark"
+            android:scaleType="centerCrop"/>
+
+        <View
+            android:id="@+id/divOne"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/itemIconView"
+            android:layout_marginTop="20px"
+            android:background="#44000000"
+            android:tag="constantHeight"
+            />
+
+        <TextView
+            android:id="@+id/itemPriceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_below="@+id/divOne"
+            android:gravity="center_vertical"
+            android:paddingLeft="50px"
+            android:text="Rs. 200"
+            android:textColor="#AA000000"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <View
+            android:id="@+id/divTwo"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/itemPriceTextView"
+            android:background="#44000000"
+            android:tag="constantHeight"
+            />
+
+        <RelativeLayout
+            android:id="@+id/ratingBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_below="@+id/divTwo">
+
+            <RatingBar
+                android:id="@+id/itemRatingBar"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:isIndicator="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50px"
+                android:rating="4"
+                android:theme="@style/RatingBar"/>
+
+            <TextView
+                android:id="@+id/ratingCountTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/itemRatingBar"
+                android:paddingLeft="20px"
+                android:gravity="center_vertical"
+                android:layout_centerVertical="true"
+                android:text="2 ratings"
+                android:textColor="@color/blue_color_in_app"
+                android:textSize="18dp"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/descriptionHeadTextView"
+            android:layout_width="match_parent"
+            android:layout_height="70px"
+            android:layout_below="@+id/ratingBarLayout"
+            android:background="#22000000"
+            android:gravity="center_vertical"
+            android:paddingLeft="50px"
+            android:text="DESCRIPTION"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descriptionHeadTextView"
+            android:paddingLeft="50px"
+            android:paddingRight="50px"
+            android:layout_marginTop="20px"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="This is short description"
+            android:textColor="#44000000"
+            android:textSize="14dp"
+          />
+        <TextView
+            android:id="@+id/readMoreTextView"
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:layout_below="@+id/descriptionTextView"
+            android:layout_marginTop="20px"
+            android:paddingLeft="50px"
+            android:text="Read More"
+            android:gravity="center_vertical"
+            android:textColor="@color/blue_color_in_app"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/buyNowTextView"
+            android:layout_width="match_parent"
+            android:layout_height="110px"
+            android:layout_alignParentBottom="true"
+            android:text="Add to Cart"
+            android:gravity="center"
+            android:background="@color/green_color_in_app"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/progressBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AA000000"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+</RelativeLayout>

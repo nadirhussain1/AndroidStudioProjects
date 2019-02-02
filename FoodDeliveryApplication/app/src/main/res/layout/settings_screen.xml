@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:padding="50px">
+
+        <TextView
+            android:id="@+id/profileTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textColor="@color/green_color_in_app"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <RelativeLayout
+            android:id="@+id/nameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profileTextView"
+            android:layout_marginTop="50px">
+
+            <ImageView
+                android:id="@+id/personIconView"
+                android:layout_width="48px"
+                android:layout_height="48px"
+                android:layout_centerVertical="true"
+                android:background="@drawable/person_icon"/>
+
+            <TextView
+                android:id="@+id/nameHeadTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_toRightOf="@+id/personIconView"
+                android:text="Name"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/nameValueTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/nameHeadTextView"
+                android:layout_below="@+id/nameHeadTextView"
+                android:text="Nadir Hussain"
+                android:textColor="#AA000000"
+                android:textSize="16dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/mobileNumberLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameLayout"
+            android:layout_marginTop="50px"
+            >
+
+            <ImageView
+                android:id="@+id/mobileIconView"
+                android:layout_width="48px"
+                android:layout_height="48px"
+                android:layout_centerVertical="true"
+                android:background="@drawable/mobile_icon"/>
+
+            <TextView
+                android:id="@+id/mobileHeadTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_toRightOf="@+id/mobileIconView"
+                android:text="Mobile number"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/mobileValueTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/mobileHeadTextView"
+                android:layout_below="@+id/mobileHeadTextView"
+                android:text="+923320452087"
+                android:textColor="#AA000000"
+                android:textSize="16dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/emailLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mobileNumberLayout"
+            android:layout_marginTop="50px"
+            >
+
+            <ImageView
+                android:id="@+id/emailIconView"
+                android:layout_width="48px"
+                android:layout_height="48px"
+                android:layout_centerVertical="true"
+                android:background="@drawable/email_icon"/>
+
+            <TextView
+                android:id="@+id/emailHeadTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_toRightOf="@+id/emailIconView"
+                android:text="Email"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/emailValueTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/emailHeadTextView"
+                android:layout_below="@+id/emailHeadTextView"
+                android:text="nadirhussain1@gmail.com"
+                android:textColor="#AA000000"
+                android:textSize="16dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/changePasswordLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emailLayout"
+            android:layout_marginTop="50px">
+
+            <ImageView
+                android:id="@+id/lockIconView"
+                android:layout_width="48px"
+                android:layout_height="48px"
+                android:layout_centerVertical="true"
+                android:background="@drawable/lock_icon"/>
+
+            <TextView
+                android:id="@+id/changePasswordTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_toRightOf="@+id/lockIconView"
+                android:text="Change password"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"/>
+
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divOne"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#22000000"
+            android:layout_below="@+id/changePasswordLayout"
+            android:layout_marginTop="50px"
+            android:tag="constantHeight"
+            />
+        <TextView
+            android:id="@+id/aboutTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divOne"
+            android:layout_marginTop="30px"
+            android:text="About"
+            android:textColor="@color/green_color_in_app"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/appVersionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aboutTextView"
+            android:layout_marginTop="30px"
+            android:text="App Version:"
+            android:textColor="#44000000"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/termsAndConditionsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:layout_below="@+id/appVersionTextView"
+            android:gravity="center_vertical"
+            android:layout_marginTop="40px"
+            android:text="Terms and conditions"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

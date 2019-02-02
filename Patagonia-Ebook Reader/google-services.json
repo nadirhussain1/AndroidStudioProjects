@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "635863114019",
+    "firebase_url": "https://tigerinstitutions.firebaseio.com",
+    "project_id": "tigerinstitutions",
+    "storage_bucket": "tigerinstitutions.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635863114019:android:2226ae215edb40d7",
+        "android_client_info": {
+          "package_name": "com.ebooksPatagonia.Patagonia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635863114019-ru446bm0kkli994nm113ehl9o1m7r0hi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9-QNxmfsVsPnNL-yd9RlMBBT2J79SsqY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

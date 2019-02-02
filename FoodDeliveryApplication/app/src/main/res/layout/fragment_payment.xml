@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/headTextView"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="#11000000"
+            android:gravity="center_vertical"
+            android:paddingLeft="50px"
+            android:text="PAYMENT"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:id="@+id/paymentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/headTextView"
+            android:layout_marginTop="30px"
+            android:layout_marginLeft="30px"
+            android:text="Cash On Delivery"
+            android:textSize="16dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:checked="true"
+            />
+        <TextView
+            android:id="@+id/guideTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/paymentButton"
+            android:layout_marginLeft="95px"
+            android:text="Pay in cash to the courier at the time of order delivery."
+            android:textSize="12dp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/nextTextView"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/green_color_in_app"
+            android:gravity="center"
+            android:text="NEXT"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+</RelativeLayout>

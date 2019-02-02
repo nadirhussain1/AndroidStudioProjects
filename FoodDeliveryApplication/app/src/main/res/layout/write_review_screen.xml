@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/topBarLyout"
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:background="@color/green_color_in_app">
+
+                <ImageView
+                    android:id="@+id/backIconView"
+                    android:layout_width="60px"
+                    android:layout_height="60px"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10px"
+                    android:background="@drawable/white_back_icon"/>
+
+                <TextView
+                    android:id="@+id/titleView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/backIconView"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30px"
+                    android:text="Write a Review"
+                    android:textColor="@android:color/white"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/itemNameView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/topBarLyout"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="30px"
+                android:text="Liquid Protein"
+                android:textColor="@android:color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/itemPriceTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/itemNameView"
+                android:paddingLeft="30px"
+                android:text="Rs. 200"
+                android:textColor="#AA000000"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <View
+                android:id="@+id/divTwo"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/itemPriceTextView"
+                android:layout_marginTop="30px"
+                android:background="#44000000"
+                android:tag="constantHeight"/>
+
+            <TextView
+                android:id="@+id/haveUsedTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divTwo"
+                android:layout_marginTop="30px"
+                android:gravity="center"
+                android:text="Have you used this product? Rate it now"
+                android:textColor="#88000000"
+                android:textSize="12dp"/>
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/haveUsedTextView"
+                android:layout_marginRight="30px"
+                android:layout_marginTop="30px"
+                android:theme="@style/RatingBar"/>
+
+            <RelativeLayout
+                android:id="@+id/fullReviewLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ratingBar"
+                android:layout_marginTop="30px">
+
+                <CheckBox
+                    android:id="@+id/fullReviewCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30px"
+                    android:text="Write a full review"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:theme="@style/Theme.AppCompat.Light"/>
+
+                <LinearLayout
+                    android:id="@+id/fullReviewWriteFieldsLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/fullReviewCheckBox"
+                    android:orientation="vertical"
+                    android:paddingLeft="30px"
+                    android:paddingRight="30px"
+                    android:visibility="gone"
+                    >
+
+                    <TextView
+                        android:id="@+id/publish"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20px"
+                        android:text="Publish as *"
+                        android:textColor="#88000000"
+                        android:textSize="14dp"/>
+
+                    <EditText
+                        android:id="@+id/publisherEditor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:imeOptions="actionNext"
+                        android:maxLines="1"
+                        android:nextFocusDown="@+id/titleEditor"
+                        android:singleLine="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="14dp"
+                        android:theme="@style/Theme.AppCompat.Light"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30px"
+                        android:text="Title *"
+                        android:textColor="#88000000"
+                        android:textSize="14dp"/>
+
+                    <EditText
+                        android:id="@+id/titleEditor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:imeOptions="actionNext"
+                        android:maxLines="1"
+                        android:nextFocusDown="@+id/reviewEditor"
+                        android:singleLine="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="14dp"
+                        android:theme="@style/Theme.AppCompat.Light"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30px"
+                        android:text="Review *"
+                        android:textColor="#88000000"
+                        android:textSize="14dp"/>
+
+                    <EditText
+                        android:id="@+id/reviewEditor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:imeOptions="actionDone"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="14dp"
+                        android:theme="@style/Theme.AppCompat.Light"
+
+                        />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/sendReviewTextView"
+                android:layout_width="680px"
+                android:layout_height="110px"
+                android:layout_below="@+id/fullReviewLayout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20px"
+                android:background="@drawable/green_rounded_bg"
+                android:gravity="center"
+                android:text="Save Review"
+                android:textColor="@android:color/white"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/progressBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AA000000"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+</RelativeLayout>

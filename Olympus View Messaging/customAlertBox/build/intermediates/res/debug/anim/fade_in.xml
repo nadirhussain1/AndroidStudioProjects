@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <alpha
+        android:duration="200"
+        android:fromAlpha="0"
+        android:toAlpha="1" />
+
+</set><!-- From: file:/Users/nadirhussain/git/Olympus%20View%20Messaging/customAlertBox/src/main/res/anim/fade_in.xml -->

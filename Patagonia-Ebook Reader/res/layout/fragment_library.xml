@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+   
+    <LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+		android:layout_marginLeft="30dip"
+		android:layout_marginTop="15dip"
+    	android:orientation="horizontal" >
+    	 		
+   	 <ViewSwitcher android:id="@+id/libHolder"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">       
+    		
+   		<ListView
+        	android:id="@+id/libraryList"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" 
+        	android:fastScrollEnabled="false"
+			android:paddingLeft="15dp">
+   		</ListView>    
+        
+    
+   		<net.nightwhistler.pageturner.view.BookCaseView
+      		android:id="@+id/bookCaseView"
+      		android:layout_width="fill_parent"
+      		android:layout_height="fill_parent"
+      		android:numColumns="auto_fit"
+      		android:verticalSpacing="15dip"
+      		android:columnWidth="256dip"
+      		android:fastScrollEnabled="true" />                 
+    
+   
+    	</ViewSwitcher>
+    	
+   	 </LinearLayout>
+   	  
+
+</LinearLayout>

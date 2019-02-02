@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<resources>
+
+    <string name="app_name">플래시라이트</string>
+
+    <string name="drawer_open"></string>
+    <string name="drawer_close"></string>
+    <string name="banner_ad_unit_id">ca-app-pub-7645731698476649/8453105216</string>
+    <string name="image_name_prefix">image</string>
+    <string name="photo_saved_text">Your photo is saved in the gallery under "Flashlight"</string>
+    <string name="camera_first_time_text">Great to see you’ve discovered the camera function! It could take up to ~15 minutes before the gallery shows the album “Flashlight” with your pictures.</string>
+    <string name="unable_to_start_camera">Unable to start camera preview.</string>
+    <string name="feedback_subject">Flashlight feedback</string>
+    //Settings Screen Text
+
+    <string name="settings_heading_text">설정</string>
+    <string name="about_heading_text">정보</string>
+    <string name="settings_general_text">일반</string>
+    <string name="settings_sound_text">소리</string>
+    <string name="settings_switch_off_time_text">조명 끄기 타이머</string>
+    <string name="settings_battery_status_text">배터리 수명 표시</string>
+    <string name="settings_startup_text">구동 옵션</string>
+    <string name="settings_mode_open_text">앱 시작 시 모드</string>
+    <string name="settings_default_state_text">초기 상태</string>
+    <string name="settings_show_timer_text">타이머 표시</string>
+    <string name="settings_sos_text">SOS</string>
+    <string name="settings_sos_default_text">초기 SOS 상태</string>
+    <string name="settings_sos_repeat_text">신호 반복</string>
+    <string name="settings_bubble_text">수평계</string>
+    <string name="settings_bubble_display_text">수치 표시</string>
+
+
+    <string name="warning_alert_head">알림:</string>
+    <string name="warning_alert_description">조명 점멸은 감광성 뇌전증을 가진 사용자에게 이상 발작 반응을 유발할 수 있습니다.</string>
+    <string name="dont_show_again_text">다시 표시 안함</string>
+    <string name="acknowledge_text">확인</string>
+    <string name="share_app_text">제가 발견한 멋진 플래시라이트 앱을 추천합니다: \n </string>
+    <string name="feedback_button_text">의견 및 제안</string>
+    <string name="app_version_text">앱 버전</string>
+        <string name="timer_shut_toast_text_1">절전을 위해 [x]분 후 자동으로 조명이 꺼지도록 </string>
+    <string name="timer_shut_toast_text_2"> 설정 화면에서 지정할 수 있습니다.</string>
+    
+    <string name="camera_first_thanks_button_text">예, 알겠습니다!</string>
+       <string name="speed_label">속도</string>
+    <string name="slow_label">느림</string>
+    <string name="fast_label">빠름</string>
+    <string name="repeat_label">반복</string>
+    <string name="frequency_label">주기</string>
+    <string name="flashlight_noti_title">플래시라이트 켜짐</string>
+    <string name="flashlight_noti_msg">플래시라이트를 끄려면 이곳을 누르세요</string>
+    <string name="strobe_noti_title">점멸등 켜짐</string>
+    <string name="strobelight_noti_msg">점멸등을 끄려면 이곳을 누르세요</string>
+    <string name="sos_noti_title">SOS 조명 켜짐</string>
+    <string name="soslight_noti_msg">SOS 조명을 끄려면 이곳을 누르세요</string>
+    <string name="share_via_label">공유하기:</string>
+    <string name="send_via_label">전송하기:</string>
+    <string name="directory_create_failed">이미지를 저장할 디렉토리를 만들 수 없습니다.</string>
+    <string name="saving_image_failed">이미지를 저장할 수 없습니다.</string>
+    
+
+
+    //Bubble Screen
+    <string name="reset">초기화</string>
+    <string name="not_supported">지원하지 않는 화면 방향입니다</string>
+    <string name="cancel">취소</string>
+    <string name="save">저장</string>
+    <string name="ok">확인</string>
+    <string name="calibrate_button_text">보정</string>
+    <string name="lock_value_text">잠금 화면 유형</string>
+    <string name="values_locked_text">잠김</string>
+    <string name="calibrate_title">보정</string>
+    <string name="calibrate_message">평평한 면에 Android 기기를 반듯하게 놓은 후 (뒷면 가능) \'보정\' 버튼을 누르세요.\n\n기기의 각 면에 대한 보정을 초기화할 수도 있습니다.</string>
+    <string name="calibrate_again_title">재보정이 필요합니다</string>
+    <string name="calibrate_again_message">센서 변경으로 인해 현재 기기의 재보정이 필요합니다.</string>
+    <string name="calibrate_saved">사용자 보정 저장 완료!</string>
+    <string name="calibrate_failed">보정 실패!</string>
+    <string name="calibrate_restored">원본 보정 복원 완료!</string>
+    <string name="angle">각도</string>
+    <string name="inclination">기울기</string>
+    <string name="roof_pitch">지붕 물매</string>
+
+    <string-array name="bubble_display_options">
+        <item>각도</item>
+        <item>기울기</item>
+        <item>지붕 물매</item>
+    </string-array>
+    <string-array name="mode_options">
+        <item>플래시라이트</item>
+        <item>화면 조명</item>
+        <item>점멸</item>
+    </string-array>
+    <string-array name="drawer_title_list">
+        <item>플래시라이트</item>
+        <item>화면 조명</item>
+        <item>점멸</item>
+        <item>SOS!</item>
+        <item>수평계</item>
+        <item>설정</item>
+        <item>공유</item>
+        <item>앱 평점 등록</item>
+        <item>정보</item>
+    </string-array>
+
+    <string-array name="switch_off_time_options">
+        <item>3분</item>
+        <item>5분</item>
+        <item>10분</item>
+        <item>20분</item>
+        <item>30분</item>
+        <item>사용 안함</item>
+    </string-array>
+
+
+</resources>

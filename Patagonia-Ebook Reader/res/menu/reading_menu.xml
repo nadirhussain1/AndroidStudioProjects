@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/shelves"
+        android:title="@string/library"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/add_bookmark"
+        android:icon="@drawable/bookmark_add"
+        android:title="@string/add_bookmark"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/profile_day"
+        android:icon="@drawable/sun"
+        android:title="@string/profile_day"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/profile_night"
+        android:icon="@drawable/moon"
+        android:title="@string/profile_night"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/prefs"
+        android:icon="@drawable/info"
+        android:title="@string/prefs"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/rolling_blind"
+        android:icon="@drawable/play"
+        android:title="@string/rolling_blind"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/contact_us"
+        android:title="@string/contact_us"
+        app:showAsAction="never"
+        />
+
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/info"
+        android:title="@string/about"
+        app:showAsAction="never"
+        />
+
+</menu>

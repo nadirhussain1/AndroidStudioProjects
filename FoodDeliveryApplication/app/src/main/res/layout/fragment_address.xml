@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/headTextView"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="#11000000"
+            android:gravity="center_vertical"
+            android:paddingLeft="50px"
+            android:text="SHIPPING/BILLING ADDRESS"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/headTextView"
+            android:padding="40px">
+
+            <TextView
+                android:id="@+id/addressOneTextView"
+                android:layout_width="570px"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:background="@drawable/bottom_border_editor_bg"
+                android:padding="10px"
+                android:text="Location"
+                android:textColor="@android:color/black"
+                android:textSize="14dp"/>
+
+            <ImageView
+                android:id="@+id/locationIconView"
+                android:layout_width="80px"
+                android:layout_height="80px"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/location_marker"/>
+
+            <TextView
+                android:id="@+id/addressTwoTextView"
+                android:layout_width="570px"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/addressOneTextView"
+                android:layout_marginTop="20px"
+                android:background="@drawable/bottom_border_editor_bg"
+                android:padding="10px"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/addressThreeTextView"
+                android:layout_width="570px"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/addressTwoTextView"
+                android:layout_marginTop="20px"
+                android:background="@drawable/bottom_border_editor_bg"
+                android:padding="10px"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="14dp"
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/nextTextView"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/disabled_green_color"
+            android:gravity="center"
+            android:text="NEXT"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="ambilwarna_hsvHeight">240dp</dimen>
+	<dimen name="ambilwarna_hsvWidth">240dp</dimen>
+	<dimen name="ambilwarna_hueWidth">30dp</dimen>
+	<dimen name="ambilwarna_spacer">8dp</dimen>
+	<dimen name="recycler_grid_spacing">2dp</dimen>
+
+	<dimen name="com_parse_ui_small_vertical_spacing">8dp</dimen>
+	<dimen name="com_parse_ui_large_vertical_spacing">24dp</dimen>
+	<dimen name="com_parse_ui_vertical_margin">16dp</dimen>
+	<dimen name="com_parse_ui_horizontal_margin">16dp</dimen>
+	<dimen name="divider_height">0.5dp</dimen>
+
+	<dimen name="nav_drawer_width">235dp</dimen>
+</resources>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/orderNumberTextView"
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:background="#11000000"
+            android:gravity="center_vertical"
+            android:paddingLeft="50px"
+            android:text="ORDER NUMBER:"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:id="@+id/firstLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orderNumberTextView"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10px"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total:"
+                    android:textColor="@android:color/black"
+                    android:textSize="12dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/totalBillTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 1260"
+                    android:textColor="#88000000"
+                    android:textSize="14dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#44000000"
+                android:tag="constantWidth"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10px"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                android:paddingLeft="50px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Payment:"
+                    android:textColor="@android:color/black"
+                    android:textSize="12dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cash on Delivery"
+                    android:textColor="#88000000"
+                    android:textSize="14dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divOne"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/firstLayout"
+            android:background="#44000000"
+            android:tag="constantWidth"
+            />
+
+        <RelativeLayout
+            android:id="@+id/shippingAddressLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divOne"
+            android:paddingLeft="50px"
+            android:paddingRight="50px">
+
+            <TextView
+                android:id="@+id/shippingStaticTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10px"
+                android:text="Shipping/Billing Address"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/addressTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/shippingStaticTextView"
+                android:text="Makkah colony"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/orderStatusHeadTextView"
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:layout_below="@+id/shippingAddressLayout"
+            android:layout_marginTop="10px"
+            android:background="#11000000"
+            android:gravity="center_vertical"
+            android:paddingLeft="50px"
+            android:text="ORDER STATUS:"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/orderStatusRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="150px"
+            android:layout_below="@+id/orderStatusHeadTextView"
+            android:visibility="visible">
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/itemsHeadTextView"
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:layout_below="@+id/orderStatusRecyclerView"
+            android:layout_marginTop="10px"
+            android:background="#11000000"
+            android:gravity="center_vertical"
+            android:paddingLeft="50px"
+            android:text="ITEMS:"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/itemsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="450px"
+            android:layout_below="@+id/itemsHeadTextView"
+            android:background="#11000000">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/cancelOrderTextView"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/red_color_in_app"
+            android:gravity="center"
+            android:text="CANCEL ORDER"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/progressBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AA000000"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+</RelativeLayout>

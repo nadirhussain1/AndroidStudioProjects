@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">DeliveryApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="ok_label">OK</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="yes_label">Yes</string>
+    <string name="no_label">No</string>
+    <string name="enter_your_number">Enter your mobile number</string>
+    <string name="four_digit_text">Enter the 6-digit code sent to you at</string>
+    <string name="resend_code">Resend code</string>
+    <string name="edit_mobile_number">Edit mobile number</string>
+    <string name="mobile_number_length_error">Mobile number cannot be less than ten digits</string>
+    <string name="connectivity_error">No internet.Check your connection please</string>
+    <string name="wrong_code_title">Wrong Code</string>
+    <string name="wrong_code_msg">You have entered wrong code.</string>
+    <string name="invalid_mobile_number_msg">Your mobile number is invalid. Enter valid number.</string>
+    <string name="invalid_mobile_number_title">Invalid Number</string>
+    <string name="quota_exceeded_title">Quota Exceeded</string>
+    <string name="quota_exceeded_msg">Quota of sending messages has exceeded. Contact your administrator</string>
+    <string name="reset_password_email_sent">An email has been sent to you to reset your password</string>
+
+    <string name="profile_label">Profile</string>
+    <string name="profile_update_msg">Adding profile information. Please wait</string>
+    <string name="verifying_code_title">Verifying code</string>
+    <string name="verifying_mobile_msg">Mobile number is being verified. Please wait</string>
+    <string name="pass_reset_title">Reset Password</string>
+    <string name="pass_reset_msg">An email is being sent to you for resetting password</string>
+    <string name="logout_title">Log Out</string>
+    <string name="logout_msg">Are you sure you want to log out?</string>
+    <string name="login_title">Log In</string>
+    <string name="login_msg">You are being logged in. Please wait</string>
+    <string name="verify_email">Check your inbox to verify your email and then login again</string>
+    <string name="data_update_title">Saving data</string>
+    <string name="data_update_msg">Data is being saved. Please wait!</string>
+
+    <string name="data_loading_message">Data is being loaded. Please wait</string>
+    <string name="adding_item_progress_message">Item is being added to cart. Please wait</string>
+    <string name="title_removing_item">Removing Item</string>
+    <string name="message_removing_item">Are you sure that you want to remove item from cart?</string>
+    <string name="add_item_cart_failure_msg">Item could not be added in the cart.Try again</string>
+    <string name="submit_review_progress_msg">Your review is being saved</string>
+    <string name="no_star_clicked_msg">Click on stars to rate the product</string>
+    <string name="empty_publisher_msg">Publisher cannot be empty</string>
+    <string name="empty_title_msg">Title cannot be empty</string>
+    <string name="blank_comment_msg">Add comment please</string>
+    <string name="review_submitted_msg">Your review has been saved successfully.</string>
+    <string name="review_failed_msg">Your review has not been saved. Try again</string>
+    <string name="incomplete_code_error">You have entered incomplete code</string>
+    <string name="code_sent_msg">6 digit code has been sent to you via sms</string>
+    <string name="entered_wrong_pass_msg">You have entered wrong password</string>
+    <string name="invalid_email_msg">You have entered an invalid email</string>
+    <string name="no_search_result">No place found</string>
+    <string name="settings_label">Settings</string>
+    <string name="location_enable_dialog_message">Enable gps and network settings</string>
+    <string name="title_confirm_order">Confirm Order</string>
+    <string name="message_confirm_order">I confirm that all the details of the order (items,delivery schedule and shipping address) are correct.</string>
+    <string name="title_going_back">Going Back</string>
+    <string name="message_going_back">All your data of checkout (schedule/address) will be removed.Do you still want to go back?</string>
+
+    <string name="google_places_key">AIzaSyAOPFlk-oWtF-l0YJZMBUGg2_HgBeaARRM</string>
+
+
+    <string-array name="months_names">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="days_names">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+    <string-array name="contact_reasons">
+        <item>App feedback</item>
+        <item>Feedback on the Delivery</item>
+        <item>Feedback on the Product</item>
+        <item>Other</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<resources>
+
+    <string name="app_name">Latarka</string>
+
+    <string name="drawer_open"></string>
+    <string name="drawer_close"></string>
+    <string name="banner_ad_unit_id">ca-app-pub-7645731698476649/8453105216</string>
+    <string name="image_name_prefix">image</string>
+    <string name="photo_saved_text">Your photo is saved in the gallery under "Flashlight"</string>
+    <string name="camera_first_time_text">Great to see you’ve discovered the camera function! It could take up to ~15 minutes before the gallery shows the album “Flashlight” with your pictures.</string>
+    <string name="unable_to_start_camera">Unable to start camera preview.</string>
+    <string name="feedback_subject">Flashlight feedback</string>
+    //Settings Screen Text
+
+    <string name="settings_heading_text">Ustawienia</string>
+    <string name="about_heading_text">Informacje</string>
+    <string name="settings_general_text">OGÓLNE</string>
+    <string name="settings_sound_text">Dźwięk</string>
+    <string name="settings_switch_off_time_text">Wyłącz światło po</string>
+    <string name="settings_battery_status_text">Pokaż poziom baterii</string>
+    <string name="settings_startup_text">START-UP</string>
+    <string name="settings_mode_open_text">Tryb, który ma być aktywny po uruchomieniu</string>
+    <string name="settings_default_state_text">Stan domyślny</string>
+    <string name="settings_show_timer_text">Pokaż licznik</string>
+    <string name="settings_sos_text">SOS</string>
+    <string name="settings_sos_default_text">Domyślny stan SOS</string>
+    <string name="settings_sos_repeat_text">Powtórz sygnał</string>
+    <string name="settings_bubble_text">POZIOMICA</string>
+    <string name="settings_bubble_display_text">Pokaż wartości jako</string>
+
+
+    <string name="warning_alert_head">Ostrzeżenie:</string>
+    <string name="warning_alert_description">Migocące światło może wywołać atak u osób cierpiących na padaczkę fotogenną.</string>
+    <string name="dont_show_again_text">Nie pokazuj komunikatu ponownie</string>
+    <string name="acknowledge_text">Zrozumiano</string>
+    <string name="share_app_text">Korzystam z tej świetnej aplikacji emitującej latarkę, wypróbuj ją: \n </string>
+    <string name="feedback_button_text">Opinia</string>
+    <string name="app_version_text">Wersja aplikacji</string>
+        <string name="timer_shut_toast_text_1">W celu oszczędzania baterii światło zostaje wyłączone po </string>
+    <string name="timer_shut_toast_text_2"> min. Można to zmienić w ustawieniach.</string>
+    
+    <string name="camera_first_thanks_button_text">Dziękuję, rozumiem.</string>
+       <string name="speed_label">Szybkość</string>
+    <string name="slow_label">Wolno</string>
+    <string name="fast_label">Szybko</string>
+    <string name="repeat_label">Powtórz</string>
+    <string name="frequency_label">Częstotliwość</string>
+    <string name="flashlight_noti_title">Latarka jest włączona</string>
+    <string name="flashlight_noti_msg">Naciśnij, aby wyłączyć latarkę</string>
+    <string name="strobe_noti_title">Stroboskop jest włączony</string>
+    <string name="strobelight_noti_msg">Naciśnij, aby wyłączyć stroboskop</string>
+    <string name="sos_noti_title">Światło SOS jest włączone</string>
+    <string name="soslight_noti_msg">Naciśnij, aby wyłączyć światło SOS</string>
+    <string name="share_via_label">Udostępnij przez</string>
+    <string name="send_via_label">Wyślij przez</string>
+    <string name="directory_create_failed">Nie można utworzyć katalogu, aby zapisać obraz.</string>
+    <string name="saving_image_failed">Nie udało się zapisać obrazu.</string>
+    
+
+
+    //Bubble Screen
+    <string name="reset">Resetuj</string>
+    <string name="not_supported">Nieobsługiwana orientacja</string>
+    <string name="cancel">Anuluj</string>
+    <string name="save">Zapisz</string>
+    <string name="ok">OK</string>
+    <string name="calibrate_button_text">Kalibruj</string>
+    <string name="lock_value_text">Zablokowany ekran</string>
+    <string name="values_locked_text">Zablokowane</string>
+    <string name="calibrate_title">Kalibrowanie</string>
+    <string name="calibrate_message">Połóż swoje urządzenie Android którąkolwiek stroną (również tylną) na płaskiej poziomej powierzchni i naciśnij przycisk „Kalibruj”.\n\nLub resetuj kalibrowanie dla wszystkich stron.</string>
+    <string name="calibrate_again_title">Musisz wykonać kalibrowanie ponownie</string>
+    <string name="calibrate_again_message">Zmiana czujnika wymaga ponownego skalibrowania telefonu.</string>
+    <string name="calibrate_saved">Kalibrowanie niestandardowe zapisane!</string>
+    <string name="calibrate_failed">Kalibrowanie nie powiodło się!</string>
+    <string name="calibrate_restored">Przywrócono pierwotne kalibrowanie!</string>
+    <string name="angle">Kąt</string>
+    <string name="inclination">Nachylenie</string>
+    <string name="roof_pitch">Nachylenie dachu</string>
+
+    <string-array name="bubble_display_options">
+        <item>Kąt</item>
+        <item>Nachylenie</item>
+        <item>Nachylenie dachu</item>
+    </string-array>
+    <string-array name="mode_options">
+        <item>Latarka</item>
+        <item>Światło ekranu</item>
+        <item>Stroboskop</item>
+    </string-array>
+    <string-array name="drawer_title_list">
+        <item>Latarka</item>
+        <item>Światło ekranu</item>
+        <item>Stroboskop</item>
+        <item>SOS!</item>
+        <item>Poziomica</item>
+        <item>Ustawienia</item>
+        <item>Udostępnij</item>
+        <item>Oceń tę aplikację</item>
+        <item>Informacje</item>
+    </string-array>
+
+    <string-array name="switch_off_time_options">
+        <item>3 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>20 min</item>
+        <item>30 min</item>
+        <item>Nigdy</item>
+    </string-array>
+
+
+</resources>

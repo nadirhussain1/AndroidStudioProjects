@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<resources>
+
+    <string name="app_name">手电筒</string>
+
+    <string name="drawer_open"></string>
+    <string name="drawer_close"></string>
+    <string name="banner_ad_unit_id">ca-app-pub-7645731698476649/8453105216</string>
+    <string name="image_name_prefix">image</string>
+    <string name="photo_saved_text">Your photo is saved in the gallery under "Flashlight"</string>
+    <string name="camera_first_time_text">Great to see you’ve discovered the camera function! It could take up to ~15 minutes before the gallery shows the album “Flashlight” with your pictures.</string>
+    <string name="unable_to_start_camera">Unable to start camera preview.</string>
+    <string name="feedback_subject">Flashlight feedback</string>
+    //Settings Screen Text
+
+    <string name="settings_heading_text">设置</string>
+    <string name="about_heading_text">关于本游戏</string>
+    <string name="settings_general_text">常规设置</string>
+    <string name="settings_sound_text">声音</string>
+    <string name="settings_switch_off_time_text">在此时间后关闭灯光</string>
+    <string name="settings_battery_status_text">显示电池状态</string>
+    <string name="settings_startup_text">启动</string>
+    <string name="settings_mode_open_text">启动时的模式</string>
+    <string name="settings_default_state_text">默认状态</string>
+    <string name="settings_show_timer_text">显示计时器</string>
+    <string name="settings_sos_text">SOS</string>
+    <string name="settings_sos_default_text">默认 SOS 状态</string>
+    <string name="settings_sos_repeat_text">重复信号</string>
+    <string name="settings_bubble_text">水平仪</string>
+    <string name="settings_bubble_display_text">显示数值</string>
+
+
+    <string name="warning_alert_head">警告：</string>
+    <string name="warning_alert_description">闪烁的灯光可能会诱使光敏性癫痫患者发病。</string>
+    <string name="dont_show_again_text">不再显示</string>
+    <string name="acknowledge_text">确认</string>
+    <string name="share_app_text">我发现了一款非常棒的手电筒应用，快来体验一下吧：\n </string>
+    <string name="feedback_button_text">反馈</string>
+    <string name="app_version_text">应用版本</string>
+        <string name="timer_shut_toast_text_1">为节约电池电量，灯光将在 </string>
+    <string name="timer_shut_toast_text_2"> 分钟后自动关闭。您可以在“设置”中更改此值。</string>
+    
+    <string name="camera_first_thanks_button_text">谢谢，明白了！</string>
+       <string name="speed_label">速度</string>
+    <string name="slow_label">慢速</string>
+    <string name="fast_label">快速</string>
+    <string name="repeat_label">重复</string>
+    <string name="frequency_label">频率</string>
+    <string name="flashlight_noti_title">手电筒打开</string>
+    <string name="flashlight_noti_msg">点按以关闭手电筒</string>
+    <string name="strobe_noti_title">打开闪灯</string>
+    <string name="strobelight_noti_msg">点按以关闭闪灯</string>
+    <string name="sos_noti_title">打开 SOS 灯</string>
+    <string name="soslight_noti_msg">点按以关闭 SOS 灯</string>
+    <string name="share_via_label">通过此方式分享</string>
+    <string name="send_via_label">通过此方式发送</string>
+    <string name="directory_create_failed">无法创建用于保存图像的目录。</string>
+    <string name="saving_image_failed">图像无法保存。</string>
+    
+
+
+    //Bubble Screen
+    <string name="reset">重置</string>
+    <string name="not_supported">不支持定向</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="ok">确定</string>
+    <string name="calibrate_button_text">校准</string>
+    <string name="lock_value_text">锁屏类型</string>
+    <string name="values_locked_text">已锁定</string>
+    <string name="calibrate_title">校准</string>
+    <string name="calibrate_message">将你的 Android 设备的任一侧（包括背侧）放在水平表面上，然后按“校准”按钮。\n\n或者对所有侧都重置校准。</string>
+    <string name="calibrate_again_title">你必须重新校准</string>
+    <string name="calibrate_again_message">传感器更改不行重新校准手机。</string>
+    <string name="calibrate_saved">自定义校准已保存！</string>
+    <string name="calibrate_failed">校准失败</string>
+    <string name="calibrate_restored">原始校准已恢复！</string>
+    <string name="angle">角度</string>
+    <string name="inclination">倾斜</string>
+    <string name="roof_pitch">屋顶坡度</string>
+
+    <string-array name="bubble_display_options">
+        <item>角度</item>
+        <item>倾斜</item>
+        <item>屋顶坡度</item>
+    </string-array>
+    <string-array name="mode_options">
+        <item>手电筒</item>
+        <item>屏幕灯</item>
+        <item>闪灯</item>
+    </string-array>
+    <string-array name="drawer_title_list">
+        <item>手电筒</item>
+        <item>屏幕灯</item>
+        <item>闪灯</item>
+        <item>SOS！</item>
+        <item>水平仪</item>
+        <item>设置</item>
+        <item>分享</item>
+        <item>给本应用评分</item>
+        <item>关于本游戏</item>
+    </string-array>
+
+    <string-array name="switch_off_time_options">
+        <item>3 分钟</item>
+        <item>5 分钟</item>
+        <item>10 分钟</item>
+        <item>20 分钟</item>
+        <item>30 分钟</item>
+        <item>从不</item>
+    </string-array>
+
+
+</resources>

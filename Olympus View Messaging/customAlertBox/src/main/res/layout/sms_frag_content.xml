@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/img_s1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:scaleType="center"
+        android:src="@drawable/ic3_s1" />
+
+    <RelativeLayout
+        android:id="@+id/contentScrollLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/img_s2"
+        android:layout_below="@+id/img_s1" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/call_back_tomorrow"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+        </ScrollView>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_s2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/ln_h2"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic3_s2" />
+
+    <RelativeLayout
+        android:id="@+id/ln_h2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:id="@+id/tv_reply"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/dialog_button"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/reply"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/img_s3"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic3_s3" />
+
+        <TextView
+            android:id="@+id/tv_ok"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/dialog_button"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/ok"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

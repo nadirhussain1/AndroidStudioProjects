@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="#00000000">
+
+    <RelativeLayout
+        android:id="@+id/scalingLayout"
+        android:layout_width="980px"
+        android:background="#363636"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/warningTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50px"
+            android:text="@string/warning_alert_head"
+            android:textColor="#DB0000"
+            android:textSize="32dp" />
+        <TextView
+            android:id="@+id/warningDescriptionTextView"
+            android:layout_width="940px"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10px"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/warningTextView"
+            android:text="@string/warning_alert_description"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp" />
+
+        <CheckBox
+            android:id="@+id/DontCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:layout_alignLeft="@+id/warningDescriptionTextView"
+            android:layout_below="@+id/warningDescriptionTextView"
+            android:layout_marginTop="90px"
+            />
+
+        <TextView
+            android:id="@+id/dontShowTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/warningDescriptionTextView"
+            android:layout_toRightOf="@+id/DontCheckBox"
+            android:layout_marginTop="100px"
+            android:text="@string/dont_show_again_text"
+            android:textColor="#CCCCCC"
+            android:textSize="24dp" />
+          <View
+              android:id="@+id/divider"
+              android:background="#CCCCCC"
+              android:layout_below="@+id/dontShowTextView"
+              android:layout_marginTop="50px"
+              android:tag="constantHeight"
+              android:layout_width="match_parent"
+              android:layout_height="1dp" />
+
+        <TextView
+            android:id="@+id/acknowledgeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="150px"
+            android:layout_below="@+id/divider"
+            android:gravity="center"
+            android:text="@string/acknowledge_text"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

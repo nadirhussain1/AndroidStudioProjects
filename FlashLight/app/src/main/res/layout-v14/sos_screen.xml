@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1F1F1F">
+
+        <RelativeLayout
+            android:id="@+id/ledActiveLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+            <include
+                android:id="@+id/flashLayout"
+                layout="@layout/common_light_screen"
+                android:layout_width="match_parent"
+                android:layout_height="1000px" />
+
+            <RelativeLayout
+                android:id="@+id/flashScrenLayout"
+                android:layout_width="180px"
+                android:layout_height="430px"
+                android:visibility="gone"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="50px"
+                android:layout_marginTop="530px">
+
+                <ImageView
+                    android:id="@+id/flashLightIconView"
+                    android:layout_width="180px"
+                    android:layout_height="180px"
+                    android:background="@drawable/button_led" />
+
+                <ImageView
+                    android:id="@+id/screenLightIconView"
+                    android:layout_width="180px"
+                    android:layout_height="180px"
+                    android:visibility="gone"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/button_screen" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/sosSatusBarIconView"
+                android:layout_width="384px"
+                android:layout_height="30px"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="850px"
+                android:background="@drawable/braile_sos" />
+
+
+            <TextView
+                android:id="@+id/speedTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sosSatusBarIconView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="150px"
+                android:text="@string/speed_label"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <SeekBar
+                android:id="@+id/speedSeekBar"
+                android:layout_width="900px"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/speedTextView"
+                android:layout_centerHorizontal="true"
+                android:max="10"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:progress="5"
+                android:progressDrawable="@drawable/sos_custom_bar"
+                android:thumb="@drawable/sos_bar_custom_thumb" />
+
+            <RelativeLayout
+                android:id="@+id/speedBarLabelLayout"
+                android:layout_width="900px"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/speedSeekBar"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:id="@+id/slowSpeedLabelView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/slow_label"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/fastSpeedLabelView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/fast_label"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14dp"
+
+                    />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/repeatLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/speedBarLabelLayout"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100px">
+
+                <TextView
+                    android:id="@+id/repeatLabelView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/repeat_label"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14dp"
+
+                    />
+
+                <Switch
+                    android:id="@+id/repeatCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20px"
+                    android:layout_toRightOf="@+id/repeatLabelView" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

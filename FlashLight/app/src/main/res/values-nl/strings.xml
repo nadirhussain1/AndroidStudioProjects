@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Zaklamp</string>
+
+    <string name="drawer_open"></string>
+    <string name="drawer_close"></string>
+    <string name="banner_ad_unit_id">ca-app-pub-7645731698476649/8453105216</string>
+    <string name="image_name_prefix">image</string>
+    <string name="photo_saved_text">Your photo is saved in the gallery under "Flashlight"</string>
+    <string name="camera_first_time_text">Great to see you’ve discovered the camera function! It could take up to ~15 minutes before the gallery shows the album “Flashlight” with your pictures.</string>
+    <string name="unable_to_start_camera">Unable to start camera preview.</string>
+    <string name="feedback_subject">Flashlight feedback</string>
+    //Settings Screen Text
+
+    <string name="settings_heading_text">Instellingen</string>
+    <string name="about_heading_text">Over deze app</string>
+    <string name="settings_general_text">ALGEMEEN</string>
+    <string name="settings_sound_text">Geluid</string>
+    <string name="settings_switch_off_time_text">Zaklamp uitschakelen na</string>
+	<string name="settings_battery_status_text">Toon batterij indicator</string>
+    <string name="settings_startup_text">OPSTARTEN</string>
+    <string name="settings_mode_open_text">Openingsscherm</string>
+    <string name="settings_default_state_text">Standaard modus</string>
+    <string name="settings_show_timer_text">Toon timer</string>
+    <string name="settings_sos_text">SOS</string>
+    <string name="settings_sos_default_text">Standaard SOS modus</string>
+    <string name="settings_sos_repeat_text">Herhalen</string>
+    <string name="settings_bubble_text">WATERPAS</string>
+    <string name="settings_bubble_display_text">Waarden weergeven in</string>
+
+
+    <string name="warning_alert_head">Waarschuwing:</string>
+    <string name="warning_alert_description">Flitsend licht kan bij sommige personen fotogevoelige epilepsie veroorzaken.</string>
+    <string name="dont_show_again_text">Toon dit bericht niet meer</string>
+    <string name="acknowledge_text">OK, ik begrijp het.</string>
+    <string name="share_app_text">Ik kwam deze geweldige zaklamp app tegen, download hem hier: \n </string>
+    <string name="feedback_button_text">Feedback</string>
+    <string name="app_version_text">App versie</string>
+    <string name="timer_shut_toast_text_1">Om de batterij te sparen, gaat de lamp automatisch uit na </string>
+    <string name="timer_shut_toast_text_2"> minuten. Je kunt dit bij de instellingen veranderen.</string>
+    
+    <string name="camera_first_thanks_button_text">Bedankt, ik begrijp het!</string>
+    <string name="speed_label">Snelheid</string>
+    <string name="slow_label">Langzaam</string>
+    <string name="fast_label">Snel</string>
+    <string name="repeat_label">Herhalen</string>
+    <string name="frequency_label">Frequentie</string>
+    <string name="flashlight_noti_title">Zaklamp staat aan</string>
+    <string name="flashlight_noti_msg">Tik hier om de zaklamp uit te schakelen</string>
+    <string name="strobe_noti_title">Stroboscoop staat aan</string>
+    <string name="strobelight_noti_msg">Tik hier om de stroboscoop uit te schakelen</string>
+    <string name="sos_noti_title">SOS licht staat aan</string>
+    <string name="soslight_noti_msg">Tik om het SOS licht uit te schakelen</string>
+    <string name="share_via_label">Delen via</string>
+    <string name="send_via_label">Versturen via</string>
+    <string name="directory_create_failed">Er kan geen map gemaakt worden om de foto op te slaan.</string>
+    <string name="saving_image_failed">Foto kan niet opgeslagen worden.</string>
+    
+
+
+    //Bubble Screen
+    <string name="reset">Reset</string>
+    <string name="not_supported">Orientatie is niet ondersteund</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Opslaan</string>
+    <string name="ok">Ok</string>
+    <string name="calibrate_button_text">Kalibreren</string>
+    <string name="lock_value_text">Blokkeer waterpas</string>
+    <string name="values_locked_text">Waterpas geblokkeerd</string>
+    <string name="calibrate_title">Kalibreren</string>
+    <string name="calibrate_message">Leg een willekeurige kant (dit kan ook de achterkant zijn) van je telefoon op een horizontaal oppervlak en druk op "Kalibreren".\n\nOf, reset de waarden voor alle kanten.</string>
+    <string name="calibrate_again_title">Je moet opnieuw kalibreren.</string>
+    <string name="calibrate_again_message">De verandering van de sensorwaarde vereist een herkalibratie van je telefoon.</string>
+    <string name="calibrate_saved">Kalibratie opgeslagen!</string>
+    <string name="calibrate_failed">Fout bij kalibreren!</string>
+    <string name="calibrate_restored">Originele kalibratie hersteld!</string>
+    <string name="angle">Hoek</string>
+    <string name="inclination">Hellingsgraad</string>
+    <string name="roof_pitch">Dakhelling</string>
+
+    <string-array name="bubble_display_options">
+        <item>Hoek</item>
+        <item>Hellingsgraad</item>
+        <item>Dakhelling</item>
+    </string-array>
+    <string-array name="mode_options">
+        <item>Zaklamp</item>
+        <item>Schermlicht</item>
+        <item>Stroboscoop</item>
+    </string-array>
+    <string-array name="drawer_title_list">
+        <item>Zaklamp</item>
+        <item>Schermlicht</item>
+        <item>Stroboscoop</item>
+        <item>SOS!</item>
+        <item>Waterpas</item>
+        <item>Instellingen</item>
+        <item>Delen</item>
+        <item>Beoordeel deze app</item>
+        <item>Over</item>
+    </string-array>
+
+    <string-array name="switch_off_time_options">
+        <item>3 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>20 min</item>
+        <item>30 min</item>
+        <item>Nooit</item>
+    </string-array>
+
+
+</resources>

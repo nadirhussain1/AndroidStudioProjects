@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/topBarLyout"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/green_color_in_app">
+
+            <ImageView
+                android:id="@+id/backIconView"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/white_back_icon"/>
+
+            <TextView
+                android:id="@+id/titleView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/backIconView"
+                android:gravity="center_vertical"
+                android:paddingLeft="30px"
+                android:text="Checkout"
+                android:textColor="@android:color/white"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/tabsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_below="@+id/topBarLyout"
+            android:layout_marginTop="10px"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/scheduleLayout"
+                android:layout_width="180px"
+                android:layout_height="match_parent"
+                android:background="#F3F9F5"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="42px"
+                    android:layout_height="42px"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5px"
+                    android:background="@drawable/home_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Schedule"
+                    android:textColor="@android:color/black"
+                    android:textSize="12dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/addressLayout"
+                android:layout_width="180px"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="42px"
+                    android:layout_height="42px"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5px"
+                    android:background="@drawable/home_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Address"
+                    android:textColor="@android:color/black"
+                    android:textSize="12dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/paymentLayout"
+                android:layout_width="180px"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="42px"
+                    android:layout_height="42px"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5px"
+                    android:background="@drawable/home_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Payment"
+                    android:textColor="@android:color/black"
+                    android:textSize="12dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/shippingLayout"
+                android:layout_width="180px"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="42px"
+                    android:layout_height="42px"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5px"
+                    android:background="@drawable/home_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Shipping"
+                    android:textColor="@android:color/black"
+                    android:textSize="12dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fragmentContainerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tabsLayout"
+            >
+
+        </FrameLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>

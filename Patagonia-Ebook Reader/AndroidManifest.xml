@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.nightwhistler.pageturner"
+    android:installLocation="auto"
+    android:versionCode="105"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="14" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:name=".PageTurner"
+        android:description="@string/app_desc"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        >
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="@string/parse_app_id" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="@string/parse_client_key" />
+        <meta-data
+            android:name="patagonia.APP_ID"
+            android:value="@string/patagonia_app_id" />
+
+        <receiver android:name=".activity.MediaButtonReceiver">
+            <intent-filter android:priority="10000">
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".activity.ReadingActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:mimeType="application/epub+zip" />
+                <data android:pathPattern=".*\\.epub" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="patagonia.LoginActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="net.nightwhistler.pageturner.activity.PageTurnerPrefsActivity"
+            android:label="@string/prefs" />
+        <activity
+            android:name="net.nightwhistler.pageturner.activity.LibraryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".activity.FileBrowseActivity"
+            android:label="@string/browse" />
+
+        <activity
+            android:name=".activity.CatalogBookDetailsActivity"
+            android:label="@string/book_details">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="epub" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.CatalogActivity"
+            android:label="@string/download" />
+        <activity
+            android:name=".activity.ManageSitesActivity"
+            android:label="@string/pref_manage_sites">
+            <intent-filter>
+                <action android:name="net.nightwhistler.pageturner.activity.ManageSitesActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.parse.ui.ParseLoginActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop">
+            <!-- For more options, see https://www.parse.com/docs/android_guide#ui-login -->
+            <meta-data
+                android:name="com.parse.ui.ParseLoginActivity.PARSE_LOGIN_ENABLED"
+                android:value="true" />
+            <meta-data
+                android:name="com.parse.ui.ParseLoginActivity.PARSE_LOGIN_EMAIL_AS_USERNAME"
+                android:value="true" />
+        </activity>
+
+        <activity
+            android:name="org.acra.CrashReportDialog"
+            android:excludeFromRecents="true"
+            android:finishOnTaskLaunch="true"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="patagonia.PatagoniaAutoresActivity"
+            android:label="@string/title_activity_patagonia_autores">
+
+        </activity>
+        <activity
+            android:name="patagonia.PatagoniaAutorActivity"
+            android:label="@string/title_activity_patagonia_autor">
+
+        </activity>
+
+        <service
+            android:name="com.amazonaws.mobileconnectors.s3.transferutility.TransferService"
+            android:enabled="true" />
+    </application>
+
+</manifest>

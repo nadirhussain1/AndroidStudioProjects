@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/headTextView"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:gravity="center_vertical"
+            android:paddingLeft="50px"
+            android:text="DELIVERY SCHEDULE SETTINGS"
+            android:textColor="@android:color/black"
+            android:background="#11000000"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+        <RadioGroup
+            android:id="@+id/deliveryModeGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/headTextView"
+            android:layout_marginLeft="60px"
+            android:layout_marginTop="15px"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/oneTimeDeliveryButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="One Time Delivery"
+                android:textSize="16dp"/>
+            <RadioButton
+                android:id="@+id/multiTimeDeliveryButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15px"
+                android:text="Multi Time Delivery"
+                android:textSize="16dp"/>
+        </RadioGroup>
+        <View
+            android:id="@+id/divOne"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/deliveryModeGroup"
+            android:layout_marginTop="15px"
+            android:tag="constantHeight"
+            android:background="#44000000"/>
+
+        <TextView
+            android:id="@+id/selectDateTextView"
+            android:layout_width="300px"
+            android:layout_height="70px"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/divOne"
+            android:layout_marginTop="30px"
+            android:background="@color/green_color_in_app"
+            android:gravity="center"
+            android:text="Select Date"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:visibility="invisible"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/selectedDatesRecyclerView"
+            android:layout_width="wrap_content"
+            android:layout_height="400px"
+            android:layout_below="@+id/selectDateTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30px">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/nextTextView"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/disabled_green_color"
+            android:gravity="center"
+            android:text="NEXT"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+</RelativeLayout>

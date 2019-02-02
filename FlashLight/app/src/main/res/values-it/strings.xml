@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<resources>
+
+    <string name="app_name">Torcia</string>
+
+    <string name="drawer_open"></string>
+    <string name="drawer_close"></string>
+    <string name="banner_ad_unit_id">ca-app-pub-7645731698476649/8453105216</string>
+    <string name="image_name_prefix">image</string>
+    <string name="photo_saved_text">Your photo is saved in the gallery under "Flashlight"</string>
+    <string name="camera_first_time_text">Great to see you’ve discovered the camera function! It could take up to ~15 minutes before the gallery shows the album “Flashlight” with your pictures.</string>
+    <string name="unable_to_start_camera">Unable to start camera preview.</string>
+    <string name="feedback_subject">Flashlight feedback</string>
+    //Settings Screen Text
+
+    <string name="settings_heading_text">Impostazioni</string>
+    <string name="about_heading_text">Info</string>
+    <string name="settings_general_text">GENERALE</string>
+    <string name="settings_sound_text">Audio</string>
+    <string name="settings_switch_off_time_text">Spegni dopo</string>
+    <string name="settings_battery_status_text">Mostra stato batteria</string>
+    <string name="settings_startup_text">AVVIO</string>
+    <string name="settings_mode_open_text">Modalità da aprire all\'avvio</string>
+    <string name="settings_default_state_text">Stato predefinito</string>
+    <string name="settings_show_timer_text">Mostra timer</string>
+    <string name="settings_sos_text">SOS</string>
+    <string name="settings_sos_default_text">Stato SOS predefinito</string>
+    <string name="settings_sos_repeat_text">Segnale ripetuto</string>
+    <string name="settings_bubble_text">LIVELLA</string>
+    <string name="settings_bubble_display_text">Visualizza valori in</string>
+
+
+    <string name="warning_alert_head">Attenzione:</string>
+    <string name="warning_alert_description">Luci intermittenti potrebbero causare crisi in persone affette da epilessia fotosensibile.</string>
+    <string name="dont_show_again_text">Non mostrare più</string>
+    <string name="acknowledge_text">OK</string>
+    <string name="share_app_text">Ho scoperto questa fantastica app Torcia, guarda qua: \n </string>
+    <string name="feedback_button_text">Commenti</string>
+    <string name="app_version_text">Versione app</string>
+        <string name="timer_shut_toast_text_1">Per risparmiare batteria, la luce si spegne dopo </string>
+    <string name="timer_shut_toast_text_2"> minuti. Nelle impostazioni puoi cambiare questa opzione.</string>
+    
+    <string name="camera_first_thanks_button_text">Grazie!</string>
+       <string name="speed_label">Velocità</string>
+    <string name="slow_label">Lenta</string>
+    <string name="fast_label">Veloce</string>
+    <string name="repeat_label">Ripeti</string>
+    <string name="frequency_label">Frequenza</string>
+    <string name="flashlight_noti_title">La torcia è accesa</string>
+    <string name="flashlight_noti_msg">Tocca per spegnere</string>
+    <string name="strobe_noti_title">La strobo è accesa</string>
+    <string name="strobelight_noti_msg">Tocca per spegnere</string>
+    <string name="sos_noti_title">SOS è accesa</string>
+    <string name="soslight_noti_msg">Tocca per spegnere</string>
+    <string name="share_via_label">Condividi via</string>
+    <string name="send_via_label">Invia con</string>
+    <string name="directory_create_failed">Impossibile creare directory per salvare immagine.</string>
+    <string name="saving_image_failed">Impossibile salvare immagine.</string>
+    
+
+
+    //Bubble Screen
+    <string name="reset">Reimposta</string>
+    <string name="not_supported">Orientamento non supportato</string>
+    <string name="cancel">Annulla</string>
+    <string name="save">Salva</string>
+    <string name="ok">OK</string>
+    <string name="calibrate_button_text">Calibra</string>
+    <string name="lock_value_text">Blocco schermo</string>
+    <string name="values_locked_text">Bloccato</string>
+    <string name="calibrate_title">Calibrazione</string>
+    <string name="calibrate_message">Posiziona qualsiasi lato (anche quello posteriore) del tuo dispositivo Android su una superficie orizzontale piatta e tocca il pulsante \"Calibra\".\n\nAltrimeti reimposta la calibrazione per tutti i lati.</string>
+    <string name="calibrate_again_title">Devi ricalibrare</string>
+    <string name="calibrate_again_message">Il cambio di sensore richiede la ricalibrazione del telefono.</string>
+    <string name="calibrate_saved">Calibrazione personalizzata salvata!</string>
+    <string name="calibrate_failed">Calibrazione fallita!</string>
+    <string name="calibrate_restored">Calibrazione originale ripristinata!</string>
+    <string name="angle">Angolazione</string>
+    <string name="inclination">Inclinazione</string>
+    <string name="roof_pitch">Piano</string>
+
+    <string-array name="bubble_display_options">
+        <item>Angolazione</item>
+        <item>Inclinazione</item>
+        <item>Piano</item>
+    </string-array>
+    <string-array name="mode_options">
+        <item>Torcia</item>
+        <item>Luce schermo</item>
+        <item>Strobo</item>
+    </string-array>
+    <string-array name="drawer_title_list">
+        <item>Torcia</item>
+        <item>Luce schermo</item>
+        <item>Strobo</item>
+        <item>SOS!</item>
+        <item>Livella</item>
+        <item>Impostazioni</item>
+        <item>Condividi</item>
+        <item>Valuta questa app</item>
+        <item>Info</item>
+    </string-array>
+
+    <string-array name="switch_off_time_options">
+        <item>3 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>20 min</item>
+        <item>30 min</item>
+        <item>Mai</item>
+    </string-array>
+
+
+</resources>

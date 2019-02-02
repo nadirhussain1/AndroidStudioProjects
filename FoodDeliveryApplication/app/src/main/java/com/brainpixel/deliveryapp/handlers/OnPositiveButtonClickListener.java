@@ -1,0 +1,9 @@
+package com.brainpixel.deliveryapp.handlers;
+
+/**
+ * Created by nadirhussain on 29/09/2018.
+ */
+
+public interface OnPositiveButtonClickListener {
+    void onButtonClick();
+}

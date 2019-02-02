@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/topBarLyout"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/green_color_in_app">
+
+            <ImageView
+                android:id="@+id/backIconView"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/white_back_icon"/>
+
+            <TextView
+                android:id="@+id/titleView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/backIconView"
+                android:gravity="center_vertical"
+                android:paddingLeft="30px"
+                android:text="Update Profile"
+                android:textColor="@android:color/white"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/centralLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/topBarLyout"
+            android:layout_marginTop="50px"
+            android:padding="50px"
+            >
+
+            <LinearLayout
+                android:id="@+id/nameUpdateLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="First Name"
+                    android:textColor="#44000000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/firstNameEditor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20px"
+                    android:paddingLeft="10px"
+                    android:maxLines="1"
+                    android:text="Nadir"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@+id/lastNameEditor"
+                    android:theme="@style/Theme.AppCompat.Light"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Last Name"
+                    android:layout_marginTop="20px"
+                    android:textColor="#44000000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/lastNameEditor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20px"
+                    android:paddingLeft="10px"
+                    android:maxLines="1"
+                    android:text="Hussain"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@+id/lastNameEditor"
+                    android:theme="@style/Theme.AppCompat.Light"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/emailUpdateLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:textColor="#44000000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/emailEditor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20px"
+                    android:paddingLeft="10px"
+                    android:maxLines="1"
+                    android:text="nad@gmail.com"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"
+                    android:theme="@style/Theme.AppCompat.Light"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/verifyPasswordLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Verify Password"
+                    android:textColor="#44000000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/oldPasswordInputEditor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40px"
+                    android:paddingLeft="10px"
+                    android:maxLines="1"
+                    android:hint="Enter your password"
+                    android:text=""
+                    android:inputType="textPassword"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"
+                    android:theme="@style/Theme.AppCompat.Light"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="For your security, please enter old password."
+                    android:layout_marginTop="40px"
+                    android:textColor="#44000000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/updatePasswordLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enter a new password"
+                    android:textColor="#44000000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/newPasswordInputEditor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40px"
+                    android:paddingLeft="10px"
+                    android:maxLines="1"
+                    android:hint="Enter a new password"
+                    android:text=""
+                    android:inputType="textPassword"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"
+                    android:theme="@style/Theme.AppCompat.Light"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Secure passwords are at least 5 characters long and include numbers and symbols"
+                    android:layout_marginTop="40px"
+                    android:textColor="#44000000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="110px"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/centralLayout"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"
+            android:background="@drawable/green_rounded_bg"
+            android:text="Save"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/progressBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AA000000"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/scan_books"
+        android:icon="@drawable/download"
+        android:title="@string/scan_books"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/show_login"
+        android:title="Iniciar Sesión"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/show_logout"
+        android:title="Cerrar Sesión"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/show_autores"
+        android:title="Autores"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/prefs"
+        android:icon="@drawable/info"
+        android:title="@string/prefs"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/contact_us"
+        android:title="@string/contact_us"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/info"
+        android:title="@string/about"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Cerrar Sesión"
+        app:showAsAction="never" />
+
+</menu>

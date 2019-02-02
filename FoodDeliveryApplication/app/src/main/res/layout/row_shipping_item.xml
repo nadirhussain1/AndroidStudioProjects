@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:id="@+id/listItemLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:background="#FFFFFF"
+        android:paddingLeft="15px"
+        android:paddingRight="15px"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/itemIconView"
+            android:layout_width="120px"
+            android:layout_height="150px"
+            android:layout_marginLeft="20px"
+            android:layout_centerVertical="true"
+            android:background="@android:color/holo_red_dark"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/itemNameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/itemIconView"
+            android:layout_toRightOf="@+id/itemIconView"
+            android:layout_marginLeft="15px"
+            android:text="Liquid Protein"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:id="@+id/staticLabelsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40px"
+            android:layout_alignLeft="@+id/itemNameView"
+            android:layout_below="@+id/itemNameView"
+            android:orientation="horizontal"
+            android:layout_marginTop="10px">
+
+            <TextView
+                android:id="@+id/priceStaticTextView"
+                android:layout_width="80px"
+                android:layout_height="match_parent"
+                android:text="Price:"
+                android:textColor="#AA000000"
+                android:textSize="14dp"/>
+
+            <View
+                android:layout_width="100px"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/quantityStaticTextView"
+                android:layout_width="110px"
+                android:layout_height="match_parent"
+                android:text="Quantity:"
+                android:textColor="#AA000000"
+                android:textSize="14dp"/>
+            <View
+                android:layout_width="100px"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/subTotalStaticTextView"
+                android:layout_width="110px"
+                android:layout_height="match_parent"
+                android:text="TestPrep:"
+                android:textColor="#AA000000"
+                android:background="#FF00F8"
+                android:textSize="14dp"
+                android:visibility="invisible"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/valuesLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40px"
+            android:layout_alignLeft="@+id/staticLabelsLayout"
+            android:layout_below="@+id/staticLabelsLayout"
+            android:orientation="horizontal"
+            android:layout_marginTop="10px">
+
+            <TextView
+                android:id="@+id/priceTextView"
+                android:layout_width="80px"
+                android:layout_height="match_parent"
+                android:text="1000"
+                android:textColor="#AA000000"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:layout_width="100px"
+                android:layout_height="match_parent"
+                android:text="X"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="12dp"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/quantityTextView"
+                android:layout_width="110px"
+                android:layout_height="match_parent"
+                android:text="4"
+                android:gravity="center_horizontal"
+                android:textColor="#AA000000"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:layout_width="100px"
+                android:layout_height="match_parent"
+                android:text="="
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="12dp"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/subTotalTextView"
+                android:layout_width="110px"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="4000"
+                android:textColor="#AA000000"
+                android:textSize="14dp"/>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

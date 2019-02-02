@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <android.support.v7.widget.RecyclerView
+	    android:id="@+id/recyclerView1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:divider="@android:color/transparent"
+	    android:dividerHeight="0dp"
+	    android:listSelector="@android:color/transparent" />
+
+
+	<include layout="@layout/google_admob" />
+</LinearLayout>
+<!-- From: file:/Users/nadirhussain/git/Olympus%20View%20Messaging/customAlertBox/src/main/res/layout/activity_olympustheme.xml -->

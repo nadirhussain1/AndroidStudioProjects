@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:fb="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@+id/rootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        >
+
+        <ImageView
+            android:id="@+id/loginLogoView"
+            android:layout_width="700px"
+            android:layout_height="300px"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/login_logo"
+
+            />
+
+
+        <RelativeLayout
+            android:id="@+id/socialLoginButtonsLayout"
+            android:layout_width="950px"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loginLogoView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150px">
+
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/googleSignButton"
+                android:layout_width="match_parent"
+                android:layout_height="140px"
+                app:buttonSize="wide"
+                app:colorScheme="dark"
+                />
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/fbSignInButton"
+                android:layout_width="920px"
+                android:layout_height="120px"
+                android:layout_below="@+id/googleSignButton"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10px"
+                fb:login_text="Sign in with Facebook"
+                />
+
+            <com.twitter.sdk.android.core.identity.TwitterLoginButton
+                android:id="@+id/twitter_login_button"
+                android:layout_width="930px"
+                android:layout_height="120px"
+                android:layout_below="@+id/fbSignInButton"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18px"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/orSignUpTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/socialLoginButtonsLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100px"
+            android:text="@string/signUp_or_label"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            />
+
+        <RelativeLayout
+            android:id="@+id/customLoginButtonsLayout"
+            android:layout_width="950px"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orSignUpTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100px">
+
+            <EditText
+                android:id="@+id/emailEditor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="@string/enter_email"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:paddingLeft="20px"
+                android:paddingRight="20px"
+                android:textColor="@android:color/black"
+                android:textColorHint="#AA000000"
+                android:textSize="25dp"
+                />
+
+            <EditText
+                android:id="@+id/loginPasswordEditor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/emailEditor"
+                android:layout_marginTop="20px"
+                android:gravity="center"
+                android:hint="@string/enter_password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:paddingLeft="20px"
+                android:paddingRight="20px"
+                android:textColor="@android:color/black"
+                android:textColorHint="#AA000000"
+                android:textSize="25dp"/>
+
+            <Button
+                android:id="@+id/SignInButton"
+                android:layout_width="match_parent"
+                android:layout_height="120px"
+                android:layout_below="@+id/loginPasswordEditor"
+                android:layout_marginTop="100px"
+                android:background="@drawable/standard_buttons_rounded_bg"
+                android:text="Sign In"
+                android:textColor="@android:color/white"
+                android:textSize="25dp"
+                />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/forgotPassLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/customLoginButtonsLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30px">
+
+
+            <TextView
+                android:id="@+id/forgotPassTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="80px"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/forgot_password_label"
+                android:textColor="#AA000000"
+                android:textSize="22dp"/>
+
+            <TextView
+                android:id="@+id/signUpTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="80px"
+                android:layout_below="@+id/forgotPassTextView"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="Create New Account"
+                android:textColor="#FF5733"
+                android:textSize="22dp"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>
+
+
+
+

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/backClickAreaLayout"
+        android:layout_width="200px"
+        android:layout_height="100px">
+
+        <View
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_marginLeft="30px"
+            android:background="@drawable/back_arrow"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/guideView"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/backClickAreaLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30px"
+        android:text="@string/four_digit_text"
+        android:textColor="#AA000000"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:id="@+id/editorsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/guideView"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="60px">
+
+        <EditText
+            android:id="@+id/digitOneEditor"
+            android:layout_width="90px"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:gravity="center"
+            android:hint="0"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal"
+            android:maxLength="1"
+            android:nextFocusRight="@+id/digitTwoEditor"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:theme="@style/Theme.AppCompat.Light"
+            />
+
+        <EditText
+            android:id="@+id/digitTwoEditor"
+            android:layout_width="90px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20px"
+            android:digits="0123456789"
+            android:gravity="center"
+            android:hint="0"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal"
+            android:maxLength="1"
+            android:nextFocusRight="@+id/digitThreeEditor"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:theme="@style/Theme.AppCompat.Light"
+            />
+
+        <EditText
+            android:id="@+id/digitThreeEditor"
+            android:layout_width="90px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20px"
+            android:digits="0123456789"
+            android:gravity="center"
+            android:hint="0"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal"
+            android:maxLength="1"
+            android:nextFocusRight="@+id/digitFourEditor"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:theme="@style/Theme.AppCompat.Light"
+            />
+
+        <EditText
+            android:id="@+id/digitFourEditor"
+            android:layout_width="90px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20px"
+            android:digits="0123456789"
+            android:gravity="center"
+            android:hint="0"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal"
+            android:maxLength="1"
+            android:nextFocusRight="@+id/digitFiveEditor"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:theme="@style/Theme.AppCompat.Light"
+            />
+
+        <EditText
+            android:id="@+id/digitFiveEditor"
+            android:layout_width="90px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20px"
+            android:digits="0123456789"
+            android:gravity="center"
+            android:hint="0"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal"
+            android:maxLength="1"
+            android:nextFocusRight="@+id/digitSixEditor"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:theme="@style/Theme.AppCompat.Light"
+            />
+
+        <EditText
+            android:id="@+id/digitSixEditor"
+            android:layout_width="90px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20px"
+            android:digits="0123456789"
+            android:gravity="center"
+            android:hint="0"
+            android:imeOptions="actionDone"
+            android:inputType="numberDecimal"
+            android:maxLength="1"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:theme="@style/Theme.AppCompat.Light"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resendStaticTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editorsLayout"
+        android:layout_below="@+id/editorsLayout"
+        android:layout_marginTop="100px"
+        android:text="@string/resend_code"
+        android:textColor="#AA000000"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/resendStaticTextView"
+        android:layout_marginLeft="10px"
+        android:layout_toRightOf="@+id/resendStaticTextView"
+        android:text="in 00:15"
+        android:textColor="#AA000000"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/editNumberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="100px"
+        android:layout_alignLeft="@+id/resendStaticTextView"
+        android:layout_below="@+id/resendStaticTextView"
+        android:layout_marginTop="20px"
+        android:text="@string/edit_mobile_number"
+        android:textColor="@color/blue_color_in_app"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/doneButton"
+        android:layout_width="75px"
+        android:layout_height="75px"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editorsLayout"
+        android:layout_marginRight="50px"
+        android:layout_marginTop="120px"
+        android:background="@drawable/done_floating_icon"/>
+
+    <RelativeLayout
+        android:id="@+id/progressBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AA000000"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

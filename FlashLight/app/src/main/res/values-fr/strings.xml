@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<resources>
+
+    <string name="app_name">Lampe torche</string>
+
+    <string name="drawer_open"></string>
+    <string name="drawer_close"></string>
+    <string name="banner_ad_unit_id">ca-app-pub-7645731698476649/8453105216</string>
+    <string name="image_name_prefix">image</string>
+    <string name="photo_saved_text">Your photo is saved in the gallery under "Flashlight"</string>
+    <string name="camera_first_time_text">Great to see you’ve discovered the camera function! It could take up to ~15 minutes before the gallery shows the album “Flashlight” with your pictures.</string>
+    <string name="unable_to_start_camera">Unable to start camera preview.</string>
+    <string name="feedback_subject">Flashlight feedback</string>
+    //Settings Screen Text
+
+    <string name="settings_heading_text">Paramètres </string>
+    <string name="about_heading_text">À propos de</string>
+    <string name="settings_general_text">GÉNÉRAL</string>
+    <string name="settings_sound_text">Son</string>
+    <string name="settings_switch_off_time_text">Éteindre la lumière après</string>
+    <string name="settings_battery_status_text">Afficher l\'état de la batterie</string>
+    <string name="settings_startup_text">LANCER</string>
+    <string name="settings_mode_open_text">Mode à ouvrir au départ</string>
+    <string name="settings_default_state_text">État par défaut</string>
+    <string name="settings_show_timer_text">Afficher minuteur</string>
+    <string name="settings_sos_text">SOS</string>
+    <string name="settings_sos_default_text">État SOS par défaut</string>
+    <string name="settings_sos_repeat_text">Répéter signal</string>
+    <string name="settings_bubble_text">NIVEAU À BULLE</string>
+    <string name="settings_bubble_display_text">Valeurs affichées en</string>
+
+
+    <string name="warning_alert_head">Attention :</string>
+    <string name="warning_alert_description">La lumière clignotante peut provoquer des crises d\'épilepsie photosensible chez les personnes sensibles.</string>
+    <string name="dont_show_again_text">Ne plus afficher</string>
+    <string name="acknowledge_text">J\'accepte</string>
+    <string name="share_app_text">J\'ai découvert cette appli géniale de Lampe torche ici  : \n </string>
+    <string name="feedback_button_text">Commentaires</string>
+    <string name="app_version_text">Version d\'appli</string>
+        <string name="timer_shut_toast_text_1">Pour économiser la batterie, la lumière s\'éteint automatiquement après </string>
+    <string name="timer_shut_toast_text_2"> minutes. Vous pouvez changer la durée dans les paramètres.</string>
+    
+    <string name="camera_first_thanks_button_text">Merci, j\'ai compris !</string>
+       <string name="speed_label">Vitesse</string>
+    <string name="slow_label">Lente</string>
+    <string name="fast_label">Rapide</string>
+    <string name="repeat_label">Répéter</string>
+    <string name="frequency_label">Fréquence</string>
+    <string name="flashlight_noti_title">La lampe torche est allumée</string>
+    <string name="flashlight_noti_msg">Toucher pour éteindre la lampe torche</string>
+    <string name="strobe_noti_title">La lumière stroboscopique est allumée</string>
+    <string name="strobelight_noti_msg">Toucher pour éteindre la lumière stroboscopique</string>
+    <string name="sos_noti_title">La lumière SOS est allumée</string>
+    <string name="soslight_noti_msg">Toucher pour éteindre la lumière SOS</string>
+    <string name="share_via_label">Partager via</string>
+    <string name="send_via_label">Envoyer via</string>
+    <string name="directory_create_failed">Impossible de créer un répertoire pour enregistrer l\'image.</string>
+    <string name="saving_image_failed">L\'image n\'a pas pu être enregistrée.</string>
+    
+
+
+    //Bubble Screen
+    <string name="reset">Réinitialiser</string>
+    <string name="not_supported">Orientation non prise en charge</string>
+    <string name="cancel">Annuler</string>
+    <string name="save">Enregistrer</string>
+    <string name="ok">OK</string>
+    <string name="calibrate_button_text">Calibrer</string>
+    <string name="lock_value_text">Verrouiller le type d\'écran</string>
+    <string name="values_locked_text">Verrouillé</string>
+    <string name="calibrate_title">Calibration</string>
+    <string name="calibrate_message">Placez n\'importe quel côté (y compris le dos) de votre appareil Android sur une surface horizontale plate et touchez le bouton \"Calibrer\".\n\nOu alors, réinitialisez la calibration pour tous les côtés.</string>
+    <string name="calibrate_again_title">Vous devez recalibrer</string>
+    <string name="calibrate_again_message">Le changement de capteur nécessite que le téléphone soit recalibré.</string>
+    <string name="calibrate_saved">Calibration personnalisée enregistrée !</string>
+    <string name="calibrate_failed">Échec de la calibration !</string>
+    <string name="calibrate_restored">Calibration d\'origine restaurée !</string>
+    <string name="angle">Angle</string>
+    <string name="inclination">Inclinaison</string>
+    <string name="roof_pitch">Pente de toiture</string>
+
+    <string-array name="bubble_display_options">
+        <item>Angle</item>
+        <item>Inclinaison</item>
+        <item>Pente de toiture</item>
+    </string-array>
+    <string-array name="mode_options">
+        <item>Lampe torche</item>
+        <item>Lumière d\'écran</item>
+        <item>Lumière stroboscopique</item>
+    </string-array>
+    <string-array name="drawer_title_list">
+        <item>Lampe torche</item>
+        <item>Lumière d\'écran</item>
+        <item>Lumière stroboscopique</item>
+        <item>SOS</item>
+        <item>Niveau à bulle</item>
+        <item>Paramètres </item>
+        <item>Partager</item>
+        <item>Noter cette appli</item>
+        <item>À propos de</item>
+    </string-array>
+
+    <string-array name="switch_off_time_options">
+        <item>3 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>20 min</item>
+        <item>30 min</item>
+        <item>Jamais</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+
+        <ImageView
+            android:id="@+id/tickIconView"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:background="@drawable/green_tick_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30px"/>
+        <TextView
+            android:id="@+id/thankYouTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tickIconView"
+            android:layout_marginTop="10px"
+            android:gravity="center_horizontal"
+            android:text="Thank You!"
+            android:textColor="#559749"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:id="@+id/infoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/thankYouTextView"
+            android:layout_marginTop="50px"
+            android:padding="20px"
+            android:gravity="center_horizontal"
+            android:text="We got your order.We will confirm it shortly via \nCall, Email or SMS."
+            android:textColor="#88000000"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:id="@+id/orderDetailsButton"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:layout_below="@+id/infoTextView"
+            android:background="@drawable/green_rounded_bg"
+            android:gravity="center"
+            android:text="ORDER DETAILS"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/continueShoppingButton"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:layout_marginTop="10px"
+            android:layout_below="@+id/orderDetailsButton"
+            android:background="@drawable/green_rounded_bg"
+            android:gravity="center"
+            android:text="CONTINUE SHOPPING"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/progressBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AA000000"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

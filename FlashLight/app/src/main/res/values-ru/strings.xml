@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<resources>
+
+    <string name="app_name">Фонарик</string>
+
+    <string name="drawer_open"></string>
+    <string name="drawer_close"></string>
+    <string name="banner_ad_unit_id">ca-app-pub-7645731698476649/8453105216</string>
+    <string name="image_name_prefix">image</string>
+    <string name="photo_saved_text">Your photo is saved in the gallery under "Flashlight"</string>
+    <string name="camera_first_time_text">Great to see you’ve discovered the camera function! It could take up to ~15 minutes before the gallery shows the album “Flashlight” with your pictures.</string>
+    <string name="unable_to_start_camera">Unable to start camera preview.</string>
+    <string name="feedback_subject">Flashlight feedback</string>
+    //Settings Screen Text
+
+    <string name="settings_heading_text">Параметры</string>
+    <string name="about_heading_text">О приложении</string>
+    <string name="settings_general_text">ОБЩИЕ ПАРАМЕТРЫ</string>
+    <string name="settings_sound_text">Звук</string>
+    <string name="settings_switch_off_time_text">Выключать свет через</string>
+    <string name="settings_battery_status_text">Показывать состояние батареи</string>
+    <string name="settings_startup_text">ЗАПУСК</string>
+    <string name="settings_mode_open_text">Режим открытия при запуске</string>
+    <string name="settings_default_state_text">Состояние по умолчанию</string>
+    <string name="settings_show_timer_text">Показывать таймер</string>
+    <string name="settings_sos_text">SOS</string>
+    <string name="settings_sos_default_text">Состояние SOS по умолчанию</string>
+    <string name="settings_sos_repeat_text">Повтор сигнала</string>
+    <string name="settings_bubble_text">ПУЗЫРЬКОВЫЙ УРОВЕНЬ</string>
+    <string name="settings_bubble_display_text">Отображаемые значения</string>
+
+
+    <string name="warning_alert_head">Внимание!</string>
+    <string name="warning_alert_description">Мигающий свет может вызвать приступ у людей, страдающих светочувствительной эпилепсией.</string>
+    <string name="dont_show_again_text">Больше не показывать</string>
+    <string name="acknowledge_text">Я понимаю</string>
+    <string name="share_app_text">Смотри, какое классное приложение Фонарик: \n </string>
+    <string name="feedback_button_text">Обратная связь</string>
+    <string name="app_version_text">Версия приложения</string>
+        <string name="timer_shut_toast_text_1">Для экономии заряда батареи свет автоматически выключается через </string>
+    <string name="timer_shut_toast_text_2"> мин. Это время можно изменить в настройках.</string>
+    
+    <string name="camera_first_thanks_button_text">Спасибо, все понятно!</string>
+       <string name="speed_label">Скорость</string>
+    <string name="slow_label">Медленно</string>
+    <string name="fast_label">Быстро</string>
+    <string name="repeat_label">Повтор</string>
+    <string name="frequency_label">Частота</string>
+    <string name="flashlight_noti_title">Фонарик включен</string>
+    <string name="flashlight_noti_msg">Коснитесь, чтобы выключить фонарик</string>
+    <string name="strobe_noti_title">Строб включен</string>
+    <string name="strobelight_noti_msg">Коснитесь, чтобы выключить строб</string>
+    <string name="sos_noti_title">Режим SOS включен</string>
+    <string name="soslight_noti_msg">Коснитесь, чтобы выключить режим SOS</string>
+    <string name="share_via_label">Поделиться в</string>
+    <string name="send_via_label">Отправить через</string>
+    <string name="directory_create_failed">Не удалось создать каталог для сохранения изображения.</string>
+    <string name="saving_image_failed">Не удалось сохранить изображение.</string>
+    
+
+
+    //Bubble Screen
+    <string name="reset">Сбросить</string>
+    <string name="not_supported">Ориентация не поддерживается</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+    <string name="ok">ОК</string>
+    <string name="calibrate_button_text">Калибровать</string>
+    <string name="lock_value_text">Зафикс. экран</string>
+    <string name="values_locked_text">Зафиксировано</string>
+    <string name="calibrate_title">Калибровка</string>
+    <string name="calibrate_message">Положите устройство Android на ровную горизонтальную поверхность любой стороной (включая заднюю) и нажмите кнопку \"Калибровать\".\n\nИли сбросьте калибровку для всех сторон.</string>
+    <string name="calibrate_again_title">Требуется повторная калибровка</string>
+    <string name="calibrate_again_message">В связи с изменениями сенсора необходимо повторить калибровку на телефоне.</string>
+    <string name="calibrate_saved">Пользовательская калибровка сохранена!</string>
+    <string name="calibrate_failed">Ошибка калибровки!</string>
+    <string name="calibrate_restored">Восстановлена исходная калибровка!</string>
+    <string name="angle">Угол</string>
+    <string name="inclination">Наклон</string>
+    <string name="roof_pitch">Наклон крыши</string>
+
+    <string-array name="bubble_display_options">
+        <item>Угол</item>
+        <item>Наклон</item>
+        <item>Наклон крыши</item>
+    </string-array>
+    <string-array name="mode_options">
+        <item>Фонарик</item>
+        <item>Подсветка экрана</item>
+        <item>Строб</item>
+    </string-array>
+    <string-array name="drawer_title_list">
+        <item>Фонарик</item>
+        <item>Подсветка экрана</item>
+        <item>Строб</item>
+        <item>SOS!</item>
+        <item>Пузорьковый уровень</item>
+        <item>Параметры</item>
+        <item>Поделиться</item>
+        <item>Оценить приложение</item>
+        <item>О приложении</item>
+    </string-array>
+
+    <string-array name="switch_off_time_options">
+        <item>3 мин</item>
+        <item>5 мин</item>
+        <item>10 мин</item>
+        <item>20 мин</item>
+        <item>30 мин</item>
+        <item>никогда</item>
+    </string-array>
+
+
+</resources>

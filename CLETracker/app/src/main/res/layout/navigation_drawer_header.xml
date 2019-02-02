@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <RelativeLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="800px"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="70px"
+        android:paddingTop="70px">
+
+
+        <ImageView
+            android:id="@+id/userProfileImageView"
+            android:layout_width="350px"
+            android:layout_height="350px"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher"
+            />
+
+
+        <TextView
+            android:id="@+id/userNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/userProfileImageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-30px"
+            android:text="Nadir Hussain"
+            android:textColor="#CC000000"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/mainLayout"
+        android:background="#44000000"
+        android:tag="constantHeight"
+
+        />
+
+</RelativeLayout>

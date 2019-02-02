@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/headerTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/homeLayout"
+                android:layout_width="0dp"
+                android:layout_height="100px"
+                android:layout_weight="0.5"
+                android:background="#F3F9F5"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="42px"
+                    android:layout_height="42px"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5px"
+                    android:background="@drawable/home_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Home"
+                    android:textColor="@android:color/black"
+                    android:textSize="14dp"
+                    />
+
+                <View
+                    android:id="@+id/homeTabDivider"
+                    android:layout_width="match_parent"
+                    android:layout_height="10px"
+                    android:layout_marginTop="8px"
+                    android:background="#F58C31"
+                    android:visibility="gone"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cartLayout"
+                android:layout_width="0dp"
+                android:layout_height="100px"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/cartIconView"
+                        android:layout_width="45px"
+                        android:layout_height="40px"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10px"
+                        android:background="@drawable/cart_icon"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/cartIconView"
+                        android:layout_centerHorizontal="true"
+                        android:text="Cart"
+                        android:textColor="@android:color/black"
+                        android:textSize="14dp"
+                        />
+
+                    <View
+                        android:id="@+id/cartTabDivider"
+                        android:layout_width="match_parent"
+                        android:layout_height="10px"
+                        android:layout_alignParentBottom="true"
+                        android:background="#F58C31"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/cartCountTextView"
+                        android:layout_width="30px"
+                        android:layout_height="30px"
+                        android:layout_alignRight="@+id/cartIconView"
+                        android:layout_marginRight="-10px"
+                        android:layout_marginTop="5px"
+                        android:background="@drawable/green_cart_circle_bg"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@android:color/white"
+                        android:textSize="10dp"/>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/mainFragmentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/headerTabLayout"
+            android:background="@android:color/white">
+
+        </FrameLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/progressBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AA000000"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+</RelativeLayout>

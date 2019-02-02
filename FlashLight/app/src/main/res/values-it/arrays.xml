@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="drawer_icon_list">
+        <item>drawer_flash_icon</item>
+        <item>drawer_screen_icon</item>
+        <item>drawer_strobe_icon</item>
+        <item>drawer_sos_icon</item>
+        <item>drawer_bubble_icon</item>
+        <item>drawer_settings_icon</item>
+        <item>drawer_share_icon</item>
+        <item>drawer_rate_icon</item>
+        <item>drawer_info_icon</item>
+    </string-array>
+    <string-array name="drawer_selected_colors_list">
+        <item>#0099cc</item>
+        <item>#009245</item>
+        <item>#FF6600</item>
+        <item>#ED1C24</item>
+        <item>#662D91</item>
+        <item>#666666</item>
+        <item>#323232</item>
+        <item>#323232</item>
+        <item>#323232</item>
+    </string-array>
+
+</resources>

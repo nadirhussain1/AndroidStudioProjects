@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+	
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle"   >
+		    <solid
+		        android:color="#70ffffff" >
+		    </solid>
+		</shape>
+    </item>
+</selector>
+
+
+<!-- From: file:/Users/nadirhussain/git/Olympus%20View%20Messaging/customAlertBox/src/main/res/drawable/dialog_button.xml -->

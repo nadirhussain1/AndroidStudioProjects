@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_color">#e5e5e5</color>
+    <color name="bg_menu">#a1b44a</color>
+    <color name="bg_menu_press">#28A9D4</color>
+    <color name="bg_menu_bottom">#96aa39</color>
+    <color name="bg_menu_bottom_press">#A6B758</color>
+    
+    <color name="text_color">#505050</color>
+	<color name="white_color">#FFF</color>
+	<color name="black_color">#000</color>
+	<color name="title_btn_press">#28A9D4</color>
+	<color name="title_btn_press_50">#8828A9D4</color>
+	
+	<color name="gold_color">#ffd700</color>
+	
+</resources>

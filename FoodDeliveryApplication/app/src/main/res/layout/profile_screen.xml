@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+    >
+
+    <RelativeLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50px"
+        android:padding="40px">
+
+        <TextView
+            android:id="@+id/nameStaticTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textColor="@android:color/black"
+            android:textSize="22dp"/>
+        
+        <RelativeLayout
+            android:id="@+id/nameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameStaticTextView">
+            
+            <EditText
+                android:id="@+id/firstNameEditor"
+                android:layout_width="300px"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:hint="First name"
+                android:textColor="#AA000000"
+                android:textSize="20dp"
+                android:imeOptions="actionNext"
+                android:nextFocusRight="@+id/lastNameEditor"
+                android:theme="@style/Theme.AppCompat.Light"
+                />
+            <EditText
+                android:id="@+id/lastNameEditor"
+                android:layout_width="300px"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:hint="Last name"
+                android:layout_alignParentRight="true"
+                android:textColor="#AA000000"
+                android:textSize="20dp"
+                android:imeOptions="actionNext"
+                android:nextFocusDown="@+id/emailEditor"
+                android:theme="@style/Theme.AppCompat.Light"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/emailStaticTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameLayout"
+            android:layout_marginTop="50px"
+            android:text="Email address:"
+            android:textColor="@android:color/black"
+            android:textSize="22dp"/>
+
+        <EditText
+            android:id="@+id/emailEditor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emailStaticTextView"
+            android:maxLines="1"
+            android:hint="Enter your email address"
+            android:textColor="#AA000000"
+            android:textSize="20dp"
+            android:inputType="textEmailAddress"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:nextFocusDown="@+id/passwordEditor"
+            android:theme="@style/Theme.AppCompat.Light"
+            />
+
+        <TextView
+            android:id="@+id/passwordStaticTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emailEditor"
+            android:layout_marginTop="50px"
+            android:text="Password:"
+            android:textColor="@android:color/black"
+            android:textSize="22dp"/>
+
+        <EditText
+            android:id="@+id/passwordEditor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/passwordStaticTextView"
+            android:maxLines="1"
+            android:hint="Enter your password"
+            android:textColor="#AA000000"
+            android:textSize="20dp"
+            android:inputType="textPassword"
+            android:gravity="center"
+            android:imeOptions="actionDone"
+            android:theme="@style/Theme.AppCompat.Light"
+            />
+
+        <Button
+            android:id="@+id/doneButton"
+            android:layout_width="match_parent"
+            android:layout_height="110px"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/passwordEditor"
+            android:layout_marginTop="50px"
+            android:background="@drawable/disabled_green_rounded_bg"
+            android:text="Next"
+            android:textSize="20dp"
+            android:textColor="#AAFFFFFF"
+            android:textAllCaps="false"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/progressBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AA000000"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

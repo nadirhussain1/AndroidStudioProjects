@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="250px"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selected_date_rounded_bg"
+        android:paddingBottom="20px"
+        android:paddingTop="20px">
+
+        <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Jan,11"
+            android:textColor="@color/green_color_in_app"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/dayTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dateTextView"
+            android:layout_centerHorizontal="true"
+            android:text="Tue,15:00"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/setTimeTextView"
+            android:layout_width="180px"
+            android:layout_height="50px"
+            android:layout_below="@+id/dayTimeTextView"
+            android:layout_marginTop="20px"
+            android:layout_centerHorizontal="true"
+            android:background="@color/green_color_in_app"
+            android:gravity="center"
+            android:text="Set Time"
+            android:textColor="@android:color/white"
+            android:textSize="14dp"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/scalingLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1F1F1F">
+
+        <include
+            android:id="@+id/strobeLayout"
+            layout="@layout/common_light_screen"
+            android:layout_width="match_parent"
+            android:layout_height="1000px" />
+
+        <RelativeLayout
+            android:id="@+id/slidersLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200px"
+            android:layout_below="@+id/strobeLayout">
+
+            <TextView
+                android:id="@+id/frequencyTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/frequency_label"
+                android:textColor="#CCCCCC"
+                android:textSize="16dp"
+
+                />
+
+            <SeekBar
+                android:id="@+id/frequencySeekBar"
+                android:layout_width="900px"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/frequencyTextView"
+                android:layout_centerHorizontal="true"
+                android:max="10"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:progress="5"
+                android:progressDrawable="@drawable/strobe_custom_progress"
+                android:thumb="@drawable/strobe_bar_thumb_selector" />
+
+            <RelativeLayout
+                android:id="@+id/freqLabellayout"
+                android:layout_width="900px"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/frequencySeekBar"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:id="@+id/minFreqTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textColor="#CCCCCC"
+                    android:textSize="14dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/midFreqTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="5"
+                    android:textColor="#CCCCCC"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/maxFreqTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="10"
+                    android:textColor="#CCCCCC"
+                    android:textSize="14dp"
+
+                    />
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

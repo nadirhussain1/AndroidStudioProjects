@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/itemsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/cartRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="760px"
+            android:background="#AA000000">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/totalHeadTextView"
+            android:layout_width="match_parent"
+            android:layout_height="70px"
+            android:layout_below="@+id/cartRecyclerView"
+            android:background="#22000000"
+            android:gravity="center_vertical"
+            android:paddingLeft="50px"
+            android:text="Total"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:id="@+id/totalValueLayout"
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:layout_below="@+id/totalHeadTextView"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/totalItemsTextView"
+                android:layout_width="200px"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="50px"
+                android:text="3 items"
+                android:textColor="@android:color/black"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/totalBillTextView"
+                android:layout_width="300px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="280px"
+                android:gravity="center_vertical"
+                android:paddingLeft="50px"
+                android:text="Rs.80000"
+                android:textColor="@android:color/black"
+                android:textSize="18dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/checkoutTextView"
+            android:layout_width="match_parent"
+            android:layout_height="110px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/green_color_in_app"
+            android:gravity="center"
+            android:text="PROCEED TO CHECKOUT"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/emptyLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/emptyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40px"
+            android:text="No item found in the cart"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/shoppingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="110px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/green_color_in_app"
+            android:gravity="center"
+            android:text="CONTINUE SHOPPING"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/progressBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AA000000"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

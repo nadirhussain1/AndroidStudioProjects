@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/sms_w"
+    android:layout_height="wrap_content"
+    android:clickable="true" >
+
+    <ImageView
+        android:id="@+id/img_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic22_bg" />
+
+    <RelativeLayout
+        android:id="@+id/ln_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:paddingTop="110dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/lnTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            
+            <include layout="@layout/sms_layout_title4"/>
+        </RelativeLayout>
+
+        <ViewStub
+            android:id="@+id/layout_stub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lnTitle"
+            android:inflatedId="@+id/message_layout" />
+
+        <RelativeLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lnTitle" >
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <include layout="@layout/sms_frag_content" />
+
+</FrameLayout>

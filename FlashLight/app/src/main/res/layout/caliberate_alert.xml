@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="#00000000">
+
+    <RelativeLayout
+        android:id="@+id/scalingLayout"
+        android:layout_width="980px"
+        android:background="#363636"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/caliberateHeadTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50px"
+            android:text="@string/calibrate_title"
+            android:textColor="#DB0000"
+            android:textSize="32dp" />
+        <TextView
+            android:id="@+id/caliberationDescTextView"
+            android:layout_width="940px"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/caliberateHeadTextView"
+            android:layout_marginTop="20px"
+            android:text="@string/calibrate_message"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp" />
+
+
+        <View
+            android:id="@+id/divider"
+            android:background="#CCCCCC"
+            android:layout_below="@+id/caliberationDescTextView"
+            android:layout_marginTop="50px"
+            android:tag="constantHeight"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <RelativeLayout
+            android:id="@+id/buttonsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="150px"
+            android:layout_below="@+id/divider"
+            android:layout_marginTop="10px"
+            >
+
+            <TextView
+                android:id="@+id/cancelButton"
+                android:layout_width="312px"
+                android:layout_height="match_parent"
+                android:text="@string/cancel"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="26dp"
+                />
+            <View
+                android:id="@+id/firstVDivider"
+                android:background="#CCCCCC"
+                android:layout_toRightOf="@+id/cancelButton"
+                android:layout_centerVertical="true"
+                android:tag="constantWidth"
+                android:layout_width="1dp"
+                android:layout_height="100px" />
+            <TextView
+                android:id="@+id/resetButton"
+                android:layout_width="312px"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/firstVDivider"
+                android:text="@string/reset"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="26dp"
+                />
+            <View
+                android:id="@+id/secondVDivider"
+                android:background="#CCCCCC"
+                android:layout_toRightOf="@+id/resetButton"
+                android:layout_centerVertical="true"
+                android:tag="constantWidth"
+                android:layout_width="1dp"
+                android:layout_height="100px" />
+            <TextView
+                android:id="@+id/caliberateButton"
+                android:layout_width="312px"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/secondVDivider"
+                android:text="@string/calibrate_button_text"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="26dp"
+                />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="drawer_divider_color" type="color">#474748</item>
+
+    <color name="black">#44FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="silver">#FF1F1F1F</color>
+    <color name="black_reflect">#FF1F1F1F</color>
+    <color name="translucent">#00000000</color>
+    <!-- Level -->
+    <color name="level_liquid_reflect">#363636</color>
+    <color name="level_border_reflect">@color/black_reflect</color>
+    <color name="level_liquid_dark">#363636</color>
+    <color name="level_border">#1F1F1F</color>
+    <!-- Markers -->
+    <color name="marker_stroke">#707070</color>
+    <color name="marker_reflect">@color/black_reflect</color>
+    <color name="marker_dark">@color/black</color>
+    <!-- Bubble -->
+    <color name="bubble_center">@color/white</color>
+    <color name="bubble_border">@color/white</color>
+    <!-- LCD -->
+    <color name="lcd_front">#FF363636</color>
+    <color name="lcd_back">#44FFFFFF</color>
+    <!-- LOCK -->
+    <color name="lock_front">#FFFF0000</color>
+    <color name="lock_back">#44FFFFFF</color>
+    <!-- Display -->
+    <color name="display_border">#FF333333</color>
+    <color name="display_dark">@color/white</color>
+    <color name="display_reflect">@color/white</color>
+</resources>

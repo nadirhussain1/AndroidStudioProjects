@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<resources>
+
+    <string name="app_name">Linterna</string>
+
+    <string name="drawer_open"></string>
+    <string name="drawer_close"></string>
+    <string name="banner_ad_unit_id">ca-app-pub-7645731698476649/8453105216</string>
+    <string name="image_name_prefix">image</string>
+    <string name="photo_saved_text">Your photo is saved in the gallery under "Flashlight"</string>
+    <string name="camera_first_time_text">Great to see you’ve discovered the camera function! It could take up to ~15 minutes before the gallery shows the album “Flashlight” with your pictures.</string>
+    <string name="unable_to_start_camera">Unable to start camera preview.</string>
+    <string name="feedback_subject">Flashlight feedback</string>
+
+    //Settings Screen Text
+
+    <string name="settings_heading_text">Opciones</string>
+    <string name="about_heading_text">Información</string>
+    <string name="settings_general_text">GENERAL</string>
+    <string name="settings_sound_text">Sonidos</string>
+    <string name="settings_switch_off_time_text">Apagar luz tras</string>
+    <string name="settings_battery_status_text">Mostrar estado de la batería</string>
+    <string name="settings_startup_text">AL INICIO</string>
+    <string name="settings_mode_open_text">Modo al abrir la app</string>
+    <string name="settings_default_state_text">Estado predeterminado</string>
+    <string name="settings_show_timer_text">Mostrar tiempo</string>
+    <string name="settings_sos_text">SOS</string>
+    <string name="settings_sos_default_text">Estado SOS por defecto</string>
+    <string name="settings_sos_repeat_text">Repetir señal</string>
+    <string name="settings_bubble_text">NIVEL</string>
+    <string name="settings_bubble_display_text">Mostrar valores</string>
+
+
+    <string name="warning_alert_head">Aviso:</string>
+    <string name="warning_alert_description">Los parpadeos de luz pueden provocar ataques en personas con epilepsia fotosensible.</string>
+    <string name="dont_show_again_text">No volver a mostrar el aviso.</string>
+    <string name="acknowledge_text">Entendido</string>
+    <string name="share_app_text">He encontrado esta app de linterna. ¡Es flipante! Mira: \n </string>
+    <string name="feedback_button_text">Comentarios</string>
+    <string name="app_version_text">Versión de la app</string>
+        <string name="timer_shut_toast_text_1">Para ahorrar energía, la luz se apaga automáticamente tras </string>
+    <string name="timer_shut_toast_text_2"> minutos. Puedes modificar el tiempo en las opciones.</string>
+    
+    <string name="camera_first_thanks_button_text">Gracias, ¡lo pillo!</string>
+       <string name="speed_label">Velocidad</string>
+    <string name="slow_label">Lenta</string>
+    <string name="fast_label">Rápida</string>
+    <string name="repeat_label">Repetir</string>
+    <string name="frequency_label">Frecuencia</string>
+    <string name="flashlight_noti_title">La linterna está encendida</string>
+    <string name="flashlight_noti_msg">Toca para apagar la linterna</string>
+    <string name="strobe_noti_title">La luz estroboscópica está encendida</string>
+    <string name="strobelight_noti_msg">Toca para apagar la luz estroboscópica</string>
+    <string name="sos_noti_title">La señal de SOS está encendida</string>
+    <string name="soslight_noti_msg">La señal de SOS está apagada</string>
+    <string name="share_via_label">Compartir por</string>
+    <string name="send_via_label">Enviar por</string>
+    <string name="directory_create_failed">No se ha podido crear un directorio para guardar la imagen.</string>
+    <string name="saving_image_failed">No se ha podido guardar la imagen.</string>
+    
+
+
+    //Bubble Screen
+    <string name="reset">Restablecer</string>
+    <string name="not_supported">No compatible con el cambio de orientación</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Guardar</string>
+    <string name="ok">Aceptar</string>
+    <string name="calibrate_button_text">Calibrar</string>
+    <string name="lock_value_text">Bloquear tipo de pantalla</string>
+    <string name="values_locked_text">Bloqueado</string>
+    <string name="calibrate_title">Calibración</string>
+    <string name="calibrate_message">Coloca todos los lados de tu dispositivo Android (incluido el posterior) en una superficie horizontal plana y pulsa el botón «Calibrar».\n\nO restablece la calibración de todos los lados.</string>
+    <string name="calibrate_again_title">Es necesario calibrar de nuevo</string>
+    <string name="calibrate_again_message">El cambio de sensor requiere volver a calibrar el teléfono</string>
+    <string name="calibrate_saved">¡Calibración personalizada guardada!</string>
+    <string name="calibrate_failed">¡Error de calibración!</string>
+    <string name="calibrate_restored">¡Calibración original restaurada!</string>
+    <string name="angle">Ángulo</string>
+    <string name="inclination">Inclinación</string>
+    <string name="roof_pitch">Inclinación del tejado</string>
+
+    <string-array name="bubble_display_options">
+        <item>Ángulo</item>
+        <item>Inclinación</item>
+        <item>Inclinación del tejado</item>
+    </string-array>
+    <string-array name="mode_options">
+        <item>Linterna</item>
+        <item>Luz de pantalla</item>
+        <item>Estroboscopio</item>
+    </string-array>
+    <string-array name="drawer_title_list">
+        <item>Linterna</item>
+        <item>Luz de pantalla</item>
+        <item>Estroboscopio</item>
+        <item>¡SOS!</item>
+        <item>Nivel</item>
+        <item>Opciones</item>
+        <item>Compartir</item>
+        <item>Puntuar esta app</item>
+        <item>Información</item>
+    </string-array>
+
+    <string-array name="switch_off_time_options">
+        <item>3 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>20 min</item>
+        <item>30 min</item>
+        <item>Nunca</item>
+    </string-array>
+
+
+</resources>

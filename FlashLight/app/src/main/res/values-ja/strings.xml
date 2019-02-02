@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<resources>
+
+    <string name="app_name">フラッシュライト</string>
+
+    <string name="drawer_open"></string>
+    <string name="drawer_close"></string>
+    <string name="banner_ad_unit_id">ca-app-pub-7645731698476649/8453105216</string>
+    <string name="image_name_prefix">image</string>
+    <string name="photo_saved_text">Your photo is saved in the gallery under "Flashlight"</string>
+    <string name="camera_first_time_text">Great to see you’ve discovered the camera function! It could take up to ~15 minutes before the gallery shows the album “Flashlight” with your pictures.</string>
+    <string name="unable_to_start_camera">Unable to start camera preview.</string>
+    <string name="feedback_subject">Flashlight feedback</string>
+    //Settings Screen Text
+
+    <string name="settings_heading_text">設定</string>
+    <string name="about_heading_text">アプリ情報</string>
+    <string name="settings_general_text">一般設定</string>
+    <string name="settings_sound_text">サウンド</string>
+    <string name="settings_switch_off_time_text">ライトが消えるまでの時間</string>
+    <string name="settings_battery_status_text">バッテリー状態を表示</string>
+    <string name="settings_startup_text">起動</string>
+    <string name="settings_mode_open_text">起動時に開くモード</string>
+    <string name="settings_default_state_text">デフォルト状態</string>
+    <string name="settings_show_timer_text">タイマーを表示</string>
+    <string name="settings_sos_text">SOS</string>
+    <string name="settings_sos_default_text">デフォルトの SOS 状態</string>
+    <string name="settings_sos_repeat_text">シグナルをリピート</string>
+    <string name="settings_bubble_text">水平器</string>
+    <string name="settings_bubble_display_text">数値データ表示</string>
+
+
+    <string name="warning_alert_head">警告：</string>
+    <string name="warning_alert_description">光過敏性癲癇の方は、光の点滅により発作を起こす怖れがあります。</string>
+    <string name="dont_show_again_text">再表示しない</string>
+    <string name="acknowledge_text">承認</string>
+    <string name="share_app_text">イケてる「フラッシュライト」アプリをみつけたので、ここでチェックしてください： \n </string>
+    <string name="feedback_button_text">フィードバック</string>
+    <string name="app_version_text">アプリのバージョン</string>
+        <string name="timer_shut_toast_text_1">バッテリー温存のため、[x] 分後にライトは自動消灯されます。 </string>
+    <string name="timer_shut_toast_text_2"> 消灯時間は設定から変更できます。</string>
+    
+    <string name="camera_first_thanks_button_text">ありがとう、了解しました！</string>
+       <string name="speed_label">スピード</string>
+    <string name="slow_label">スロー</string>
+    <string name="fast_label">ファスト</string>
+    <string name="repeat_label">リピート</string>
+    <string name="frequency_label">点滅頻度</string>
+    <string name="flashlight_noti_title">フラッシュライト点灯中</string>
+    <string name="flashlight_noti_msg">タップしてフラッシュライト消灯</string>
+    <string name="strobe_noti_title">ストロボライト点灯中</string>
+    <string name="strobelight_noti_msg">タップしてストロボライト終了</string>
+    <string name="sos_noti_title">SOS ライト点灯中</string>
+    <string name="soslight_noti_msg">タップして SOS ライト消灯</string>
+    <string name="share_via_label">シェア先： </string>
+    <string name="send_via_label">送信先： </string>
+    <string name="directory_create_failed">ディレクトリを作成して画像を保存できません。</string>
+    <string name="saving_image_failed">画像を保存できませんでした。</string>
+    
+
+
+    //Bubble Screen
+    <string name="reset">リセット</string>
+    <string name="not_supported">方向機能をサポートしていません</string>
+    <string name="cancel">キャンセル</string>
+    <string name="save">保存</string>
+    <string name="ok">ＯＫ</string>
+    <string name="calibrate_button_text">調整する</string>
+    <string name="lock_value_text">画面ロックタイプ</string>
+    <string name="values_locked_text">ロックされています</string>
+    <string name="calibrate_title">調整</string>
+    <string name="calibrate_message">利用している Android 端末の一面（背面でも構いません）を水平な場所におき、［調整］ボタンを押してください。\n\nあるいは、全面の調整をリセットしてください。</string>
+    <string name="calibrate_again_title">再調整してください</string>
+    <string name="calibrate_again_message">携帯端末を再調整するにはセンサーを変更してください。</string>
+    <string name="calibrate_saved">カスタム調整を保存しました！</string>
+    <string name="calibrate_failed">調整できませんでした！</string>
+    <string name="calibrate_restored">元の調整値がリストアされました！</string>
+    <string name="angle">アングル</string>
+    <string name="inclination">傾き</string>
+    <string name="roof_pitch">屋根こう配</string>
+
+    <string-array name="bubble_display_options">
+        <item>アングル</item>
+        <item>傾き</item>
+        <item>屋根こう配</item>
+    </string-array>
+    <string-array name="mode_options">
+        <item>フラッシュライト</item>
+        <item>スクリーンライト</item>
+        <item>ストロボ</item>
+    </string-array>
+    <string-array name="drawer_title_list">
+        <item>フラッシュライト</item>
+        <item>スクリーンライト</item>
+        <item>ストロボ</item>
+        <item>SOS！</item>
+        <item>水平器</item>
+        <item>設定</item>
+        <item>シェア</item>
+        <item>このアプリを評価</item>
+        <item>アプリ情報</item>
+    </string-array>
+
+    <string-array name="switch_off_time_options">
+        <item>3 分</item>
+        <item>5 分</item>
+        <item>10 分</item>
+        <item>20 分</item>
+        <item>30 分</item>
+        <item>しない</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white">
+    
+
+    <RelativeLayout
+        android:id="@+id/backClickAreaLayout"
+        android:layout_width="200px"
+        android:layout_height="100px">
+
+        <View
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_marginLeft="30px"
+            android:background="@drawable/back_arrow"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/guideView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/backClickAreaLayout"
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="40px"
+        android:text="@string/enter_your_number"
+        android:textColor="#AA000000"
+        android:textSize="22dp"/>
+
+    <RelativeLayout
+        android:id="@+id/mobileInputEditorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:layout_below="@+id/guideView"
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:layout_marginTop="60px">
+
+        <TextView
+            android:id="@+id/countryCodeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+92"
+            android:textColor="@android:color/black"
+            android:textSize="22dp"
+            android:layout_centerVertical="true"/>
+        <EditText
+            android:id="@+id/numberInputEditor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/countryCodeTextView"
+            android:hint="301 2345678"
+            android:maxLength="11"
+            android:inputType="phone"
+            android:imeOptions="actionDone"
+            android:digits=" 0123456789"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20px"
+            android:textSize="22dp"
+            android:textColor="@android:color/black"
+            android:theme="@style/Theme.AppCompat.Light"
+            />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/doneButton"
+        android:layout_width="match_parent"
+        android:layout_height="110px"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mobileInputEditorLayout"
+        android:layout_marginTop="50px"
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:background="@drawable/disabled_green_rounded_bg"
+        android:text="NEXT"
+        android:textSize="20dp"
+        android:textColor="#AAFFFFFF"/>
+
+
+</RelativeLayout>

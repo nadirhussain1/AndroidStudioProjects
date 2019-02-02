@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="opaque_white">#ffffff</color>
+   <color name="dark_grey">#888888</color>
+   <color name="translucent_black">#C0000000</color>
+   <color name="opaque_black">#000000</color>
+    <color name="orange">#ff5500</color>
+    <color name="black_alpha_30">#4D000000</color>
+    <color name="group_divider_color">#80CBC4</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="com_parse_ui_parse_login_button">#40CCCCCC</color>
+    <color name="com_parse_ui_parse_login_button_push">#30CCCCCC</color>
+    <color name="com_parse_ui_parse_login_button_focus">#35CCCCCC</color>
+    <color name="com_parse_ui_parse_login_display_text">@android:color/white</color>
+    <color name="com_parse_ui_parse_login_help_button_label">#E0E0E0</color>
+</resources>

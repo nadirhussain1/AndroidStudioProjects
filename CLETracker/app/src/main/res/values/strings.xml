@@ -1,0 +1,98 @@
+<resources>
+    <string name="facebook_app_id">1308137725969079</string>
+    <string name="app_name">My CLE</string>
+
+    <string name="enter_email">Enter your email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="login_label">Login</string>
+    <string name="signup_label">Sign Up</string>
+    <string name="forgot_password_label">Forgot Password?</string>
+    <string name="send_password">Send Password?</string>
+    <string name="no_connection_title">Not Connected</string>
+    <string name="no_connection_msg">Connect to internet in order to proceed</string>
+    <string name="not_valid_title">Not Valid</string>
+    <string name="fill_all_fields_msg">Fill all required data fields</string>
+    <string name="invalid_email_msg">Email is not valid</string>
+    <string name="please_wait_msg">Please wait!</string>
+    <string name="account_not_created">Account creation failed</string>
+
+    <string name="signUp_or_label">OR</string>
+    <string name="ok_label">OK</string>
+    <string name="loading">Please wait</string>
+    <string name="email_not_valid_message">Enter valid email</string>
+
+    <string name="alert_message_title">Message</string>
+    <string name="login_failed_error_msg">Login Failed</string>
+    <string name="unable_to_save_data">Unable to save data. Please try again</string>
+
+    <string name="signup_failed">Signup Failed</string>
+    <string name="weak_password_error">Request failed as password is weak</string>
+    <string name="invalid_email_error">Request failedas email is invalid</string>
+    <string name="user_exists_error">Request failed as user already exists</string>
+    <string name="user_not_exists_error">Either this user doesn\'t exist or has been disabled</string>
+    <string name="wrong_password_error">Password is wrong</string>
+    <string name="general_permissions_msg">You will be asked to grant permission for this feature.</string>
+    <string name="done_label">Done</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="reset_email_sent">Email has been sent to reset your password</string>
+    <string name="reset_email_fail">Unable to send reset password instructions</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+    <string name="drawer_home">Home</string>
+    <string name="drawer_cles">Completed CLEs</string>
+    <string name="drawer_profile">Profile</string>
+    <string name="drawer_logout">Logout</string>
+
+
+    <string-array name="bar_states">
+        <item>Texas</item>
+        <item>New York</item>
+        <item>California</item>
+        <item>Illinois</item>
+    </string-array>
+
+
+    <integer name="months_35">25</integer>
+    <integer name="months_34">24</integer>
+    <integer name="months_33">23</integer>
+    <integer name="months_32">23</integer>
+    <integer name="months_31">22</integer>
+    <integer name="months_30">21</integer>
+    <integer name="months_29">21</integer>
+    <integer name="months_28">20</integer>
+    <integer name="months_27">19</integer>
+    <integer name="months_26">19</integer>
+    <integer name="months_25">18</integer>
+    <integer name="months_24">17</integer>
+    <integer name="months_23">16</integer>
+    <integer name="months_22">16</integer>
+    <integer name="months_21">15</integer>
+    <integer name="months_20">14</integer>
+    <integer name="months_19">14</integer>
+    <integer name="months_18">13</integer>
+    <integer name="months_17">12</integer>
+    <integer name="months_16">12</integer>
+    <integer name="months_15">11</integer>
+    <integer name="months_14">10</integer>
+    <integer name="months_13">10</integer>
+    <integer name="months_12">9</integer>
+    <integer name="months_11">8</integer>
+    <integer name="months_10">7</integer>
+    <integer name="months_9">7</integer>
+    <integer name="months_8">6</integer>
+    <integer name="months_7">5</integer>
+    <integer name="months_6">5</integer>
+    <integer name="months_5">4</integer>
+    <integer name="months_4">0</integer>
+    <integer name="months_3">0</integer>
+    <integer name="months_2">0</integer>
+    <integer name="months_1">0</integer>
+
+
+
+
+
+
+
+</resources>

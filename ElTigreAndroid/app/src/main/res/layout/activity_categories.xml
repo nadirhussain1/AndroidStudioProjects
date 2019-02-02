@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="#F9F9F9"
+        android:tag="constant">
+
+        <RelativeLayout
+            android:id="@+id/leftActionAreaLayout"
+            android:layout_width="150px"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/iconView"
+                android:layout_width="40px"
+                android:layout_height="40px"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30px"
+                android:background="@drawable/cross_icon"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/centralTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/label_categories"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+
+    </RelativeLayout>
+
+
+    <View
+        android:id="@+id/div"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/toolbar"
+        android:background="#66000000"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/categoriesRecyclerView"
+        android:layout_width="640px"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/div">
+
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

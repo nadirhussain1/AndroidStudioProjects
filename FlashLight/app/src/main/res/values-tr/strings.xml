@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<resources>
+
+    <string name="app_name">El Feneri</string>
+
+    <string name="drawer_open"></string>
+    <string name="drawer_close"></string>
+    <string name="banner_ad_unit_id">ca-app-pub-7645731698476649/8453105216</string>
+    <string name="image_name_prefix">image</string>
+    <string name="photo_saved_text">Your photo is saved in the gallery under "Flashlight"</string>
+    <string name="camera_first_time_text">Great to see you’ve discovered the camera function! It could take up to ~15 minutes before the gallery shows the album “Flashlight” with your pictures.</string>
+    <string name="unable_to_start_camera">Unable to start camera preview.</string>
+    <string name="feedback_subject">Flashlight feedback</string>
+    //Settings Screen Text
+
+    <string name="settings_heading_text">Ayarlar</string>
+    <string name="about_heading_text">Hakkında</string>
+    <string name="settings_general_text">GENEL</string>
+    <string name="settings_sound_text">Ses</string>
+    <string name="settings_switch_off_time_text">Süre geçince kapat</string>
+    <string name="settings_battery_status_text">Pil durumunu göster</string>
+    <string name="settings_startup_text">BAŞLAT</string>
+    <string name="settings_mode_open_text">Başlatırken açma modu</string>
+    <string name="settings_default_state_text">Varsayılan durum</string>
+    <string name="settings_show_timer_text">Zamanlayıcıyı göster</string>
+    <string name="settings_sos_text">SOS</string>
+    <string name="settings_sos_default_text">Varsayılan SOS durumu</string>
+    <string name="settings_sos_repeat_text">Sinyali yinele</string>
+    <string name="settings_bubble_text">SU TERAZİSİ</string>
+    <string name="settings_bubble_display_text">Değeri göster</string>
+
+
+    <string name="warning_alert_head">Uyarı:</string>
+    <string name="warning_alert_description">Yanıp sönen ışık, ışığa duyarlı epilepsi bulunan kişilerde krize neden olabilir.</string>
+    <string name="dont_show_again_text">Bunu yeniden başlatmayın</string>
+    <string name="acknowledge_text">Anladım</string>
+    <string name="share_app_text">Bu çok kullanışlı el feneri uygulamasıyla karşılaştırım, buradan inceleyebilirsin: \n </string>
+    <string name="feedback_button_text">Geri bildirim</string>
+    <string name="app_version_text">Uygulama sürümü</string>
+        <string name="timer_shut_toast_text_1">Pil gücü tasarrufu için, ışık belirtilen dakika sonra </string>
+    <string name="timer_shut_toast_text_2"> otomatik kapanacaktır. Bunu ayarlardan değiştirebilirsiniz.</string>
+    
+    <string name="camera_first_thanks_button_text">Teşekkürler, anladım</string>
+       <string name="speed_label">Hız</string>
+    <string name="slow_label">Yavaş</string>
+    <string name="fast_label">Hızlı</string>
+    <string name="repeat_label">Yinele</string>
+    <string name="frequency_label">Sıklık</string>
+    <string name="flashlight_noti_title">El feneri açık</string>
+    <string name="flashlight_noti_msg">El fenerini kapatmak için dokunun</string>
+    <string name="strobe_noti_title">Elektronik flaş açık</string>
+    <string name="strobelight_noti_msg">Elektronik flaşı kapatmak için dokunun</string>
+    <string name="sos_noti_title">SOS ışığı açık</string>
+    <string name="soslight_noti_msg">SOS ışığını kapatmak için dokunun</string>
+    <string name="share_via_label">Paylaş</string>
+    <string name="send_via_label">Gönder</string>
+    <string name="directory_create_failed">Görüntüyü kaydetmek için dizin oluşturulamadı.</string>
+    <string name="saving_image_failed">Görüntü kaydedilemedi.</string>
+    
+
+
+    //Bubble Screen
+    <string name="reset">Sıfırla</string>
+    <string name="not_supported">Yönlendirme desteklenmiyor</string>
+    <string name="cancel">İptal</string>
+    <string name="save">Kaydet</string>
+    <string name="ok">Tamam</string>
+    <string name="calibrate_button_text">Ayarla</string>
+    <string name="lock_value_text">Kilit ekranı türü</string>
+    <string name="values_locked_text">Kilitli</string>
+    <string name="calibrate_title">Ayarlama</string>
+    <string name="calibrate_message">Android cihazınızın kenarlarından herhangi birini (arkası dahil) düz yatay bir yüzeye yerleştirin ve \"Ayarla\" düğmesine basın. \n\nYa da kenarların tümü için ayarlamayı sıfırlayın.</string>
+    <string name="calibrate_again_title">Yeniden ayarlamalısınız</string>
+    <string name="calibrate_again_message">Sensör değişimi telefonun yeniden ayarlanmasını gerektirir.</string>
+    <string name="calibrate_saved">Özel ayarlama kaydedildi!</string>
+    <string name="calibrate_failed">Ayarlama yapılamadı!</string>
+    <string name="calibrate_restored">Orjinal ayarlama saklandı!</string>
+    <string name="angle">Açı</string>
+    <string name="inclination">Eğim</string>
+    <string name="roof_pitch">Çatı Eğimi</string>
+
+    <string-array name="bubble_display_options">
+        <item>Açı</item>
+        <item>Eğim</item>
+        <item>Çatı Eğimi</item>
+    </string-array>
+    <string-array name="mode_options">
+        <item>El Feneri</item>
+        <item>Ekran aydınlatması</item>
+        <item>Elektronik flaş</item>
+    </string-array>
+    <string-array name="drawer_title_list">
+        <item>El Feneri</item>
+        <item>Ekran aydınlatması</item>
+        <item>Elektronik flaş</item>
+        <item>SOS!</item>
+        <item>Su Terazisi</item>
+        <item>Ayarlar</item>
+        <item>Paylaş</item>
+        <item>Bu uygulamaya puan ver</item>
+        <item>Hakkında</item>
+    </string-array>
+
+    <string-array name="switch_off_time_options">
+        <item>3 dk</item>
+        <item>5 dk</item>
+        <item>10 dk</item>
+        <item>20 dk</item>
+        <item>30 dk</item>
+        <item>Asla</item>
+    </string-array>
+
+
+</resources>

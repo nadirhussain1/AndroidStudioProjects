@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191919">
+
+    <RelativeLayout
+        android:id="@+id/headingLayout"
+        android:layout_width="match_parent"
+        android:layout_height="170px"
+        android:background="#262626"
+        >
+        <View
+            android:id="@+id/backIconClickedView"
+            android:layout_width="150px"
+            android:layout_height="170px"
+            />
+        <View
+            android:id="@+id/backIconView"
+            android:layout_width="72px"
+            android:layout_height="72px"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60px"
+            android:background="@drawable/bar_button_arrow_active" />
+        <TextView
+            android:id="@+id/settingsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50px"
+            android:layout_toRightOf="@+id/backIconView"
+            android:text="@string/settings_heading_text"
+            android:textColor="#FFFFFF"
+            android:textSize="32dp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/settingsScrollView"
+        android:layout_width="1000px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headingLayout"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:id="@+id/scalingLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/generalTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="40px"
+                android:text="@string/settings_general_text"
+                android:textColor="#B2B2B2"
+                android:textSize="16dp" />
+
+            <View
+                android:id="@+id/generalLineView"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/generalTextView"
+                android:layout_marginTop="10px"
+                android:background="#B2B2B2"
+                android:tag="constantHeight" />
+
+            <RelativeLayout
+                android:id="@+id/soundLayout"
+                android:layout_width="match_parent"
+                android:layout_height="130px"
+                android:layout_below="@+id/generalLineView"
+                android:layout_marginLeft="20px"
+                android:layout_marginRight="20px">
+
+                <TextView
+                    android:id="@+id/soundTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/settings_sound_text"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22dp" />
+
+                <CheckBox
+                    android:id="@+id/soundSwitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+
+                <View
+                    android:id="@+id/firstDivLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="10px"
+                    android:background="#474748"
+                    android:tag="constantHeight" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/switchOffLayout"
+                android:layout_width="match_parent"
+                android:layout_height="130px"
+                android:layout_below="@+id/soundLayout"
+                android:layout_marginLeft="20px"
+                android:layout_marginRight="20px">
+
+                <TextView
+                    android:id="@+id/switchOffTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/settings_switch_off_time_text"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22dp" />
+
+                <Spinner
+                    android:id="@+id/switchOffTimeSpinner"
+                    android:layout_width="400px"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:popupBackground="#191919"
+                    android:layout_centerVertical="true"
+                    android:entries="@array/switch_off_time_options" />
+
+                <View
+                    android:id="@+id/secondDivLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="10px"
+                    android:background="#474748"
+                    android:tag="constantHeight" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/soundSwitchLayout"
+                android:layout_width="match_parent"
+                android:layout_height="130px"
+                android:layout_below="@+id/switchOffLayout"
+                android:visibility="gone"
+                android:layout_marginLeft="20px"
+                android:layout_marginRight="20px">
+
+                <TextView
+                    android:id="@+id/soundSwitchTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+
+                    android:textColor="#FFFFFF"
+                    android:textSize="22dp" />
+
+                <CheckBox
+                    android:id="@+id/showSoundSwitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+
+                <View
+                    android:id="@+id/fifthDivLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="10px"
+                    android:background="#474748"
+                    android:tag="constantHeight" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/startUpTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:layout_below="@+id/switchOffLayout"
+                android:layout_marginTop="60px"
+                android:text="@string/settings_startup_text"
+                android:textColor="#B2B2B2"
+                android:textSize="16dp" />
+
+            <View
+                android:id="@+id/startUpBoldLine"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/startUpTextView"
+                android:layout_marginTop="10px"
+                android:background="#B2B2B2"
+                android:tag="constantHeight" />
+
+            <RelativeLayout
+                android:id="@+id/modeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="130px"
+                android:layout_below="@+id/startUpBoldLine"
+                android:layout_marginLeft="20px"
+                android:layout_marginRight="20px">
+
+                <TextView
+                    android:id="@+id/modeToOpenTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/settings_mode_open_text"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22dp" />
+
+                <Spinner
+                    android:id="@+id/modeOpenSpinner"
+                    android:layout_width="400px"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:popupBackground="#191919"
+                    android:layout_centerVertical="true"
+                    android:entries="@array/mode_options" />
+
+                <View
+                    android:id="@+id/sixthDivLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="10px"
+                    android:background="#474748"
+                    android:tag="constantHeight" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/defaultStateLightLayout"
+                android:layout_width="match_parent"
+                android:layout_height="130px"
+                android:layout_below="@+id/modeLayout"
+                android:layout_marginLeft="20px"
+                android:layout_marginRight="20px">
+
+                <TextView
+                    android:id="@+id/defaultStateLightTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/settings_default_state_text"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22dp" />
+
+                <CheckBox
+                    android:id="@+id/defaultStateLightSwitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+
+                <View
+                    android:id="@+id/seventhDivLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="10px"
+                    android:background="#474748"
+                    android:tag="constantHeight" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/sosHeadTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:layout_below="@+id/defaultStateLightLayout"
+                android:layout_marginTop="60px"
+                android:text="@string/settings_sos_text"
+                android:textColor="#B2B2B2"
+                android:textSize="16dp" />
+
+            <View
+                android:id="@+id/sosHeadBoldLine"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/sosHeadTextView"
+                android:layout_marginTop="10px"
+                android:background="#B2B2B2"
+                android:tag="constantHeight" />
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/defaultSosStateLayout"
+                android:layout_width="match_parent"
+                android:layout_height="130px"
+                android:layout_below="@+id/sosHeadBoldLine"
+                android:layout_marginLeft="20px"
+                android:layout_marginRight="20px">
+
+                <TextView
+                    android:id="@+id/defaultSosStateTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/settings_sos_default_text"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22dp" />
+
+                <CheckBox
+                    android:id="@+id/defaultSosStateSwitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+
+                <View
+                    android:id="@+id/eleventhDivLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="10px"
+                    android:background="#474748"
+                    android:tag="constantHeight" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/sosRepeatLayout"
+                android:layout_width="match_parent"
+                android:layout_height="130px"
+                android:layout_below="@+id/defaultSosStateLayout"
+                android:layout_marginLeft="20px"
+                android:layout_marginRight="20px">
+
+                <TextView
+                    android:id="@+id/sosRepeatTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/settings_sos_repeat_text"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22dp" />
+
+                <CheckBox
+                    android:id="@+id/sosRepeatSwitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+
+                <View
+                    android:id="@+id/twelthDivLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="10px"
+                    android:background="#474748"
+                    android:tag="constantHeight" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/bubbleLevelHeadTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:layout_below="@+id/sosRepeatLayout"
+                android:layout_marginTop="60px"
+                android:text="@string/settings_bubble_text"
+                android:textColor="#B2B2B2"
+                android:textSize="16dp" />
+
+            <View
+                android:id="@+id/bubbleHeadBoldLine"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/bubbleLevelHeadTextView"
+                android:layout_marginTop="10px"
+                android:background="#B2B2B2"
+                android:tag="constantHeight" />
+
+            <RelativeLayout
+                android:id="@+id/showAngleLayout"
+                android:layout_width="match_parent"
+                android:layout_height="130px"
+                android:layout_below="@+id/bubbleHeadBoldLine"
+                android:layout_marginLeft="20px"
+                android:layout_marginRight="20px">
+
+                <TextView
+                    android:id="@+id/showAngleTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/settings_bubble_display_text"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22dp" />
+
+                <Spinner
+                    android:id="@+id/bubbleDisplayOptionsSpinner"
+                    android:layout_width="400px"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:popupBackground="#191919"
+                    android:layout_centerVertical="true"
+                    android:entries="@array/bubble_display_options" />
+
+                <View
+                    android:id="@+id/thirtenthDivLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="10px"
+                    android:background="#474748"
+                    android:tag="constantHeight" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

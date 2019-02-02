@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/img_unread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_widget" />
+
+    <TextView
+        android:id="@+id/tv_unread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/img_unread"
+        android:background="@drawable/have_event"
+        android:gravity="center"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white_color"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/emptyView"
+        android:layout_width="30dp"
+        android:layout_height="30dp" 
+        android:layout_below="@+id/img_unread"
+        android:background="#00000000"
+        />
+
+</RelativeLayout><!-- From: file:/Users/nadirhussain/git/Olympus%20View%20Messaging/customAlertBox/src/main/res/layout/widget.xml -->

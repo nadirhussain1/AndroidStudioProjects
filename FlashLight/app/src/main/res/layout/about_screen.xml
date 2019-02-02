@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191919">
+
+    <RelativeLayout
+        android:id="@+id/headingLayout"
+        android:layout_width="match_parent"
+        android:layout_height="170px"
+        android:background="#262626"
+
+        >
+        <View
+            android:id="@+id/backIconClickedView"
+            android:layout_width="150px"
+            android:layout_height="170px"
+
+            />
+        <View
+            android:id="@+id/backIconView"
+            android:layout_width="72px"
+            android:layout_height="72px"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60px"
+            android:background="@drawable/bar_button_arrow_active" />
+
+
+        <TextView
+            android:id="@+id/aboutTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50px"
+            android:layout_toRightOf="@+id/backIconView"
+            android:text="@string/about_heading_text"
+            android:textColor="#FFFFFF"
+            android:textSize="32dp" />
+
+    </RelativeLayout>
+    
+    <Button
+        android:id="@+id/feedbackButton"
+        android:layout_width="900px"
+        android:layout_height="150px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50px"
+        android:textSize="20dp"
+        android:layout_below="@+id/headingLayout"
+        android:text="@string/feedback_button_text"
+        />
+    <TextView
+        android:id="@+id/appVersionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50px"
+        android:text="@string/app_version_text"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+</RelativeLayout>

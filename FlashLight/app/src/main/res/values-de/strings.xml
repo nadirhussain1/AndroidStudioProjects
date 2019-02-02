@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<resources>
+
+    <string name="app_name">Taschenlampe</string>
+    <string name="drawer_open"></string>
+    <string name="drawer_close"></string>
+    <string name="banner_ad_unit_id">ca-app-pub-7645731698476649/8453105216</string>
+    <string name="image_name_prefix">image</string>
+    <string name="photo_saved_text">Your photo is saved in the gallery under "Flashlight"</string>
+    <string name="camera_first_time_text">Great to see you’ve discovered the camera function! It could take up to ~15 minutes before the gallery shows the album “Flashlight” with your pictures.</string>
+    <string name="unable_to_start_camera">Unable to start camera preview.</string>
+    <string name="feedback_subject">Flashlight feedback</string>
+
+    //Settings Screen Text
+
+    <string name="settings_heading_text">Einstellungen</string>
+    <string name="about_heading_text">Infos</string>
+    <string name="settings_general_text">ALLGEMEIN</string>
+    <string name="settings_sound_text">Ton</string>
+    <string name="settings_switch_off_time_text">Licht ausschalten nach</string>
+    <string name="settings_battery_status_text">Akkustand anzeigen</string>
+    <string name="settings_startup_text">START</string>
+    <string name="settings_mode_open_text">Beim Start anzeigen</string>
+    <string name="settings_default_state_text">Standardeinstellung</string>
+    <string name="settings_show_timer_text">Timer anzeigen</string>
+    <string name="settings_sos_text">SOS</string>
+    <string name="settings_sos_default_text">Standard-SOS-Einstellung</string>
+    <string name="settings_sos_repeat_text">Signal wiederholen</string>
+    <string name="settings_bubble_text">WASSERWAAGE</string>
+    <string name="settings_bubble_display_text">Anzeigewerte</string>
+
+
+    <string name="warning_alert_head">Achtung:</string>
+    <string name="warning_alert_description">Blinkendes Licht kann bei Personen mit photosensitiver Epilepsie Anfälle verursachen.</string>
+    <string name="dont_show_again_text">Nicht erneut anzeigen</string>
+    <string name="acknowledge_text">OK</string>
+    <string name="share_app_text">Ich habe diese tolle Taschenlampen-App gefunden. Schau sie dir mal an: \n </string>
+    <string name="feedback_button_text">Feedback</string>
+    <string name="app_version_text">App-Version</string>
+        <string name="timer_shut_toast_text_1">Um Akku zu sparen, schaltet sich das Licht automatisch nach </string>
+    <string name="timer_shut_toast_text_2"> Minuten aus. Dies lässt sich im Einstellungsmenü ändern.</string>
+    
+    <string name="camera_first_thanks_button_text">OK, danke!</string>
+       <string name="speed_label">Geschwindigkeit</string>
+    <string name="slow_label">Langsam</string>
+    <string name="fast_label">Schnell</string>
+    <string name="repeat_label">Wiederholen</string>
+    <string name="frequency_label">Frequenz</string>
+    <string name="flashlight_noti_title">Taschenlampe ist eingeschaltet</string>
+    <string name="flashlight_noti_msg">Zum Ausschalten der Taschenlampe tippen</string>
+    <string name="strobe_noti_title">Blinklicht ist eingeschaltet</string>
+    <string name="strobelight_noti_msg">Zum Ausschalten des Blinklichts tippen</string>
+    <string name="sos_noti_title">SOS-Licht ist eingeschaltet</string>
+    <string name="soslight_noti_msg">Zum Ausschalten des SOS-Lichts tippen</string>
+    <string name="share_via_label">Teilen via</string>
+    <string name="send_via_label">Senden via</string>
+    <string name="directory_create_failed">Das Verzeichnis zum Speichern des Bilds kann nicht erstellt werden.</string>
+    <string name="saving_image_failed">Das Bild konnte nicht gespeichert werden.</string>
+    
+
+
+    //Bubble Screen
+    <string name="reset">Zurücksetzen</string>
+    <string name="not_supported">Ausrichtung nicht unterstützt</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="save">Speichern</string>
+    <string name="ok">OK</string>
+    <string name="calibrate_button_text">Kalibrieren</string>
+    <string name="lock_value_text">Sperrbildschirmtyp</string>
+    <string name="values_locked_text">Gesperrt</string>
+    <string name="calibrate_title">Kalibrierung</string>
+    <string name="calibrate_message">Lege dein Android-Gerät mit allen Seiten (auch der Rückseite) auf eine flache waagerechte Oberfläche und tippe dann auf den Button „Kalibieren“.\n\nOder setze die Kalibrierung aller Seiten zurück.</string>
+    <string name="calibrate_again_title">Du musst die Kalibrierung erneut durchführen</string>
+    <string name="calibrate_again_message">Nach einer Sensorveränderung ist eine erneute Kalibrierung deines Handys erforderlich.</string>
+    <string name="calibrate_saved">Benutzerdef. Kalibrierung gespeichert!</string>
+    <string name="calibrate_failed">Kalibrierung fehlgeschlagen!</string>
+    <string name="calibrate_restored">Ursprüngliche Kalibrierung wiederhergestellt!</string>
+    <string name="angle">Winkel</string>
+    <string name="inclination">Neigung</string>
+    <string name="roof_pitch">Dachneigung</string>
+
+    <string-array name="bubble_display_options">
+        <item>Winkel</item>
+        <item>Neigung</item>
+        <item>Dachneigung</item>
+    </string-array>
+    <string-array name="mode_options">
+        <item>Taschenlampe</item>
+        <item>Bildschirmlicht</item>
+        <item>Blinklicht</item>
+    </string-array>
+    <string-array name="drawer_title_list">
+        <item>Taschenlampe</item>
+        <item>Bildschirmlicht</item>
+        <item>Blinklicht</item>
+        <item>SOS!</item>
+        <item>Wasserwaage</item>
+        <item>Einstellungen</item>
+        <item>Teilen</item>
+        <item>Bewerten</item>
+        <item>Infos</item>
+    </string-array>
+
+    <string-array name="switch_off_time_options">
+        <item>3 Min.</item>
+        <item>5 Min.</item>
+        <item>10 Min.</item>
+        <item>20 Min.</item>
+        <item>30 Min.</item>
+        <item>Nie</item>
+    </string-array>
+
+
+</resources>
