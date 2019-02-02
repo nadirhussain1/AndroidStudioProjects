@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#057EC5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="standard_buttons_color">#1DBAC6</color>
+    <color name="menu_text_color">#F84c38</color>
+
+    <color name="ratingbar_normal_color">#44000000</color>
+    <color name="ratingbar_activated_color">#F6B926</color>
+</resources>

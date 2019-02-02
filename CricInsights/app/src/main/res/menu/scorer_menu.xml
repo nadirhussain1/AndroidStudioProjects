@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_scoreCard"
+        android:orderInCategory="100"
+        android:title="Scorecard"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_summary"
+        android:icon="@drawable/score_card_arrow"
+        android:orderInCategory="100"
+        android:title="Score Card"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_conditions"
+        android:icon="@android:drawable/ic_menu_help"
+        android:orderInCategory="100"
+        android:title="Conditions"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/end_inning"
+        android:orderInCategory="100"
+        android:title="End inning"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/end_match"
+        android:orderInCategory="100"
+        android:title="End match"
+        app:showAsAction="never"/>
+
+
+</menu>

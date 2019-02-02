@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white">
+
+    <LinearLayout
+        android:id="@+id/loadingLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:visibility="visible">
+
+        <ProgressBar
+            android:layout_width="200px"
+            android:layout_height="200px"/>
+
+        <TextView
+            android:id="@+id/loadingMessageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10px"
+            android:text="Loading data..."
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/errorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/retryTextView"
+            android:layout_width="900px"
+            android:layout_height="120px"
+            android:text="RETRY"
+            android:background="@drawable/custom_red_button_bg"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/errorTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:text="We were not able to get data from server"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/tournamentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tournamentHeadTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Tournament"
+            android:textColor="@android:color/black"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            />
+
+        <Spinner
+            android:id="@+id/tournamentSpinner"
+            android:layout_width="1000px"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tournamentHeadTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30px"
+            android:background="@drawable/custom_spinner_rounded_bg"
+            android:spinnerMode="dropdown"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/mainContentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tournamentLayout"
+        android:layout_marginTop="40px"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/matchDateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Today's match"
+            android:textColor="#44000000"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            />
+
+        <RelativeLayout
+            android:id="@+id/matchLayout"
+            android:layout_width="1040px"
+            android:layout_height="460px"
+            android:layout_below="@+id/matchDateTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30px">
+
+            <RelativeLayout
+                android:id="@+id/teamsInfoLayout"
+                android:layout_width="850px"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/teamOneLayout"
+                    android:layout_width="300px"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <ImageView
+                        android:id="@+id/teamOneImageView"
+                        android:layout_width="180px"
+                        android:layout_height="180px"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/circle_with_border"
+                        android:padding="25px"
+                        android:src="@drawable/logo_pz"
+                        />
+
+                    <TextView
+                        android:id="@+id/teamOneNameView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/teamOneImageView"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15px"
+                        android:gravity="center"
+                        android:text="Peshawar\nZalmi"
+                        android:textColor="@android:color/black"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:id="@+id/selectTeamOneButton"
+                        android:layout_width="300px"
+                        android:layout_height="90px"
+                        android:layout_below="@+id/teamOneNameView"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20px"
+                        android:background="@drawable/custom_red_button_bg"
+                        android:gravity="center"
+                        android:text="Select Players"
+                        android:textColor="@android:color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        />
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/vsTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="V/S"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="24dp"
+                    android:textStyle="bold"/>
+
+                <RelativeLayout
+                    android:id="@+id/teamTwoLayout"
+                    android:layout_width="300px"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    >
+
+                    <ImageView
+                        android:id="@+id/teamTwoImageView"
+                        android:layout_width="180px"
+                        android:layout_height="180px"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/circle_with_border"
+                        android:padding="25px"
+                        android:src="@drawable/logo_qg"
+                        />
+
+                    <TextView
+                        android:id="@+id/teamTwoNameView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/teamTwoImageView"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15px"
+                        android:gravity="center"
+                        android:text="Quetta\nGladiator"
+                        android:textColor="@android:color/black"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        android:maxLines="2"
+                        />
+
+                    <TextView
+                        android:id="@+id/selectTeamTwoButton"
+                        android:layout_width="300px"
+                        android:layout_height="90px"
+                        android:layout_below="@+id/teamTwoNameView"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20px"
+                        android:background="@drawable/custom_red_button_bg"
+                        android:gravity="center"
+                        android:text="Select Players"
+                        android:textColor="@android:color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/nextMatchButton"
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/next_arrow_icon"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/matchConditionsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:layout_below="@+id/matchLayout"
+            android:layout_marginTop="40px"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:id="@+id/matchConditionsButton"
+                android:layout_width="900px"
+                android:layout_height="120px"
+                android:layout_centerInParent="true"
+                android:background="@drawable/custom_match_conditions_bg"
+                android:gravity="center"
+                android:text="MATCH CONDITIONS"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tossInfoLayout"
+            android:layout_width="950px"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/matchConditionsLayout"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/tossInfoTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30px"
+                android:text="Toss information"
+                android:textColor="#44000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                />
+
+            <RelativeLayout
+                android:id="@+id/leftLayout"
+                android:layout_width="450px"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tossInfoTextView"
+                android:layout_marginTop="30px"
+                >
+
+                <LinearLayout
+                    android:id="@+id/tossWinLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tossWinTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50px"
+                        android:text="Toss win by?"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        android:textStyle="bold"/>
+
+                    <Spinner
+                        android:id="@+id/tossWinSpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tossWinTextView"
+                        android:layout_marginTop="15px"
+                        android:background="@drawable/custom_spinner_rounded_bg"
+                        android:spinnerMode="dropdown"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/strikerLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tossWinLayout"
+                    android:layout_marginTop="40px"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    >
+
+                    <TextView
+                        android:id="@+id/strikerEndTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50px"
+                        android:text="Striker end?"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        android:textStyle="bold"/>
+
+                    <Spinner
+                        android:id="@+id/strikerSpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tossWinTextView"
+                        android:layout_marginTop="15px"
+                        android:background="@drawable/custom_spinner_rounded_bg"
+                        android:spinnerMode="dropdown"
+                        />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rightLayout"
+                android:layout_width="450px"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/leftLayout"
+                android:layout_below="@+id/tossInfoTextView">
+
+                <LinearLayout
+                    android:id="@+id/decidedLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/decidedTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50px"
+                        android:text="decided to?"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        android:textStyle="bold"/>
+
+                    <Spinner
+                        android:id="@+id/decisionSpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/decidedTextView"
+                        android:layout_marginTop="15px"
+                        android:background="@drawable/custom_spinner_rounded_bg"
+                        android:entries="@array/decision_option"
+                        android:spinnerMode="dropdown"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/nonStrikerLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/decidedLayout"
+                    android:layout_marginTop="40px"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    >
+
+                    <TextView
+                        android:id="@+id/nonStrikerEndTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50px"
+                        android:text="Non Striker end?"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        android:textStyle="bold"/>
+
+                    <Spinner
+                        android:id="@+id/nonStrikerSpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/nonStrikerEndTextView"
+                        android:layout_marginTop="15px"
+                        android:background="@drawable/custom_spinner_rounded_bg"
+                        android:spinnerMode="dropdown"
+                        />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/startScoringButton"
+            android:layout_width="900px"
+            android:layout_height="120px"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30px"
+            android:background="@drawable/custom_red_button_bg"
+            android:gravity="center"
+            android:text="START SCORING"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SensorRecorder</string>
+    <string name="not_connected_with_phone">Phone with companion app not connected</string>
+    <string name="waiting_for_phone_app">Waiting for the phone app to start</string>
+    <string name="measurement_in_progress">All things are set up</string>
+
+
+    <string name="enable_gps_label">Enable location settings</string>
+    <string name="acquiring_gps">Acquiring GPS Fix ...</string>
+
+
+</resources>

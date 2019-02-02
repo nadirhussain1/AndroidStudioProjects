@@ -1,0 +1,30 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+    }
+}
+
+ext {
+    applicationId = "com.test.sensorrecorder"
+    PLAY_SERVICES_WEARABLE = 'com.google.android.gms:play-services-wearable:11.6.0'
+    minSdkVersion = 22
+    mobileMinSdkVersion = 16
+    compileSdkVersion = 22
+    targetSdkVersion = 22
+    versionCode = 1
+    versionName = "1.0"
+    buildToolsVersion = '26.0.2'
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        google()
+    }
+}

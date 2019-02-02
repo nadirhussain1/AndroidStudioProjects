@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">ezHustle</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="drawer_scan">Scan</string>
+    <string name="drawer_myaccount">My Account</string>
+    <string name="drawer_mycost">My Cost</string>
+    <string name="drawer_settings">Settings</string>
+    <string name="drawer_help">Help</string>
+    <string name="drawer_download">Download</string>
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+    <string name="enter_username">Enter username</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_nickname">Enter device nickname</string>
+    <string name="nickname_required">* Nickname is required to identify device</string>
+    <string name="login_label">Login</string>
+
+    <string name="dont_have_account_label">Don\'t have an account?,</string>
+    <string name="signup_label">Sign Up!</string>
+    <string name="alert_message_title">Message</string>
+    <string name="alert_error_title">Error</string>
+    <string name="ok_label">OK</string>
+    <string name="no_connection_message">You are not connected with internet</string>
+
+    <string name="alert_permission_title">Permission</string>
+    <string name="alert_permission_msg">We need some permissions to access Device Id and Sdcard storage</string>
+    <string name="unable_to_fetch_error">Unable to fetch info from server</string>
+
+    <string name="camel_url">http://camelcamelcamel.com/product/</string>
+    <string name="books_url">https://bookscouter.com/prices.php?isbn=</string>
+    <string name="amazon_url">https://www.amazon.com/dp/</string>
+    <string name="ebay_url">http://www.ebay.com/sch/</string>
+    <string name="help_url">www.ezhustle.com/help/android/index.htm</string>
+
+
+
+
+</resources>

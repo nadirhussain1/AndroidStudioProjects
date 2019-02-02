@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.gov.pitb.pcb">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:name=".InsightsApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/PcbAppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".views.activities.SuperMainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PcbAppTheme"/>
+
+        <activity
+            android:name=".views.activities.LoginActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".views.activities.ScoreCardActivity"
+            android:screenOrientation="portrait"/>
+
+        <service android:name=".services.LoadDbDataService"/>
+        <service android:name=".services.SaveDataToDbService"/>
+        <service android:name=".services.LoadInProgressDbStateService"/>
+        <service android:name=".services.SendDataToServerService"/>
+
+
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="insights.db"/>
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="1"/>
+
+        <meta-data
+            android:name="AA_SERIALIZERS"
+            android:value="com.gov.pitb.pcb.data.db.ListTypeSerializer"/>
+
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="com.gov.pitb.pcb.data.server.players.Player,
+                           com.gov.pitb.pcb.data.db.config.Tournament,
+                           com.gov.pitb.pcb.data.db.config.Team,
+                           com.gov.pitb.pcb.data.db.config.Match,
+                           com.gov.pitb.pcb.data.db.dynamic.Delivery,
+                           com.gov.pitb.pcb.data.db.dynamic.Inning,
+                           com.gov.pitb.pcb.data.db.dynamic.OutPlayer,
+                           com.gov.pitb.pcb.data.db.dynamic.MatchCurrentState,
+                           com.gov.pitb.pcb.data.db.dynamic.MatchStateController,
+                           com.gov.pitb.pcb.data.db.dynamic.FielderPosition,
+                           com.gov.pitb.pcb.data.model.ConditionsModel,
+                           com.gov.pitb.pcb.data.server.permissions.MatchPermData
+                            "/>
+    </application>
+
+</manifest>

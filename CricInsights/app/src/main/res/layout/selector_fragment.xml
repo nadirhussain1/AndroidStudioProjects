@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/batsmanLayout"
+        android:layout_width="980px"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30px">
+
+        <ImageView
+            android:layout_width="72px"
+            android:layout_height="72px"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bat_icon"
+            />
+
+        <Spinner
+            android:id="@+id/batsmanSpinner"
+            android:layout_width="800px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/custom_spinner_rounded_bg">
+
+        </Spinner>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/bowlerTypeLayout"
+        android:layout_width="980px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/batsmanLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50px">
+
+        <RelativeLayout
+            android:id="@+id/typeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="72px"
+                android:layout_height="72px"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ball_icon"
+                />
+
+            <Spinner
+                android:id="@+id/bowlerNameSpinner"
+                android:layout_width="800px"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/custom_spinner_rounded_bg">
+            </Spinner>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/orTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="100px"
+            android:text="OR"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+
+        <RelativeLayout
+            android:id="@+id/nameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/typeLayout"
+            android:layout_marginTop="15px">
+
+            <Spinner
+                android:id="@+id/bowlerTypeSpinner"
+                android:layout_width="800px"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/custom_spinner_rounded_bg">
+
+            </Spinner>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/div"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/bowlerTypeLayout"
+        android:layout_marginTop="50px"
+        android:background="#44000000"
+        />
+
+    <RelativeLayout
+        android:id="@+id/resultReportLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/div">
+
+        <LinearLayout
+            android:id="@+id/statsLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40px"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Balls: "
+                android:textColor="#88000000"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/ballsTextView"
+                android:layout_width="110px"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#88000000"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150px"
+                android:text="Runs: "
+                android:textColor="#88000000"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/runsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#88000000"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dotsLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40px"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/zerosDotView"
+                android:layout_width="120px"
+                android:layout_height="120px"
+                android:background="@drawable/zeros_dot"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@android:color/white"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/singlesDotView"
+                android:layout_width="120px"
+                android:layout_height="120px"
+                android:layout_marginTop="30px"
+                android:background="@drawable/singles_dot"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/doublesDotView"
+                android:layout_width="120px"
+                android:layout_height="120px"
+                android:layout_marginTop="30px"
+                android:background="@drawable/doubles_dot"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@android:color/white"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/triplesDotView"
+                android:layout_width="120px"
+                android:layout_height="120px"
+                android:layout_marginTop="30px"
+                android:background="@drawable/triples_dot"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@android:color/white"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/fouresDotView"
+                android:layout_width="120px"
+                android:layout_height="120px"
+                android:layout_marginTop="30px"
+                android:background="@drawable/fours_dot"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="@android:color/white"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:id="@+id/sixesDotView"
+                android:layout_width="120px"
+                android:layout_height="120px"
+                android:layout_marginTop="30px"
+                android:background="@drawable/sixes_dot"
+                android:gravity="center"
+                android:text="6"
+                android:textColor="@android:color/white"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+
+        <com.gov.pitb.pcb.views.custom.wheels.InziWheelView
+            android:id="@+id/inziWheelView"
+            android:layout_width="850px"
+            android:layout_height="850px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="40px">
+
+        </com.gov.pitb.pcb.views.custom.wheels.InziWheelView>
+
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_below="@+id/bowlerTypeLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60px"
+        android:visibility="gone"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50px"
+        android:scaleType="centerInside"
+        android:src="@drawable/app_transparent_logo"
+        />
+
+    <RelativeLayout
+        android:id="@+id/inputLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logoImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75px">
+
+        <EditText
+            android:id="@+id/userNameEditor"
+            android:layout_width="550px"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/enter_username"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="20px"
+            android:textColor="@android:color/black"
+            android:textColorHint="#66000000"
+            android:textSize="16dp"
+            />
+
+        <EditText
+            android:id="@+id/passwordEditor"
+            android:layout_width="550px"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/userNameEditor"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10px"
+            android:hint="@string/enter_password"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:padding="20px"
+            android:textColor="@android:color/black"
+            android:textColorHint="#66000000"
+            android:textSize="16dp"
+            />
+
+        <EditText
+            android:id="@+id/nickNameEditor"
+            android:layout_width="550px"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/passwordEditor"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10px"
+            android:hint="@string/enter_nickname"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="20px"
+            android:textColor="@android:color/black"
+            android:textColorHint="#66000000"
+            android:textSize="16dp"
+            />
+
+
+        <TextView
+            android:id="@+id/nickNameGuideTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nickNameEditor"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:padding="20px"
+            android:text="@string/nickname_required"
+            android:textColor="#88000000"
+            android:textSize="16dp"
+            />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="600px"
+        android:layout_height="100px"
+        android:layout_below="@+id/inputLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75px"
+        android:background="@drawable/standard_buttons_rounded_bg"
+        android:text="@string/login_label"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"/>
+
+    <LinearLayout
+        android:id="@+id/newAccountLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="100px"
+        android:layout_below="@+id/loginButton"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/dontHaveAccountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dont_have_account_label"
+            android:textColor="#88000000"
+            android:textSize="16dp"
+            />
+
+        <TextView
+            android:id="@+id/signUpLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15px"
+            android:gravity="center_vertical"
+            android:text="@string/signup_label"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

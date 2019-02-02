@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/nextBallButton">
+
+        <com.gov.pitb.pcb.views.custom.wheels.FielderWagonWheelView
+            android:id="@+id/wagonWheelView"
+            android:layout_width="1080px"
+            android:layout_height="1080px"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="130px"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20px">
+
+        <CheckBox
+            android:id="@+id/extraCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="50px"
+            android:layout_toLeftOf="@+id/nextBallButton"
+            android:text="WIDE/NO"
+            android:textColor="#AA000000"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/nextBallButton"
+            android:layout_width="600px"
+            android:layout_height="130px"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20px"
+            android:background="#22000000"
+            android:gravity="center"
+            android:text="Next Ball"
+            android:textColor="@android:color/black"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

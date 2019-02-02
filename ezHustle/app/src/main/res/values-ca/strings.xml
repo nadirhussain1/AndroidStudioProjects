@@ -1,0 +1,6 @@
+<resources>
+    <string name="camel_url">http://ca.camelcamelcamel.com/product/</string>
+    <string name="books_url"></string>
+    <string name="amazon_url">https://www.amazon.ca/dp/</string>
+    <string name="ebay_url">http://www.ebay.ca/sch/</string>
+</resources>
