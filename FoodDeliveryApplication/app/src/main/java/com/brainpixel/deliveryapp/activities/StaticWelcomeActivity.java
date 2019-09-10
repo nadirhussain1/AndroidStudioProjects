@@ -37,7 +37,6 @@ public class StaticWelcomeActivity extends Activity {
             GlobalUtil.showToastMessage(this, getString(R.string.connectivity_error), GlobalConstants.TOAST_RED);
             return;
         }
-
         Intent intent = new Intent(this, NumberEditorActivity.class);
         startActivity(intent);
     }
