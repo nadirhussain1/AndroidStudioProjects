@@ -1,4 +1,0 @@
-include ':hijriCalendarLibrary'
-include ':materialDialogs'
-include ':wheel'
-include ':ramadan'

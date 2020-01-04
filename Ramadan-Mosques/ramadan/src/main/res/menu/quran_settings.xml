@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:com.prayertimesandqiblapro="http://schemas.android.com/apk/res-auto">
-    <item android:icon="@drawable/language_icon" android:id="@+id/langugage_settings" android:title="Language" com.prayertimesandqiblapro:showAsAction="always" />
-</menu>

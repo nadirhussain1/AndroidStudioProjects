@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/cell_layout" android:background="@drawable/cell_bg" android:layout_width="wrap_content" android:layout_height="10.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.sahaab.hijri.caldroid.SquareTextView android:textSize="14.0sp" android:typeface="serif" android:textStyle="bold" android:textColor="@color/green" android:gravity="center" android:id="@+id/calendar_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="1" android:layout_weight="0.5" />
-    <com.sahaab.hijri.caldroid.SquareTextView android:textSize="12.0sp" android:typeface="serif" android:textColor="@color/green" android:gravity="center" android:id="@+id/tv1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="2" android:layout_weight="0.5" />
-</LinearLayout>

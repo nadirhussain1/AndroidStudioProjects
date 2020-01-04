@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="mobvista_common">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/ramadan/libs/mobvista_common.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

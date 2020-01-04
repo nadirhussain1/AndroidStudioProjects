@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">ElTigreAndroid</string>
-    <string name="label_biblioteca">Biblioteca</string>
-    <string name="label_categories">Categorias</string>
-    <string name="label_category">Categoria</string>
-    <string name="books_not_loaded_error">Books could not be loaded</string>
-</resources>

@@ -1,5 +1,0 @@
-include ':slidingMenu_library', ':demoWearApp', ':olympusviewwearmodule'
-include ':wearable10'
-include ':swipelistview'
-include ':viewpagerlibrary'
-include ':customAlertBox'

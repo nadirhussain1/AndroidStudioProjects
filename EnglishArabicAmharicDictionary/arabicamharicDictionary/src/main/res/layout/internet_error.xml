@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="#ffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@+id/ShadowItemIcon" android:layout_width="316.79688dip" android:layout_height="3.9599915dip" android:src="@drawable/shadow" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
-    <ImageView android:id="@+id/ErrorIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="108.23999dip" android:layout_marginBottom="15.179993dip" android:src="@drawable/error_icon" android:layout_below="@id/ShadowItemIcon" android:layout_centerHorizontal="true" />
-    <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff6f6f75" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/internet_error" android:layout_below="@id/ErrorIcon" android:layout_centerHorizontal="true" />
-</RelativeLayout>

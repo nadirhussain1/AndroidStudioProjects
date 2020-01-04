@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">OlympusViewWearModule</string>
-    <string name="hello_round">Hello Round World!</string>
-    <string name="hello_square">Hello Square World!</string>
-    <string name="speak_label">Speak now</string>
-    <string name="reply_label">Reply</string>
-</resources>
